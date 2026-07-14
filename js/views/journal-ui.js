@@ -7,6 +7,7 @@
 import * as visits from "../store/visits.js";
 import { putPhoto, deletePhoto } from "../store/local.js";
 import { el, fmtDateRange, fmtTimestamp, attachPhoto, openLightbox, resizeImage } from "../ui.js";
+import { createDateRange } from "../daterange.js";
 
 export function buildJournalCard({ attraction, countryKey, entry, placeLink, onChanged }) {
   const visit = visits.getVisit(attraction.id);
@@ -154,7 +155,20 @@ export function buildJournalEditor({ attraction, countryKey, entry = null, onDon
     onDone?.();
   };
 
+  // 방문 날짜 선택 — 일지 작성 안에서 함께 고른다.
+  const visit = visits.getVisit(attraction.id);
+  const dateRange = createDateRange({
+    start: visit?.start || null,
+    end: visit?.end || null,
+    placeholder: "방문 날짜 선택",
+    onChange: (s, e) => visits.setVisitDates(attraction.id, countryKey, s, e),
+  });
+
   return el("div", { class: "journal-editor" }, [
+    el("div", { class: "editor-dates" }, [
+      el("span", { class: "editor-dates-lbl", text: "방문일" }),
+      dateRange,
+    ]),
     textarea,
     previews,
     el("div", { class: "editor-row" }, [

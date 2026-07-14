@@ -4,7 +4,6 @@
 import { getCountry, getImages } from "../data-loader.js";
 import * as visits from "../store/visits.js";
 import { el } from "../ui.js";
-import { createDateRange } from "../daterange.js";
 import { buildJournalCard, buildJournalEditor } from "./journal-ui.js";
 
 export async function renderCity(container, key, cityId) {
@@ -76,35 +75,36 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
   if (attraction.highlights?.length) info.append(buildArtworks(attraction.highlights));
   body.append(info);
 
-  // ---- 방문 토글 + 방문일 + 일지 ----
+  // ---- 방문 체크박스 + 일지 ----
   const visitBlock = el("div", { class: "visit-block" });
   body.append(visitBlock);
 
-  // 방문 토글: 라벨이 있어 역할이 분명하고, 지구본 활성화·통계에 실제로 반영됨
-  const toggle = el("button", { class: "btn toggle" });
-  function renderToggle() {
+  // 방문 표시 = 체크박스. 일지+방문일이 채워지면 자동으로 체크되며, 수동 토글도 가능.
+  const check = el("span", { class: "checkbox", role: "checkbox", tabindex: "0" }, [
+    el("span", {
+      class: "checkbox-box",
+      html: '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 10.5l3.2 3.2L15 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    }),
+    el("span", { class: "checkbox-label", text: "방문함" }),
+  ]);
+  function renderCheck() {
     const on = !!visits.getVisit(attraction.id)?.visited;
-    toggle.classList.toggle("on", on);
-    toggle.textContent = on ? "✓ 방문함" : "방문 표시";
+    check.classList.toggle("on", on);
+    check.setAttribute("aria-checked", on ? "true" : "false");
+    card.classList.toggle("visited", on);
   }
-  toggle.addEventListener("click", () => {
+  function toggleVisit() {
     const on = !visits.getVisit(attraction.id)?.visited;
     visits.setVisited(attraction.id, countryKey, on);
-    card.classList.toggle("visited", on);
-    renderToggle();
+    renderCheck();
+  }
+  check.addEventListener("click", toggleVisit);
+  check.addEventListener("keydown", (e) => {
+    if (e.key === " " || e.key === "Enter") { e.preventDefault(); toggleVisit(); }
   });
-  renderToggle();
+  renderCheck();
 
-  const dateRange = createDateRange({
-    start: visit?.start || null,
-    end: visit?.end || null,
-    placeholder: "방문 날짜",
-    onChange: (s, e) => visits.setVisitDates(attraction.id, countryKey, s, e),
-  });
-
-  visitBlock.append(
-    el("div", { class: "visit-row" }, [toggle, el("span", { class: "lbl", text: "방문일" }), dateRange])
-  );
+  visitBlock.append(el("div", { class: "visit-row" }, [check]));
 
   const journalList = el("div", { class: "journal-list" });
   const actions = el("div", { class: "visit-actions" });
@@ -119,6 +119,7 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
         buildJournalCard({ attraction, countryKey, entry, onChanged: renderJournal })
       );
     }
+    renderCheck(); // 자동 방문 처리 반영
     renderActions();
   }
 

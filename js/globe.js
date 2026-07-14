@@ -95,13 +95,9 @@ export function initGlobe({ el, tipEl, features, onCountryClick }) {
   // ---- 카메라: 유럽 포커스 + 첫 조작 전 자동 회전 ----
   globe.pointOfView({ lat: 47, lng: 10, altitude: 1.7 }, 0);
   const controls = globe.controls();
-  controls.autoRotate = true;
-  controls.autoRotateSpeed = -0.35;
+  controls.autoRotate = false; // 자동 회전 비활성화 (사용자 요청)
   controls.minDistance = 130;
   controls.maxDistance = 420;
-  controls.addEventListener("start", () => {
-    controls.autoRotate = false;
-  });
 
   // ---- 크기 추적 ----
   const resize = () => {

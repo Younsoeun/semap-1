@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>SEMap — 유럽 여행 기록</title>
   <meta name="description" content="지구본으로 기록하는 개인 유럽 여행 지도" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='none' stroke='%23c9a227' stroke-width='6'/><ellipse cx='50' cy='50' rx='42' ry='16' fill='none' stroke='%23c9a227' stroke-width='4'/></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'><circle cx='22' cy='22' r='20' fill='%23161b22' stroke='%237191c4' stroke-width='1.8'/><circle cx='22' cy='22' r='16.5' fill='none' stroke='%237191c4' stroke-width='0.6' opacity='0.5'/><text x='22' y='23.5' text-anchor='middle' dominant-baseline='central' font-family='Georgia,serif' font-size='15' letter-spacing='0.5' fill='%23aec4e6'>SE</text></svg>" />
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/components.css" />
   <link rel="stylesheet" href="css/views.css" />
@@ -20,7 +20,15 @@
 </head>
 <body>
   <nav class="top-nav" id="top-nav">
-    <a class="nav-brand" href="#/">SEMap</a>
+    <a class="nav-brand" href="#/" aria-label="SEMap">
+      <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+        <circle cx="22" cy="22" r="20" fill="none" stroke="currentColor" stroke-width="1.5" />
+        <circle cx="22" cy="22" r="16.5" fill="none" stroke="currentColor" stroke-width="0.6" opacity="0.45" />
+        <text x="22" y="23.5" text-anchor="middle" dominant-baseline="central"
+              font-family="Georgia, 'Palatino Linotype', serif" font-size="15" letter-spacing="0.5" fill="currentColor">SE</text>
+      </svg>
+      <span class="brand-word">Map</span>
+    </a>
     <a class="nav-link" href="#/" data-route="home">지구본</a>
     <a class="nav-link" href="#/journal" data-route="journal">일지</a>
     <a class="nav-link" href="#/route" data-route="route">루트</a>

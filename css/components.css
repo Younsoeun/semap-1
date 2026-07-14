@@ -24,11 +24,24 @@
 }
 
 .top-nav .nav-brand {
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  padding: 6px 14px 6px 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 12px 4px 8px;
   color: var(--accent);
+}
+
+.top-nav .brand-mark {
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+.top-nav .brand-word {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 .top-nav a.nav-link {
@@ -85,13 +98,6 @@
 
 .btn.visited-state { border-color: var(--visited); color: var(--visited); }
 .btn.visited-state:hover { background: var(--visited-soft); }
-
-/* 방문 토글 — 활성 시 채움으로 상태를 분명히 */
-.btn.toggle.on {
-  border-color: var(--visited);
-  background: var(--visited);
-  color: #0e1116;
-}
 
 .btn.danger:hover { border-color: #b0524a; color: #b0524a; }
 

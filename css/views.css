@@ -76,7 +76,11 @@
   position: relative;
   z-index: 10;
   min-height: 100vh;
-  background: var(--bg);
+  background:
+    linear-gradient(155deg,
+      color-mix(in srgb, var(--bg) 92%, var(--accent)) 0%,
+      var(--bg) 42%,
+      color-mix(in srgb, var(--bg) 90%, #000) 100%);
 }
 
 #view::before {
@@ -317,8 +321,8 @@
 }
 
 .city-card .meta .name {
-  font-family: var(--font);
-  font-size: 1.22rem;
+  font-family: var(--font-serif);
+  font-size: 1.26rem;
   line-height: 1.25;
 }
 
@@ -420,8 +424,9 @@
 
 .info-field .k {
   font-family: var(--font);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   color: var(--accent);
   margin-bottom: 3px;
 }
@@ -451,12 +456,51 @@
 
 .visit-row .lbl { flex: none; }
 
+/* 방문 체크박스 (radix 스타일) */
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+.checkbox-box {
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel-2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background 0.15s, border-color 0.15s, transform 0.1s;
+  flex: none;
+}
+.checkbox-box svg { width: 15px; height: 15px; opacity: 0; transform: scale(0.6); transition: opacity 0.15s, transform 0.15s; }
+.checkbox:hover .checkbox-box { border-color: var(--accent); }
+.checkbox:focus-visible .checkbox-box { box-shadow: 0 0 0 3px var(--accent-soft); }
+.checkbox.on .checkbox-box { background: var(--accent); border-color: var(--accent); }
+.checkbox.on .checkbox-box svg { opacity: 1; transform: scale(1); }
+.checkbox-label { font-size: 0.9rem; color: var(--muted); }
+.checkbox.on .checkbox-label { color: var(--text); }
+
 .visit-actions {
   margin-top: 12px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
+
+/* 일지 에디터 내 방문 날짜 */
+.editor-dates {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.editor-dates-lbl { font-size: 0.82rem; color: var(--muted); }
 
 /* ---- 명소 대표 작품(박물관·미술관) ---- */
 .artworks { margin-top: 10px; }
@@ -740,8 +784,8 @@
 .culture-country-card .flag { font-size: 1.6rem; }
 
 .culture-country-card .name {
-  font-family: var(--font);
-  font-size: 1.12rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
   margin: 6px 0 2px;
 }
 

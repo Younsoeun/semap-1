@@ -57,7 +57,23 @@ export function setVisitDates(attractionId, countryKey, start, end) {
     end: end || null,
     updatedAt: Date.now(),
   };
+  autoVisit(attractionId, countryKey);
   commit();
+}
+
+// 일지 기록과 방문 날짜가 모두 채워지면 자동으로 방문 처리(수동 해제는 그대로 존중).
+function autoVisit(attractionId, countryKey) {
+  const v = state.visits[attractionId];
+  const hasDates = !!(v && (v.start || v.end));
+  const hasJournal = journalOf(attractionId).length > 0;
+  if (hasDates && hasJournal && v && !v.visited) {
+    state.visits[attractionId] = {
+      ...v,
+      country: countryKey || v.country,
+      visited: true,
+      updatedAt: Date.now(),
+    };
+  }
 }
 
 // ---- 일지 (마이크로블로그: 명소당 항목 여러 개) ----
@@ -81,6 +97,7 @@ export function addJournalEntry(attractionId, countryKey, { text, photos = [] })
     updatedAt: now,
   };
   state.journal[attractionId] = [...journalOf(attractionId), entry];
+  autoVisit(attractionId, countryKey);
   commit();
   return entry;
 }

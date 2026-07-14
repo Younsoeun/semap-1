@@ -1,3 +1,19 @@
+/* 한글 세리프 — 제목류에 세련된 명조 느낌을 주기 위해 번들 (Nanum Myeongjo, OFL) */
+@font-face {
+  font-family: "Nanum Myeongjo";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/nanum-myeongjo-korean-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Nanum Myeongjo";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/nanum-myeongjo-korean-700.woff2") format("woff2");
+}
+
 /* ==========================================================================
    SEMap 1.0 — 쿨톤 디자인 토큰 (지도 컬러 기반)
    지구본/지도의 잉크블랙 + 스틸블루 계열을 UI 전체의 기준색으로 삼는다.
@@ -15,8 +31,9 @@
   --border-w: 1px;
   --pad-btn: 9px 16px;
 
-  /* 타이포 — 하나의 깔끔한 산세리프로 통일 */
+  /* 타이포 — 본문은 깔끔한 산세리프, 제목류는 세련된 세리프 */
   --font: "Segoe UI", "Malgun Gothic", -apple-system, system-ui, "Apple SD Gothic Neo", Roboto, sans-serif;
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Nanum Myeongjo", "Malgun Gothic", serif;
 }
 
 /* ---- 다크 (기본) ---- */
@@ -52,8 +69,8 @@
   --globe-land-line: #39434f;
   --globe-active: #38455a;
   --globe-active-line: #55677f;
-  --globe-hover: #86b0cc;
-  --globe-visited: #386c60;
+  --globe-hover: #7191c4;   /* 호버: 연한 남색 */
+  --globe-visited: #2f4b7c; /* 기록 생김: 남색 */
 
   /* 국가 상세 지도 */
   --map-fill: #1c232c;
@@ -99,8 +116,8 @@
   --globe-land-line: #c0c6cd;
   --globe-active: #d3dde4;
   --globe-active-line: #93a6b3;
-  --globe-hover: #3f6d8c;
-  --globe-visited: #9ec4b6;
+  --globe-hover: #7d97c8;   /* 호버: 연한 남색 */
+  --globe-visited: #33528a; /* 기록 생김: 남색 */
 
   --map-fill: #ffffff;
   --map-line: #ccd3da;
@@ -129,7 +146,13 @@ html, body {
 }
 
 body {
-  background: var(--bg);
+  /* 현재 쿨톤을 유지하되 은은한 대각 그라데이션 */
+  background:
+    linear-gradient(155deg,
+      color-mix(in srgb, var(--bg) 92%, var(--accent)) 0%,
+      var(--bg) 42%,
+      color-mix(in srgb, var(--bg) 90%, #000) 100%);
+  background-attachment: fixed;
   color: var(--text);
   font-family: var(--font);
   font-size: 15.5px;
@@ -154,17 +177,17 @@ body::before {
 }
 
 h1, h2, h3 {
-  font-family: var(--font);
-  font-weight: 650;
+  font-family: var(--font-serif);
+  font-weight: 700;
   line-height: 1.3;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   margin: 0 0 0.4em;
   word-break: keep-all;
 }
 
-h1 { font-size: 1.85rem; }
-h2 { font-size: 1.35rem; }
-h3 { font-size: 1.1rem; }
+h1 { font-size: 1.95rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.12rem; }
 
 p { margin: 0 0 0.9em; word-break: keep-all; overflow-wrap: break-word; }
 

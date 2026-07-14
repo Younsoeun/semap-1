@@ -16,3 +16,9 @@ build/live-test.mjs
 build/smoke2.mjs
 build/add-highlights.mjs
 build/jf-test.mjs
+build/smoke2-live.mjs
+build/smoke3.mjs
+build/font-check.mjs
+build/globe-color.mjs
+build/allviews.mjs
+build/allviews.mjs
