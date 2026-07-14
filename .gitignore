@@ -11,3 +11,4 @@ build/smoke.mjs
 build/shots.mjs
 build/toggle-test.mjs
 build/check-imports.mjs
+build/mobile-test.mjs
