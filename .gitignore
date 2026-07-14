@@ -12,3 +12,4 @@ build/shots.mjs
 build/toggle-test.mjs
 build/check-imports.mjs
 build/mobile-test.mjs
+build/live-test.mjs
