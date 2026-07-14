@@ -5,7 +5,7 @@
 import { initTheme } from "./theme.js";
 import { initGlobe } from "./globe.js";
 import { startRouter, navigate } from "./router.js";
-import { getGeoWorld, getIndex, getProfiles } from "./data-loader.js";
+import { getGeoWorld, getIndex } from "./data-loader.js";
 import * as visits from "./store/visits.js";
 import { initSync } from "./store/github-sync.js";
 import { openCountryPopup } from "./views/country-popup.js";
@@ -50,18 +50,11 @@ async function main() {
   });
   globeCtl.setActive(visits.activeCountries());
 
-  // 호버 팁에 한글 국가명
+  // 호버 팁에 한글 국가명 (팁은 텍스트 pill이라 국기 이미지는 넣지 않음)
   getIndex().then((index) => {
     const labels = {};
     for (const c of index.countries) labels[c.key] = c.nameKo;
-    getProfiles()
-      .then((profiles) => {
-        for (const [key, p] of Object.entries(profiles)) {
-          if (labels[key] && p.flag) labels[key] = `${p.flag} ${labels[key]}`;
-        }
-      })
-      .catch(() => {})
-      .finally(() => globeCtl.setLabels(labels));
+    globeCtl.setLabels(labels);
   });
 
   // ---- 기록 변경 → 지구본·통계 갱신 ----

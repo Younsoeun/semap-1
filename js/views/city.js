@@ -1,9 +1,10 @@
 // 도시 상세: 명소 사진 카드 그리드.
-// 카드마다 역사/소개/팁, 방문 체크 + 방문 시작·종료일, 마이크로블로그 일지.
+// 카드마다 역사/소개/팁(+박물관은 대표 작품), 방문 토글 + 방문 날짜 범위, 일지.
 
 import { getCountry, getImages } from "../data-loader.js";
 import * as visits from "../store/visits.js";
 import { el } from "../ui.js";
+import { createDateRange } from "../daterange.js";
 import { buildJournalCard, buildJournalEditor } from "./journal-ui.js";
 
 export async function renderCity(container, key, cityId) {
@@ -60,46 +61,49 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
   const body = el("div", { class: "body" });
   card.append(body);
 
-  // ---- 제목 + 방문 체크 ----
-  const check = el("input", { type: "checkbox", class: "visit-check", title: "방문 완료" });
-  check.checked = !!visit?.visited;
-  check.addEventListener("change", () => {
-    visits.setVisited(attraction.id, countryKey, check.checked);
-    card.classList.toggle("visited", check.checked);
-  });
-
   body.append(
-    el("div", { class: "title-row" }, [el("h3", { text: attraction.nameKo }), check]),
+    el("div", { class: "title-row" }, [el("h3", { text: attraction.nameKo })]),
     el("div", { class: "en-name", text: attraction.nameEn })
   );
 
-  // ---- 역사/소개/팁 ----
-  body.append(
-    el("details", { class: "info" }, [
-      el("summary", { text: "역사 · 소개 · 방문 팁" }),
-      field("역사", attraction.history),
-      field("소개", attraction.intro),
-      field("방문 팁", attraction.tip),
-    ])
-  );
+  // ---- 역사/소개/팁 (+ 대표 작품) ----
+  const info = el("details", { class: "info" }, [
+    el("summary", { text: "역사 · 소개 · 방문 팁" }),
+    field("역사", attraction.history),
+    field("소개", attraction.intro),
+    field("방문 팁", attraction.tip),
+  ]);
+  if (attraction.highlights?.length) info.append(buildArtworks(attraction.highlights));
+  body.append(info);
 
-  // ---- 방문일 + 일지 ----
+  // ---- 방문 토글 + 방문일 + 일지 ----
   const visitBlock = el("div", { class: "visit-block" });
   body.append(visitBlock);
 
-  const startInput = el("input", { type: "date", value: visit?.start || "" });
-  const endInput = el("input", { type: "date", value: visit?.end || "" });
-  const saveDates = () => {
-    visits.setVisitDates(attraction.id, countryKey, startInput.value, endInput.value);
-  };
-  startInput.addEventListener("change", saveDates);
-  endInput.addEventListener("change", saveDates);
+  // 방문 토글: 라벨이 있어 역할이 분명하고, 지구본 활성화·통계에 실제로 반영됨
+  const toggle = el("button", { class: "btn toggle" });
+  function renderToggle() {
+    const on = !!visits.getVisit(attraction.id)?.visited;
+    toggle.classList.toggle("on", on);
+    toggle.textContent = on ? "✓ 방문함" : "방문 표시";
+  }
+  toggle.addEventListener("click", () => {
+    const on = !visits.getVisit(attraction.id)?.visited;
+    visits.setVisited(attraction.id, countryKey, on);
+    card.classList.toggle("visited", on);
+    renderToggle();
+  });
+  renderToggle();
+
+  const dateRange = createDateRange({
+    start: visit?.start || null,
+    end: visit?.end || null,
+    placeholder: "방문 날짜",
+    onChange: (s, e) => visits.setVisitDates(attraction.id, countryKey, s, e),
+  });
 
   visitBlock.append(
-    el("div", { class: "visit-row" }, [
-      el("span", { text: "방문일" }),
-      el("div", { class: "date-inputs" }, [startInput, el("span", { text: "~" }), endInput]),
-    ])
+    el("div", { class: "visit-row" }, [toggle, el("span", { class: "lbl", text: "방문일" }), dateRange])
   );
 
   const journalList = el("div", { class: "journal-list" });
@@ -112,12 +116,7 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
     journalList.replaceChildren();
     for (const entry of visits.journalOf(attraction.id)) {
       journalList.append(
-        buildJournalCard({
-          attraction,
-          countryKey,
-          entry,
-          onChanged: renderJournal,
-        })
+        buildJournalCard({ attraction, countryKey, entry, onChanged: renderJournal })
       );
     }
     renderActions();
@@ -137,16 +136,8 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
           const editor = buildJournalEditor({
             attraction,
             countryKey,
-            onDone: () => {
-              editorOpen = false;
-              editor.remove();
-              renderJournal();
-            },
-            onCancel: () => {
-              editorOpen = false;
-              editor.remove();
-              renderActions();
-            },
+            onDone: () => { editorOpen = false; editor.remove(); renderJournal(); },
+            onCancel: () => { editorOpen = false; editor.remove(); renderActions(); },
           });
           visitBlock.append(editor);
         },
@@ -156,6 +147,21 @@ function buildAttractionCard(attraction, countryKey, images, catColor, catName) 
 
   renderJournal();
   return card;
+}
+
+function buildArtworks(highlights) {
+  return el("div", { class: "artworks" }, [
+    el("div", { class: "k", text: "대표 작품 · 볼거리" }),
+    ...highlights.map((h) =>
+      el("div", { class: "artwork" }, [
+        el("div", {}, [
+          el("span", { class: "aw-name", text: h.name }),
+          h.artist ? el("span", { class: "aw-artist", text: h.artist }) : null,
+        ]),
+        h.desc ? el("p", { class: "aw-desc", text: h.desc }) : null,
+      ])
+    ),
+  ]);
 }
 
 function field(k, text) {

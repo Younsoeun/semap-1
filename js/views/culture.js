@@ -1,7 +1,7 @@
 // 문화 페이지 — 국가 단위. 목록(카드 그리드) → 국가별 6개 섹션 + 인사 키트 탭.
 
 import { getCulture, getGreetings, getProfiles } from "../data-loader.js";
-import { el } from "../ui.js";
+import { el, flagImg } from "../ui.js";
 
 export async function renderCulture(container, key) {
   const [culture, greetings, profiles] = await Promise.all([
@@ -18,7 +18,7 @@ export async function renderCulture(container, key) {
   const page = el("div", { class: "page" }, [
     el("a", { class: "back-link", href: "#/culture", text: "← 문화 목록으로" }),
     el("div", { class: "page-head" }, [
-      el("h1", { text: `${country.flag || ""} ${country.nameKo} 문화` }),
+      el("h1", {}, [flagImg(key), el("span", { text: ` ${country.nameKo} 문화` })]),
       el("span", { class: "en", text: country.nameEn.toUpperCase() }),
     ]),
     country.tagline ? el("p", { style: "color:var(--muted)", text: country.tagline }) : null,
@@ -121,7 +121,7 @@ function renderList(container, culture, profiles) {
   for (const c of culture.countries) {
     grid.append(
       el("a", { class: "culture-country-card", href: `#/culture/${c.key}` }, [
-        el("div", { class: "flag", text: c.flag || profiles[c.key]?.flag || "🌍" }),
+        el("div", { class: "flag" }, [flagImg(c.key, "lg")]),
         el("div", { class: "name", text: c.nameKo }),
         el("div", { class: "tagline", text: c.tagline || "" }),
       ])

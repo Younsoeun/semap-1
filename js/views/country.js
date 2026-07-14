@@ -62,10 +62,12 @@ function buildMap(geo, country, key) {
   const svg = document.createElementNS(SVG_NS, "svg");
   svg.setAttribute("viewBox", geo.viewBox);
 
-  // 국가 채움(밑바탕) → 행정구역 경계 → 국경 외곽선
+  // 국가 채움(밑바탕) → 행정구역 경계.
+  // 국경 외곽선(50m)은 행정구역(10m)과 미세하게 어긋나 이중선처럼 보이므로
+  // 그리지 않는다. 행정구역이 없는 나라(noDistricts)만 외곽선을 채움 경계로 쓴다.
   const base = document.createElementNS(SVG_NS, "path");
   base.setAttribute("d", geo.outline);
-  base.setAttribute("class", "map-outline-fill");
+  base.setAttribute("class", geo.districts.length ? "map-outline-fill" : "map-district");
   svg.append(base);
 
   for (const d of geo.districts) {
@@ -77,11 +79,6 @@ function buildMap(geo, country, key) {
     path.append(title);
     svg.append(path);
   }
-
-  const outline = document.createElementNS(SVG_NS, "path");
-  outline.setAttribute("d", geo.outline);
-  outline.setAttribute("class", "map-outline");
-  svg.append(outline);
 
   // 도시 마커(점 + 얇은 링) + 그리디 라벨 배치(우/좌/하/상 중 안 겹치는 곳)
   const [, , vbW, vbH] = geo.viewBox.split(" ").map(Number);

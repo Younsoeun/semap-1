@@ -1,25 +1,22 @@
 /* ==========================================================================
-   SEMap 1.0 — "심야 천문대" 디자인 토큰
-   다크 기본(잉크블랙 + 앤티크 브라스 + 스틸블루 + 오로라 틸),
-   라이트는 포슬린. 색은 역할 하나당 하나 — 혼용 금지:
-     --brand   앤티크 브라스  → 브랜드 · 선택/활성 상태
-     --point   스틸블루      → 포인트(도시 마커, 팁)
-     --visited 오로라 틸     → 방문 완료 전용
+   SEMap 1.0 — 쿨톤 디자인 토큰 (지도 컬러 기반)
+   지구본/지도의 잉크블랙 + 스틸블루 계열을 UI 전체의 기준색으로 삼는다.
+   웜톤(브라스/테라코타)은 쓰지 않는다.
+     --accent   스틸블루  → 브랜드 · 선택/활성 · 주요 버튼
+     --visited  틸       → 방문 완료
+   형태: border-radius는 한 스케일로 통일(과한 둥글기 지양).
+   타이포: 단일 산세리프 패밀리로 통일(세리프 미사용).
    ========================================================================== */
 
 :root {
-  /* 형태 */
-  --r-card: 10px;   /* 카드·박스 */
-  --r-btn: 13px;    /* 버튼·태그 */
-  --r-nav: 15px;    /* 내비 컨테이너 */
-  --r-link: 10px;   /* 내비 링크 */
-  --r-badge: 8px;   /* 뱃지 */
-  --pad-btn: 9px 18px;
+  /* 형태 — 통일된 라운드 스케일 */
+  --radius: 8px;     /* 카드·버튼·입력·내비·팝업 공통 */
+  --radius-sm: 6px;  /* 태그·뱃지 등 작은 요소 */
+  --border-w: 1px;
+  --pad-btn: 9px 16px;
 
-  /* 타이포 3분할 */
-  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Malgun Gothic", serif;
-  --font-ui: "Century Gothic", "Avenir Next", "Segoe UI", "Malgun Gothic", sans-serif;
-  --font-body: Seravek, "Segoe UI", "Malgun Gothic", sans-serif;
+  /* 타이포 — 하나의 깔끔한 산세리프로 통일 */
+  --font: "Segoe UI", "Malgun Gothic", -apple-system, system-ui, "Apple SD Gothic Neo", Roboto, sans-serif;
 }
 
 /* ---- 다크 (기본) ---- */
@@ -31,21 +28,23 @@
   --panel: #161b22;
   --panel-2: #1c232c;
   --line: #2a3340;
-  --line-soft: #222a35;
-  --text: #e8e6e1;
-  --muted: #9aa3ad;
+  --line-soft: #212a34;
+  --text: #e8ecf1;
+  --muted: #93a1b0;
 
-  --brand: #c9a227;
-  --brand-soft: rgba(201, 162, 39, 0.14);
-  --point: #8fb6c9;
-  --point-soft: rgba(143, 182, 201, 0.14);
+  /* 스틸블루 = 유일한 강조색 (지도 마커색 계열) */
+  --accent: #86b0cc;
+  --accent-strong: #a3c6de;
+  --accent-soft: rgba(134, 176, 204, 0.14);
+
+  /* 방문 완료 = 틸 */
   --visited: #4fa08b;
   --visited-soft: rgba(79, 160, 139, 0.16);
 
-  /* 배경 블롭 (radial-gradient 기법 — 은은하게) */
-  --blob-a: rgba(84, 110, 143, 0.16);
-  --blob-b: rgba(60, 84, 120, 0.12);
-  --blob-c: rgba(122, 104, 62, 0.08);
+  /* 배경 블롭 (은은한 쿨톤) */
+  --blob-a: rgba(74, 104, 143, 0.16);
+  --blob-b: rgba(56, 92, 128, 0.12);
+  --blob-c: rgba(58, 108, 112, 0.08);
 
   /* 지구본 */
   --globe-sea: #0b0e13;
@@ -53,68 +52,68 @@
   --globe-land-line: #39434f;
   --globe-active: #38455a;
   --globe-active-line: #55677f;
-  --globe-hover: #c9a227;
-  --globe-visited: #38685c;
+  --globe-hover: #86b0cc;
+  --globe-visited: #386c60;
 
   /* 국가 상세 지도 */
   --map-fill: #1c232c;
   --map-line: #39434f;
   --map-outline: #55606d;
 
-  /* 카테고리 (브랜드 3색과 별도 체계, 저채도) */
-  --c1: #a0714f; /* 성·요새 */
-  --c2: #9e6b8a; /* 궁전 */
-  --c3: #7e8ca8; /* 수도원·성당 */
-  --c4: #6e9a6b; /* 자연·해안 */
-  --c5: #b08046; /* 거리·문화 */
-  --c6: #8a79b0; /* 미술·박물관 */
+  /* 카테고리 6종 — 전부 쿨톤(블루·틸·슬레이트·페리윙클) */
+  --c1: #6d8fb2; /* 성·요새 */
+  --c2: #8a83c0; /* 궁전 */
+  --c3: #5f88a6; /* 수도원·성당 */
+  --c4: #4e9c88; /* 자연·해안 */
+  --c5: #5aa0ae; /* 거리·문화 */
+  --c6: #7f8fd0; /* 미술·박물관 */
 
-  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+  --shadow: 0 6px 22px rgba(0, 0, 0, 0.36);
 }
 
 /* ---- 라이트 ---- */
 :root[data-theme="light"] {
   color-scheme: light;
 
-  --bg: #f4f5f2;
-  --panel: #fcfcfa;
-  --panel-2: #f0f1ed;
-  --line: #d8dad4;
-  --line-soft: #e3e5df;
-  --text: #23282e;
-  --muted: #6a727b;
+  --bg: #eef1f4;
+  --panel: #ffffff;
+  --panel-2: #f1f4f7;
+  --line: #d5dbe1;
+  --line-soft: #e2e7ec;
+  --text: #1f2933;
+  --muted: #5c6773;
 
-  --brand: #8a6e1c;
-  --brand-soft: rgba(138, 110, 28, 0.1);
-  --point: #4a7a93;
-  --point-soft: rgba(74, 122, 147, 0.12);
-  --visited: #3b7a6a;
-  --visited-soft: rgba(59, 122, 106, 0.12);
+  --accent: #3f6d8c;
+  --accent-strong: #2f5872;
+  --accent-soft: rgba(63, 109, 140, 0.12);
 
-  --blob-a: rgba(151, 170, 189, 0.2);
-  --blob-b: rgba(176, 187, 172, 0.18);
-  --blob-c: rgba(189, 174, 138, 0.12);
+  --visited: #34796a;
+  --visited-soft: rgba(52, 121, 106, 0.12);
 
-  --globe-sea: #e7e9e4;
-  --globe-land: #fbfbf9;
-  --globe-land-line: #c3c7be;
-  --globe-active: #dde3da;
-  --globe-active-line: #9aa898;
-  --globe-hover: #8a6e1c;
+  --blob-a: rgba(140, 166, 189, 0.22);
+  --blob-b: rgba(150, 178, 190, 0.16);
+  --blob-c: rgba(138, 176, 168, 0.12);
+
+  --globe-sea: #dfe4e9;
+  --globe-land: #f4f6f8;
+  --globe-land-line: #c0c6cd;
+  --globe-active: #d3dde4;
+  --globe-active-line: #93a6b3;
+  --globe-hover: #3f6d8c;
   --globe-visited: #9ec4b6;
 
   --map-fill: #ffffff;
-  --map-line: #ccd0c8;
-  --map-outline: #a8ada3;
+  --map-line: #ccd3da;
+  --map-outline: #aab2ba;
 
-  --c1: #8a5a37;
-  --c2: #8a5273;
-  --c3: #5d6d8f;
-  --c4: #4f7d4c;
-  --c5: #96682e;
-  --c6: #6f5d99;
+  --c1: #4d6f92;
+  --c2: #6a63a0;
+  --c3: #476883;
+  --c4: #35785f;
+  --c5: #3f7f8e;
+  --c6: #5f6fb0;
 
-  --shadow: 0 6px 20px rgba(35, 40, 46, 0.1);
+  --shadow: 0 6px 20px rgba(31, 41, 51, 0.1);
 }
 
 /* ==========================================================================
@@ -132,14 +131,16 @@ html, body {
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: var(--font-body);
+  font-family: var(--font);
   font-size: 15.5px;
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  /* 한국어 줄바꿈: 단어 중간에서 끊기지 않도록 */
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
-/* 배경 블롭 — 절대 위치 radial 원 3개, 은은하게 */
 body::before {
   content: "";
   position: fixed;
@@ -153,25 +154,24 @@ body::before {
 }
 
 h1, h2, h3 {
-  font-family: var(--font-display);
-  font-weight: 400;
+  font-family: var(--font);
+  font-weight: 650;
   line-height: 1.3;
+  letter-spacing: -0.01em;
   margin: 0 0 0.4em;
+  word-break: keep-all;
 }
 
-h1 { font-size: 2rem; letter-spacing: 0.01em; }
-h2 { font-size: 1.45rem; }
-h3 { font-size: 1.15rem; }
+h1 { font-size: 1.85rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; }
 
-p { margin: 0 0 0.9em; }
+p { margin: 0 0 0.9em; word-break: keep-all; overflow-wrap: break-word; }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+a { color: inherit; text-decoration: none; }
 
 button {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.92rem;
   color: inherit;
   background: none;
@@ -181,20 +181,18 @@ button {
 }
 
 input, textarea, select {
-  font-family: var(--font-body);
+  font-family: var(--font);
   font-size: 0.95rem;
   color: var(--text);
   background: var(--panel-2);
-  border: 1px solid var(--line);
-  border-radius: var(--r-badge);
+  border: var(--border-w) solid var(--line);
+  border-radius: var(--radius-sm);
   padding: 8px 12px;
   outline: none;
 }
 
-input:focus, textarea:focus {
-  border-color: var(--brand);
-}
+input:focus, textarea:focus { border-color: var(--accent); }
 
 img { max-width: 100%; display: block; }
 
-::selection { background: var(--brand-soft); }
+::selection { background: var(--accent-soft); }

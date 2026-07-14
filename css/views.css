@@ -33,7 +33,7 @@
 
 #globe-hud .hud-sub {
   margin: 0;
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.9rem;
   color: var(--muted);
 }
@@ -46,7 +46,7 @@
   right: max(28px, env(safe-area-inset-right));
   bottom: max(30px, env(safe-area-inset-bottom));
   margin: 0;
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.78rem;
   color: var(--muted);
   pointer-events: none;
@@ -57,9 +57,9 @@
   z-index: 70;
   padding: 6px 14px;
   background: color-mix(in srgb, var(--panel) 92%, transparent);
-  border: 1px solid var(--brand);
-  border-radius: var(--r-btn);
-  font-family: var(--font-ui);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  font-family: var(--font);
   font-size: 0.86rem;
   color: var(--text);
   pointer-events: none;
@@ -108,7 +108,7 @@
 .page-head h1 { margin: 0; }
 
 .page-head .en {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.9rem;
   color: var(--muted);
   letter-spacing: 0.06em;
@@ -121,7 +121,7 @@
 
 .empty-note {
   color: var(--muted);
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.9rem;
   padding: 28px 0;
 }
@@ -144,7 +144,7 @@
 }
 
 .profile-name .en {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -170,12 +170,12 @@
 
 .profile-stats .stat {
   border: 1px solid var(--line-soft);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   padding: 10px 12px;
 }
 
 .profile-stats .stat .k {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.7rem;
   letter-spacing: 0.05em;
   color: var(--muted);
@@ -189,16 +189,16 @@
 
 .profile-greet {
   border: 1px solid var(--line-soft);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   padding: 12px 16px;
   margin-bottom: 18px;
   font-size: 0.92rem;
 }
 
-.profile-greet .native { color: var(--point); }
+.profile-greet .native { color: var(--accent); }
 
 .profile-greet .k {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.7rem;
   letter-spacing: 0.05em;
   color: var(--muted);
@@ -206,7 +206,7 @@
 }
 
 .profile-progress {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.84rem;
   color: var(--muted);
   margin-bottom: 18px;
@@ -250,11 +250,11 @@
 
 .city-marker { cursor: pointer; }
 
-.city-marker .core { fill: var(--point); }
+.city-marker .core { fill: var(--accent); }
 
 .city-marker .ring {
   fill: none;
-  stroke: var(--point);
+  stroke: var(--accent);
   stroke-width: 1.2;
   opacity: 0.75;
 }
@@ -263,7 +263,7 @@
 .city-marker.visited .ring { stroke: var(--visited); }
 
 .city-label {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 13px;
   fill: var(--text);
   paint-order: stroke;
@@ -283,7 +283,7 @@
 
 .city-card {
   position: relative;
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--line);
   aspect-ratio: 16 / 10;
@@ -317,13 +317,13 @@
 }
 
 .city-card .meta .name {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.22rem;
   line-height: 1.25;
 }
 
 .city-card .meta .sub {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.78rem;
   opacity: 0.85;
   margin-top: 2px;
@@ -351,7 +351,7 @@
 .attraction-card {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   overflow: hidden;
 }
 
@@ -393,7 +393,7 @@
 }
 
 .attraction-card .en-name {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.76rem;
   letter-spacing: 0.05em;
   color: var(--muted);
@@ -404,7 +404,7 @@
 
 .attraction-card details.info summary {
   cursor: pointer;
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.84rem;
   color: var(--muted);
   list-style: none;
@@ -419,10 +419,10 @@
 .info-field { margin: 10px 0; }
 
 .info-field .k {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.72rem;
   letter-spacing: 0.06em;
-  color: var(--point);
+  color: var(--accent);
   margin-bottom: 3px;
 }
 
@@ -444,22 +444,12 @@
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.85rem;
   color: var(--muted);
 }
 
-.visit-row .date-inputs {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.visit-row input[type="date"] {
-  padding: 5px 8px;
-  font-size: 0.82rem;
-  font-family: var(--font-ui);
-}
+.visit-row .lbl { flex: none; }
 
 .visit-actions {
   margin-top: 12px;
@@ -468,7 +458,128 @@
   flex-wrap: wrap;
 }
 
-/* ---- 일지 카드 (소감 카드: 아바타 대신 체크박스, 날짜 범위 표기) ---- */
+/* ---- 명소 대표 작품(박물관·미술관) ---- */
+.artworks { margin-top: 10px; }
+
+.artworks .k {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  color: var(--c6);
+  margin-bottom: 6px;
+}
+
+.artwork {
+  border-left: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+.artwork:last-child { border-bottom: none; }
+
+.artwork .aw-name { font-weight: 600; font-size: 0.9rem; }
+.artwork .aw-artist { color: var(--muted); font-size: 0.8rem; margin-left: 6px; }
+.artwork .aw-desc { font-size: 0.88rem; color: var(--text); margin: 3px 0 0; }
+
+/* ---- 날짜 범위 피커 ---- */
+.dr-root { position: relative; display: inline-block; }
+
+.dr-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+.dr-trigger:hover { border-color: var(--muted); }
+.dr-cal-ico { font-size: 0.85rem; opacity: 0.8; filter: grayscale(0.4); }
+.dr-label.empty { color: var(--muted); }
+
+.dr-pop {
+  position: absolute;
+  z-index: 90;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 268px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 12px;
+}
+
+.dr-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.dr-title { font-size: 0.9rem; font-weight: 600; }
+.dr-nav {
+  width: 28px; height: 28px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 1rem;
+}
+.dr-nav:hover { color: var(--text); border-color: var(--muted); }
+
+.dr-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+.dr-wk {
+  text-align: center;
+  font-size: 0.68rem;
+  color: var(--muted);
+  padding: 4px 0;
+}
+.dr-cell {
+  aspect-ratio: 1;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.82rem;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dr-cell.empty { pointer-events: none; }
+.dr-cell:not(.empty):hover { background: var(--accent-soft); }
+.dr-cell.inrange { background: var(--accent-soft); border-radius: 0; }
+.dr-cell.sel { background: var(--accent); color: #0e1116; font-weight: 600; }
+.dr-cell.start { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
+.dr-cell.end { border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.dr-cell.start.end { border-radius: var(--radius-sm); }
+
+.dr-foot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.dr-clear, .dr-done {
+  font-size: 0.8rem;
+  color: var(--muted);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+}
+.dr-clear:hover, .dr-done:hover { color: var(--text); background: var(--panel-2); }
+.dr-done { color: var(--accent); }
+
+/* ---- 일지 필터 ---- */
+.journal-filters { margin-top: 12px; }
+.journal-filters .filter-label {
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  margin: 12px 0 2px;
+}
+
+/* ---- 일지 카드 (소감 카드: 방문 날짜 범위 표기, 소셜 장식 없음) ---- */
 .journal-list {
   display: flex;
   flex-direction: column;
@@ -479,7 +590,7 @@
 .journal-card {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   padding: 16px 18px;
 }
 
@@ -495,22 +606,22 @@
 .journal-card .head .who { flex: 1; min-width: 0; }
 
 .journal-card .head .place {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.92rem;
   font-weight: 600;
   color: var(--text);
 }
 
-.journal-card .head .place a:hover { color: var(--brand); }
+.journal-card .head .place a:hover { color: var(--accent); }
 
 .journal-card .head .dates {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.78rem;
   color: var(--muted);
 }
 
 .journal-card .head .when {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.74rem;
   color: var(--muted);
   white-space: nowrap;
@@ -533,7 +644,7 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  border-radius: var(--r-badge);
+  border-radius: var(--radius-sm);
   border: 1px solid var(--line-soft);
   cursor: zoom-in;
 }
@@ -555,7 +666,7 @@
 .journal-editor {
   margin-top: 12px;
   border: 1px solid var(--line);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   padding: 14px 16px;
   background: var(--panel-2);
 }
@@ -592,7 +703,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--r-badge);
+  border-radius: var(--radius-sm);
 }
 
 .photo-previews .rm {
@@ -618,7 +729,7 @@
 
 .culture-country-card {
   border: 1px solid var(--line);
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
   background: var(--panel);
   padding: 16px 18px;
   display: block;
@@ -629,7 +740,7 @@
 .culture-country-card .flag { font-size: 1.6rem; }
 
 .culture-country-card .name {
-  font-family: var(--font-display);
+  font-family: var(--font);
   font-size: 1.12rem;
   margin: 6px 0 2px;
 }
@@ -644,7 +755,7 @@
 
 .culture-section h3 {
   font-size: 1.1rem;
-  color: var(--brand);
+  color: var(--accent);
   margin-bottom: 10px;
 }
 
@@ -666,7 +777,7 @@
 }
 
 .greet-table th {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.74rem;
   letter-spacing: 0.06em;
   color: var(--muted);
@@ -682,100 +793,156 @@
   vertical-align: top;
 }
 
-.greet-table .native { color: var(--point); }
+.greet-table .native { color: var(--accent); }
 
 .greet-table .roman {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.82rem;
   color: var(--muted);
 }
 
-/* ---- 루트 페이지 ---- */
-.route-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 18px;
+/* ---- 루트 페이지 (세로 타임라인) ---- */
+.route-intro { color: var(--muted); margin-bottom: 8px; }
+
+.timeline {
+  position: relative;
+  margin: 26px 0 0;
+  padding-left: 30px;
 }
 
-.route-stop {
+/* 왼쪽 세로 축 */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-soft), var(--line) 12%, var(--line) 88%, transparent);
+}
+
+.tl-node {
+  position: relative;
+  padding: 0 0 30px 6px;
+}
+
+/* 축 위의 점 */
+.tl-node::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--panel);
+  border: 2px solid var(--line);
+  box-sizing: border-box;
+}
+
+.tl-node.fixed::before { border-color: var(--visited); background: var(--visited); }
+.tl-node.planned::before { border-color: var(--accent); }
+
+.tl-when {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+
+.tl-when .fixed-badge {
+  color: var(--visited);
+  border: 1px solid var(--visited);
+  border-radius: var(--radius-sm);
+  padding: 1px 8px;
+  margin-left: 8px;
+  font-size: 0.72rem;
+}
+
+.tl-card {
   background: var(--panel);
   border: 1px solid var(--line);
-  border-radius: var(--r-card);
-  padding: 18px 20px;
+  border-radius: var(--radius);
+  padding: 16px 18px;
 }
 
-.route-stop.fixed { border-color: var(--brand); }
+.tl-node.fixed .tl-card { border-color: color-mix(in srgb, var(--visited) 45%, var(--line)); }
 
-.route-stop .stop-head {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.route-stop .stop-head .flag { font-size: 1.3rem; }
-
-.route-stop .stop-head h3 { margin: 0; font-size: 1.15rem; }
-
-.route-stop .stop-head h3 a:hover { color: var(--brand); }
-
-.route-stop .stop-head .season {
-  font-family: var(--font-ui);
-  font-size: 0.8rem;
-  color: var(--point);
-}
-
-.route-stop .stop-head .badge {
-  margin-left: auto;
-  font-family: var(--font-ui);
-  font-size: 0.74rem;
-  color: var(--brand);
-  border: 1px solid var(--brand);
-  border-radius: var(--r-badge);
-  padding: 2px 9px;
-}
-
-.route-stop .hint {
-  font-size: 0.86rem;
-  color: var(--muted);
-  margin: 4px 0 12px;
-}
-
-.route-stop .stop-dates {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  flex-wrap: wrap;
-  font-family: var(--font-ui);
-  font-size: 0.82rem;
-  color: var(--muted);
-  margin-bottom: 10px;
-}
-
-.route-stop input[type="date"] {
-  padding: 5px 8px;
-  font-size: 0.8rem;
-  font-family: var(--font-ui);
-}
-
-.route-city-rows { border-top: 1px solid var(--line-soft); }
-
-.route-city-row {
+.tl-head {
   display: flex;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 9px 0;
-  border-bottom: 1px solid var(--line-soft);
-  font-size: 0.9rem;
 }
 
-.route-city-row .city-name { flex: 1; min-width: 140px; }
+.tl-head h3 { margin: 0; font-size: 1.12rem; display: flex; align-items: center; gap: 8px; }
+.tl-head h3 a:hover { color: var(--accent); }
+.tl-head .season { font-size: 0.8rem; color: var(--accent); }
 
-.route-city-row .city-name a { color: var(--point); }
+.tl-hint { font-size: 0.86rem; color: var(--muted); margin: 6px 0 12px; }
 
-.route-city-row .city-name a:hover { text-decoration: underline; }
+.tl-dates {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.tl-dates .lbl { font-size: 0.8rem; color: var(--muted); }
+
+/* 타임라인에 얹히는 도시별 방문 기록(사진·일지) */
+.tl-cities { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
+
+.tl-city {
+  border-top: 1px solid var(--line-soft);
+  padding-top: 12px;
+}
+
+.tl-city-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.92rem;
+}
+
+.tl-city-head .cname { font-weight: 600; }
+.tl-city-head .cname a { color: var(--accent); }
+.tl-city-head .cdate { font-size: 0.8rem; color: var(--muted); }
+
+.tl-shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tl-shots figure { margin: 0; }
+
+.tl-shots img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line-soft);
+  cursor: zoom-in;
+}
+
+.tl-shots figcaption {
+  font-size: 0.74rem;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.tl-note {
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-top: 8px;
+  white-space: pre-wrap;
+}
+
+.tl-note .place-tag { color: var(--accent); font-size: 0.8rem; margin-right: 6px; }
 
 /* ---- 설정 ---- */
 .settings-block { margin-top: 22px; }
@@ -787,7 +954,7 @@
 
 .settings-block label.field {
   display: block;
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.8rem;
   color: var(--muted);
   margin: 12px 0 4px;
@@ -807,7 +974,7 @@
 }
 
 .sync-status {
-  font-family: var(--font-ui);
+  font-family: var(--font);
   font-size: 0.84rem;
   color: var(--muted);
   margin-top: 10px;
@@ -830,7 +997,7 @@
 .lightbox img {
   max-width: 94vw;
   max-height: 92vh;
-  border-radius: var(--r-card);
+  border-radius: var(--radius);
 }
 
 /* ---- 모바일 공통 ---- */

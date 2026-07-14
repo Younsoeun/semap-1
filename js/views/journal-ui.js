@@ -12,22 +12,9 @@ export function buildJournalCard({ attraction, countryKey, entry, placeLink, onC
   const visit = visits.getVisit(attraction.id);
   const card = el("div", { class: `journal-card${visit?.visited ? " visited" : ""}` });
 
-  const check = el("input", {
-    type: "checkbox",
-    class: "visit-check",
-    title: "방문 완료",
-  });
-  check.checked = !!visit?.visited;
-  check.addEventListener("change", () => {
-    visits.setVisited(attraction.id, countryKey, check.checked);
-    card.classList.toggle("visited", check.checked);
-    onChanged?.();
-  });
-
   const dates = fmtDateRange(visit?.start, visit?.end);
 
   const head = el("div", { class: "head" }, [
-    check,
     el("div", { class: "who" }, [
       el("div", { class: "place" }, [
         placeLink

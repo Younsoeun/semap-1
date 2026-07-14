@@ -13,3 +13,6 @@ build/toggle-test.mjs
 build/check-imports.mjs
 build/mobile-test.mjs
 build/live-test.mjs
+build/smoke2.mjs
+build/add-highlights.mjs
+build/jf-test.mjs

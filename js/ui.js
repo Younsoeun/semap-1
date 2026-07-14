@@ -21,6 +21,20 @@ export function el(tag, attrs = {}, children = []) {
   return node;
 }
 
+// 국기 — Windows가 국기 이모지를 지원하지 않으므로 번들된 SVG 이미지를 쓴다.
+export function flagUrl(key) {
+  return `data/flags/${key}.svg`;
+}
+
+export function flagImg(key, cls = "") {
+  return el("img", {
+    class: `flag-img${cls ? " " + cls : ""}`,
+    src: flagUrl(key),
+    alt: "",
+    loading: "lazy",
+  });
+}
+
 export function escapeHtml(s) {
   return String(s ?? "")
     .replaceAll("&", "&amp;")

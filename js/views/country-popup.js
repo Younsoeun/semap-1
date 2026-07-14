@@ -2,7 +2,7 @@
 
 import { getCountry, getProfiles, getGreetings } from "../data-loader.js";
 import * as visits from "../store/visits.js";
-import { el, fmtDateRange } from "../ui.js";
+import { el, fmtDateRange, flagImg } from "../ui.js";
 
 export async function openCountryPopup(key) {
   const root = document.getElementById("popup-root");
@@ -59,7 +59,7 @@ export async function openCountryPopup(key) {
 
   const card = el("div", { class: `sheet panel profile-card${isActive ? " is-visited" : ""}` }, [
     el("div", { class: "profile-head" }, [
-      el("div", { class: "profile-flag", text: profile.flag || "🌍" }),
+      el("div", { class: "profile-flag" }, [flagImg(key, "lg")]),
       el("div", { class: "profile-name" }, [
         el("h2", { text: country.nameKo }),
         el("div", { class: "en", text: country.nameEn }),
