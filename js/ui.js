@@ -65,7 +65,9 @@ export async function photoUrl(photoId) {
   } catch {
     /* IndexedDB 실패 시 원격 폴백 */
   }
-  return remotePhotoUrl(photoId);
+  const remote = await remotePhotoUrl(photoId);
+  if (remote) objectUrls.set(photoId, remote);
+  return remote;
 }
 
 export function attachPhoto(imgEl, photoId) {

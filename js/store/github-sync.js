@@ -48,11 +48,24 @@ export function setSyncConfig(cfg) {
   notifyStatus();
 }
 
-export function remotePhotoUrl(photoId) {
+// 원격 사진을 인증된 Contents API로 가져와 object URL로 만든다.
+// (private 저장소는 raw.githubusercontent를 <img>에서 직접 못 쓰므로 인증 fetch 사용.)
+const remotePhotoCache = new Map();
+
+export async function remotePhotoUrl(photoId) {
   const cfg = syncConfig();
   if (!cfg) return null;
-  const branch = cfg.branch || "main";
-  return `https://raw.githubusercontent.com/${cfg.repo}/${branch}/data/user/photos/${photoId}`;
+  if (remotePhotoCache.has(photoId)) return remotePhotoCache.get(photoId);
+  try {
+    const file = await gh(cfg, "GET", `data/user/photos/${photoId}?ref=${cfg.branch || "main"}`);
+    if (!file || !file.content) return null;
+    const bytes = Uint8Array.from(atob(file.content.replace(/\n/g, "")), (c) => c.charCodeAt(0));
+    const url = URL.createObjectURL(new Blob([bytes], { type: "image/jpeg" }));
+    remotePhotoCache.set(photoId, url);
+    return url;
+  } catch {
+    return null;
+  }
 }
 
 // ---- GitHub Contents API ----

@@ -32,14 +32,19 @@ npx serve .
 
 ## 기기 간 동기화 (선택)
 
-서버 없이, 이 저장소 자체를 개인 데이터베이스로 씁니다. 방문 기록·일지·사진이
+서버 없이 GitHub 저장소를 개인 데이터베이스로 씁니다. 방문 기록·일지·사진이
 저장소의 `data/user/` 로 자동 커밋되어 폰↔노트북이 같은 기록을 봅니다.
 
-1. GitHub → **Settings → Developer settings → Fine-grained personal access tokens** 에서
-   **이 저장소 하나**에만, **Contents: Read and write** 권한으로 토큰을 발급합니다.
-2. 앱의 **설정** 페이지에서 저장소(`Younsoeun/semap-1`), 브랜치(`main`), 토큰을 입력하고 **저장 후 동기화**.
-3. 토큰은 각 기기(브라우저)의 localStorage에만 저장되고 서버로 전송되지 않습니다.
-   기록이 바뀔 때마다 자동으로 커밋되고, 다른 기기에서 열면 최신 기록을 당겨옵니다.
+> **개인정보 분리**: 앱 코드 저장소(`semap-1`)는 무료 GitHub Pages 배포를 위해 public이지만,
+> 개인 여행 일지·사진은 **별도의 private 저장소**(예: `Younsoeun/semap-data`)로 동기화됩니다.
+> 이렇게 하면 배포는 공개하되 개인 기록은 비공개로 유지됩니다.
+
+1. GitHub에서 개인 기록용 **private 저장소**를 하나 만듭니다(예: `semap-data`, 빈 저장소면 됩니다).
+2. **Settings → Developer settings → Fine-grained personal access tokens** 에서
+   **그 데이터 저장소 하나**에만, **Contents: Read and write** 권한으로 토큰을 발급합니다.
+3. 앱의 **설정** 페이지에서 데이터 저장소(`Younsoeun/semap-data`), 브랜치(`main`), 토큰을 입력하고 **저장 후 동기화**.
+4. 토큰은 각 기기(브라우저)의 localStorage에만 저장되고 서버로 전송되지 않습니다.
+   기록이 바뀔 때마다 자동으로 커밋되고, 다른 기기에서 열면 최신 기록을 당겨옵니다(사진은 인증 API로 로드).
 
 동기화를 쓰지 않을 때는 설정의 **JSON 내보내기/가져오기**로 수동 백업할 수 있습니다(사진 제외).
 

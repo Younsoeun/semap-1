@@ -9,7 +9,7 @@ export async function renderSettings(container, { toast }) {
 
   const repoInput = el("input", {
     type: "text",
-    placeholder: "예: Younsoeun/semap-1",
+    placeholder: "예: Younsoeun/semap-data (개인 기록용 private 저장소)",
     value: cfg.repo || "",
     autocapitalize: "off",
     spellcheck: "false",
@@ -76,8 +76,9 @@ export async function renderSettings(container, { toast }) {
       el("p", {
         class: "desc",
         text:
-          "방문 기록과 일지를 이 사이트의 GitHub 저장소(data/user/)에 자동 커밋해 폰↔노트북이 같은 기록을 보게 합니다. " +
-          "GitHub에서 이 저장소의 Contents 읽기/쓰기 권한만 가진 fine-grained 토큰을 발급해 붙여넣으세요. " +
+          "방문 기록과 일지·사진을 개인용 private 저장소(data/user/)에 자동 커밋해 폰↔노트북이 같은 기록을 보게 합니다. " +
+          "앱 코드 저장소와 분리된 private 저장소를 쓰면 개인 기록이 공개되지 않습니다. " +
+          "그 저장소의 Contents 읽기/쓰기 권한만 가진 fine-grained 토큰을 발급해 붙여넣으세요. " +
           "토큰은 이 기기(브라우저)에만 저장됩니다.",
       }),
       el("label", { class: "field", text: "저장소 (owner/repo)" }),
