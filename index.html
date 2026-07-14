@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>SEMap — 유럽 여행 기록</title>
+  <meta name="description" content="지구본으로 기록하는 개인 유럽 여행 지도" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='none' stroke='%23c9a227' stroke-width='6'/><ellipse cx='50' cy='50' rx='42' ry='16' fill='none' stroke='%23c9a227' stroke-width='4'/></svg>" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/views.css" />
+  <script>
+    // 첫 페인트 전에 테마 결정 (깜빡임 방지). 기본은 다크.
+    (function () {
+      var saved = localStorage.getItem("semap1_theme");
+      document.documentElement.dataset.theme =
+        saved === "light" || saved === "dark" ? saved : "dark";
+    })();
+  </script>
+</head>
+<body>
+  <nav class="top-nav" id="top-nav">
+    <a class="nav-brand" href="#/">SEMap</a>
+    <a class="nav-link" href="#/" data-route="home">지구본</a>
+    <a class="nav-link" href="#/journal" data-route="journal">일지</a>
+    <a class="nav-link" href="#/route" data-route="route">루트</a>
+    <a class="nav-link" href="#/culture" data-route="culture">문화</a>
+    <a class="nav-link" href="#/settings" data-route="settings">설정</a>
+    <span class="nav-gap"></span>
+    <button class="icon-btn" id="theme-toggle" title="라이트/다크 전환" aria-label="테마 전환">◐</button>
+  </nav>
+
+  <!-- 지구본은 항상 마운트 상태 유지 (라우트 전환 시 숨김만) -->
+  <div id="globe-stage">
+    <div id="globe"></div>
+    <div id="globe-tip" hidden></div>
+    <div id="globe-hud">
+      <h1 class="hud-title">유럽 여행 기록</h1>
+      <p class="hud-sub" id="globe-stats"></p>
+    </div>
+    <p id="globe-help">드래그로 회전 · 휠/핀치로 확대 · 국가를 클릭하세요</p>
+  </div>
+
+  <main id="view" hidden></main>
+
+  <div id="popup-root"></div>
+  <div class="toast" id="toast"></div>
+
+  <script src="vendor/globe.gl.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

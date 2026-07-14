@@ -1,0 +1,16 @@
+{
+  "name": "semap-1",
+  "version": "1.0.0",
+  "description": "심야 천문대 3D 지구본으로 기록하는 개인 유럽 여행 지도",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "serve": "node build/serve.mjs",
+    "build:geo": "node build/fetch-geo.mjs",
+    "migrate": "node build/migrate-from-semap.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^23.11.1"
+  },
+  "license": "ISC"
+}

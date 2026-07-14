@@ -1,0 +1,271 @@
+/* ==========================================================================
+   공용 컴포넌트 — 버튼·태그·내비·카드·팝업
+   형태 원칙: 완전 pill 금지(부드러운 라운드 사각형), 얇은 테두리,
+   텍스트-테두리 사이 여백 넉넉히, 좌측 accent 스트라이프 금지.
+   ========================================================================== */
+
+/* ---- 상단 내비 ---- */
+.top-nav {
+  position: fixed;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px;
+  background: color-mix(in srgb, var(--panel) 86%, transparent);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--line);
+  border-radius: var(--r-nav);
+  box-shadow: var(--shadow);
+  font-family: var(--font-ui);
+  white-space: nowrap;
+}
+
+.top-nav .nav-brand {
+  font-family: var(--font-display);
+  font-size: 1.02rem;
+  letter-spacing: 0.04em;
+  padding: 6px 14px 6px 16px;
+  color: var(--brand);
+}
+
+.top-nav a.nav-link {
+  padding: 7px 15px;
+  border-radius: var(--r-link);
+  font-size: 0.88rem;
+  color: var(--muted);
+  border: 1px solid transparent;
+}
+
+.top-nav a.nav-link:hover { color: var(--text); }
+
+.top-nav a.nav-link.active {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+
+.top-nav .nav-gap { width: 6px; }
+
+/* 원형은 아이콘 버튼에만 허용 */
+.icon-btn {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  color: var(--muted);
+  background: transparent;
+}
+
+.icon-btn:hover { color: var(--text); border-color: var(--muted); }
+
+/* ---- 버튼 ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: var(--pad-btn);
+  border: 1px solid var(--line);
+  border-radius: var(--r-btn);
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.btn:hover { border-color: var(--muted); }
+
+.btn.primary {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.btn.primary:hover { background: var(--brand-soft); }
+
+.btn.visited-state {
+  border-color: var(--visited);
+  color: var(--visited);
+}
+
+.btn.visited-state:hover { background: var(--visited-soft); }
+
+.btn.danger:hover { border-color: #b0524a; color: #b0524a; }
+
+/* ---- 태그·뱃지 ---- */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: var(--r-badge);
+  border: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.74rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.tag .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--tag-color, var(--muted));
+}
+
+.tag.visited {
+  border-color: var(--visited);
+  color: var(--visited);
+}
+
+/* ---- 카드·패널 ---- */
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+}
+
+.panel-pad { padding: 20px 22px; }
+
+/* ---- 필터 pill (라운드 사각형) ---- */
+.filter-pill {
+  padding: 7px 15px;
+  border: 1px solid var(--line);
+  border-radius: var(--r-btn);
+  font-family: var(--font-ui);
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.filter-pill:hover { color: var(--text); }
+
+.filter-pill.active {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+/* ---- 통계 줄 ---- */
+.stat-line {
+  font-family: var(--font-ui);
+  font-size: 0.86rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+
+.stat-line b {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.stat-line .v { color: var(--visited); }
+
+/* ---- 팝업/모달 오버레이 ---- */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(6, 8, 11, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+:root[data-theme="light"] .overlay { background: rgba(35, 40, 46, 0.28); }
+
+.overlay .sheet {
+  width: min(560px, 100%);
+  max-height: min(78vh, 720px);
+  overflow-y: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  box-shadow: var(--shadow);
+}
+
+/* 폰: 바텀 시트 */
+@media (max-width: 640px) {
+  .overlay { align-items: flex-end; padding: 0; }
+  .overlay .sheet {
+    width: 100%;
+    max-height: 82vh;
+    border-radius: var(--r-card) var(--r-card) 0 0;
+    border-bottom: none;
+  }
+}
+
+/* ---- 토스트 ---- */
+.toast {
+  position: fixed;
+  bottom: 26px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 120;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--r-btn);
+  padding: 10px 20px;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  box-shadow: var(--shadow);
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+
+.toast.show { opacity: 1; }
+
+/* ---- 뒤로가기 링크 ---- */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  color: var(--muted);
+  padding: 6px 0;
+}
+
+.back-link:hover { color: var(--text); }
+
+/* ---- 체크박스(방문) ---- */
+.visit-check {
+  appearance: none;
+  width: 21px;
+  height: 21px;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  flex: none;
+  margin: 0;
+  padding: 0;
+}
+
+.visit-check:hover { border-color: var(--visited); }
+
+.visit-check:checked {
+  border-color: var(--visited);
+  background: var(--visited);
+}
+
+.visit-check:checked::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--panel);
+  border-width: 0 2px 2px 0;
+  transform: rotate(42deg);
+}

@@ -3,3 +3,11 @@ data-cache/
 node_modules/
 Thumbs.db
 .DS_Store
+
+# dev/verification only
+node_modules/
+package-lock.json
+build/smoke.mjs
+build/shots.mjs
+build/toggle-test.mjs
+build/check-imports.mjs

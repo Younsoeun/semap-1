@@ -1,0 +1,573 @@
+{
+ "phrases": [
+  { "id": "hello", "ko": "안녕하세요" },
+  { "id": "bye", "ko": "안녕히 계세요" },
+  { "id": "thanks", "ko": "감사합니다" },
+  { "id": "sorry", "ko": "실례합니다 · 죄송합니다" },
+  { "id": "yesno", "ko": "네 / 아니요" },
+  { "id": "howmuch", "ko": "얼마예요?" },
+  { "id": "order", "ko": "이거 주세요" },
+  { "id": "delicious", "ko": "맛있어요" },
+  { "id": "toilet", "ko": "화장실이 어디예요?" },
+  { "id": "english", "ko": "영어 하시나요?" },
+  { "id": "help", "ko": "도와주세요!" },
+  { "id": "cheers", "ko": "건배!" }
+ ],
+ "countries": {
+  "portugal": {
+   "lang": "포르투갈어",
+   "items": {
+    "hello": { "native": "Olá", "roman": "올라" },
+    "bye": { "native": "Adeus / Tchau", "roman": "아데우스 / 차우" },
+    "thanks": { "native": "Obrigado(남) / Obrigada(여)", "roman": "오브리가두 / 오브리가다" },
+    "sorry": { "native": "Desculpe", "roman": "디스쿨프" },
+    "yesno": { "native": "Sim / Não", "roman": "싱 / 너웅" },
+    "howmuch": { "native": "Quanto custa?", "roman": "콴투 쿠슈타" },
+    "order": { "native": "Isto, por favor", "roman": "이슈투, 포르 파보르" },
+    "delicious": { "native": "Está muito bom", "roman": "이슈타 무이투 봉" },
+    "toilet": { "native": "Onde é a casa de banho?", "roman": "온드 에 아 카자 드 바뉴?" },
+    "english": { "native": "Fala inglês?", "roman": "팔라 잉글레스?" },
+    "help": { "native": "Pode ajudar-me?", "roman": "포드 아주다르므?" },
+    "cheers": { "native": "Saúde!", "roman": "사우드!" }
+   }
+  },
+  "france": {
+   "lang": "프랑스어",
+   "items": {
+    "hello": { "native": "Bonjour", "roman": "봉주르" },
+    "bye": { "native": "Au revoir", "roman": "오 르부아르" },
+    "thanks": { "native": "Merci", "roman": "메르시" },
+    "sorry": { "native": "Excusez-moi / Pardon", "roman": "엑스퀴제무아 / 파르동" },
+    "yesno": { "native": "Oui / Non", "roman": "위 / 농" },
+    "howmuch": { "native": "C'est combien ?", "roman": "세 콩비앙?" },
+    "order": { "native": "Ça, s'il vous plaît", "roman": "사, 실 부 플레" },
+    "delicious": { "native": "C'est délicieux", "roman": "세 델리시외" },
+    "toilet": { "native": "Où sont les toilettes ?", "roman": "우 송 레 투알레트?" },
+    "english": { "native": "Parlez-vous anglais ?", "roman": "파를레부 앙글레?" },
+    "help": { "native": "Aidez-moi !", "roman": "에데무아!" },
+    "cheers": { "native": "Santé !", "roman": "상테!" }
+   }
+  },
+  "spain": {
+   "lang": "스페인어",
+   "items": {
+    "hello": { "native": "Hola", "roman": "올라" },
+    "bye": { "native": "Adiós", "roman": "아디오스" },
+    "thanks": { "native": "Gracias", "roman": "그라시아스" },
+    "sorry": { "native": "Perdón / Disculpe", "roman": "페르돈 / 디스쿨페" },
+    "yesno": { "native": "Sí / No", "roman": "시 / 노" },
+    "howmuch": { "native": "¿Cuánto cuesta?", "roman": "쿠안토 쿠에스타?" },
+    "order": { "native": "Esto, por favor", "roman": "에스토, 포르 파보르" },
+    "delicious": { "native": "¡Qué rico!", "roman": "케 리코!" },
+    "toilet": { "native": "¿Dónde está el baño?", "roman": "돈데 에스타 엘 바뇨?" },
+    "english": { "native": "¿Habla inglés?", "roman": "아블라 잉글레스?" },
+    "help": { "native": "¿Me puede ayudar?", "roman": "메 푸에데 아유다르?" },
+    "cheers": { "native": "¡Salud!", "roman": "살루드!" }
+   }
+  },
+  "greece": {
+   "lang": "그리스어",
+   "note": "그리스어의 '네(Ναι)'는 Yes, '오히(Όχι)'는 No입니다 — 우리말과 반대처럼 들리니 주의하세요.",
+   "items": {
+    "hello": { "native": "Γειά σας", "roman": "야 사스" },
+    "bye": { "native": "Αντίο", "roman": "안디오" },
+    "thanks": { "native": "Ευχαριστώ", "roman": "에프하리스토" },
+    "sorry": { "native": "Συγγνώμη", "roman": "시그노미" },
+    "yesno": { "native": "Ναι / Όχι", "roman": "네 / 오히" },
+    "howmuch": { "native": "Πόσο κάνει;", "roman": "포소 카니?" },
+    "order": { "native": "Αυτό, παρακαλώ", "roman": "아프토, 파라칼로" },
+    "delicious": { "native": "Πολύ νόστιμο", "roman": "폴리 노스티모" },
+    "toilet": { "native": "Πού είναι η τουαλέτα;", "roman": "푸 이네 이 투알레타?" },
+    "english": { "native": "Μιλάτε αγγλικά;", "roman": "밀라테 앙글리카?" },
+    "help": { "native": "Βοήθεια!", "roman": "보이시아!" },
+    "cheers": { "native": "Στην υγειά μας! (Γεια μας!)", "roman": "스틴 이야 마스! (야마스!)" }
+   }
+  },
+  "italy": {
+   "lang": "이탈리아어",
+   "items": {
+    "hello": { "native": "Buongiorno / Ciao", "roman": "부온조르노 / 차오" },
+    "bye": { "native": "Arrivederci", "roman": "아리베데르치" },
+    "thanks": { "native": "Grazie", "roman": "그라치에" },
+    "sorry": { "native": "Scusi", "roman": "스쿠지" },
+    "yesno": { "native": "Sì / No", "roman": "시 / 노" },
+    "howmuch": { "native": "Quanto costa?", "roman": "콴토 코스타?" },
+    "order": { "native": "Questo, per favore", "roman": "퀘스토, 페르 파보레" },
+    "delicious": { "native": "Buonissimo!", "roman": "부오니시모!" },
+    "toilet": { "native": "Dov'è il bagno?", "roman": "도베 일 바뇨?" },
+    "english": { "native": "Parla inglese?", "roman": "파를라 잉글레제?" },
+    "help": { "native": "Aiuto!", "roman": "아이우토!" },
+    "cheers": { "native": "Salute! / Cin cin!", "roman": "살루테! / 친친!" }
+   }
+  },
+  "morocco": {
+   "lang": "모로코 아랍어(다리자)",
+   "note": "프랑스어가 널리 통합니다. 무슬림 국가라 술·건배 문화는 제한적이니 '브세흐텍'은 식사 덕담으로 쓰세요.",
+   "items": {
+    "hello": { "native": "السلام عليكم", "roman": "살람 알라이쿰" },
+    "bye": { "native": "بسلامة", "roman": "브슬라마" },
+    "thanks": { "native": "شكرا", "roman": "슈크란" },
+    "sorry": { "native": "سمح ليا", "roman": "스마흐 리야" },
+    "yesno": { "native": "ايه / لا", "roman": "이예 / 라" },
+    "howmuch": { "native": "بشحال؟", "roman": "브슈할?" },
+    "order": { "native": "هادا عافاك", "roman": "하다, 아팍" },
+    "delicious": { "native": "بنين", "roman": "브닌" },
+    "toilet": { "native": "فين الطواليت؟", "roman": "핀 트왈렛?" },
+    "english": { "native": "واش كتهضر بالإنجليزية؟", "roman": "와시 카트흐다르 빌잉글리지야?" },
+    "help": { "native": "عاونّي!", "roman": "아우니!" },
+    "cheers": { "native": "بصحتك", "roman": "브세흐텍 (건강을 위해)" }
+   }
+  },
+  "malta": {
+   "lang": "몰타어",
+   "note": "영어가 공용어라 어디서나 영어가 통합니다. 몰타어 인사를 건네면 특히 반가워합니다.",
+   "items": {
+    "hello": { "native": "Bonġu", "roman": "본주" },
+    "bye": { "native": "Saħħa", "roman": "사하" },
+    "thanks": { "native": "Grazzi", "roman": "그라치" },
+    "sorry": { "native": "Skużani", "roman": "스쿠자니" },
+    "yesno": { "native": "Iva / Le", "roman": "이바 / 레" },
+    "howmuch": { "native": "Kemm jiswa?", "roman": "켐 이스와?" },
+    "order": { "native": "Dan, jekk jogħġbok", "roman": "단, 예크 요즈복" },
+    "delicious": { "native": "Tajjeb ħafna", "roman": "타이엡 하프나" },
+    "toilet": { "native": "Fejn hu t-tojlet?", "roman": "페인 우 토일렛?" },
+    "english": { "native": "Titkellem bl-Ingliż?", "roman": "티트켈렘 블링글리즈?" },
+    "help": { "native": "Għinni!", "roman": "이니!" },
+    "cheers": { "native": "Saħħa!", "roman": "사하!" }
+   }
+  },
+  "croatia": {
+   "lang": "크로아티아어",
+   "items": {
+    "hello": { "native": "Dobar dan", "roman": "도바르 단" },
+    "bye": { "native": "Doviđenja", "roman": "도비제냐" },
+    "thanks": { "native": "Hvala", "roman": "흐발라" },
+    "sorry": { "native": "Oprostite", "roman": "오프로스티테" },
+    "yesno": { "native": "Da / Ne", "roman": "다 / 네" },
+    "howmuch": { "native": "Koliko košta?", "roman": "콜리코 코슈타?" },
+    "order": { "native": "Ovo, molim", "roman": "오보, 몰림" },
+    "delicious": { "native": "Jako ukusno", "roman": "야코 우쿠스노" },
+    "toilet": { "native": "Gdje je WC?", "roman": "그디예 예 베체?" },
+    "english": { "native": "Govorite li engleski?", "roman": "고보리테 리 엥글레스키?" },
+    "help": { "native": "Upomoć!", "roman": "우포모치!" },
+    "cheers": { "native": "Živjeli!", "roman": "지비엘리!" }
+   }
+  },
+  "netherlands": {
+   "lang": "네덜란드어",
+   "note": "네덜란드인 대부분이 영어를 유창하게 합니다.",
+   "items": {
+    "hello": { "native": "Hallo / Goedendag", "roman": "할로 / 후던다흐" },
+    "bye": { "native": "Tot ziens", "roman": "톳 진스" },
+    "thanks": { "native": "Dank je wel", "roman": "당크 여 벨" },
+    "sorry": { "native": "Pardon / Sorry", "roman": "파르동 / 소리" },
+    "yesno": { "native": "Ja / Nee", "roman": "야 / 네이" },
+    "howmuch": { "native": "Hoeveel kost het?", "roman": "후페일 코스트 헛?" },
+    "order": { "native": "Deze, alstublieft", "roman": "데저, 알스튀블리프트" },
+    "delicious": { "native": "Heerlijk!", "roman": "헤이를럭!" },
+    "toilet": { "native": "Waar is het toilet?", "roman": "바르 이스 헛 투알렛?" },
+    "english": { "native": "Spreekt u Engels?", "roman": "스프레익트 위 엥얼스?" },
+    "help": { "native": "Help!", "roman": "헬프!" },
+    "cheers": { "native": "Proost!", "roman": "프로스트!" }
+   }
+  },
+  "germany": {
+   "lang": "독일어",
+   "items": {
+    "hello": { "native": "Hallo / Guten Tag", "roman": "할로 / 구텐 탁" },
+    "bye": { "native": "Auf Wiedersehen / Tschüss", "roman": "아우프 비더제엔 / 취스" },
+    "thanks": { "native": "Danke", "roman": "당케" },
+    "sorry": { "native": "Entschuldigung", "roman": "엔트슐디궁" },
+    "yesno": { "native": "Ja / Nein", "roman": "야 / 나인" },
+    "howmuch": { "native": "Was kostet das?", "roman": "바스 코스테트 다스?" },
+    "order": { "native": "Das hier, bitte", "roman": "다스 히어, 비테" },
+    "delicious": { "native": "Sehr lecker!", "roman": "제어 레커!" },
+    "toilet": { "native": "Wo ist die Toilette?", "roman": "보 이스트 디 토일레테?" },
+    "english": { "native": "Sprechen Sie Englisch?", "roman": "슈프레헨 지 엥글리쉬?" },
+    "help": { "native": "Hilfe!", "roman": "힐페!" },
+    "cheers": { "native": "Prost!", "roman": "프로스트!" }
+   }
+  },
+  "switzerland": {
+   "lang": "독일어(스위스)",
+   "note": "지역에 따라 독일어·프랑스어·이탈리아어를 씁니다. 독일어권 인사는 'Grüezi(그뤼에치)'가 특유의 표현입니다.",
+   "items": {
+    "hello": { "native": "Grüezi", "roman": "그뤼에치" },
+    "bye": { "native": "Auf Wiedersehen / Adieu", "roman": "아우프 비더제엔 / 아디외" },
+    "thanks": { "native": "Danke / Merci vilmal", "roman": "당케 / 메르시 필말" },
+    "sorry": { "native": "Entschuldigung", "roman": "엔트슐디궁" },
+    "yesno": { "native": "Ja / Nein", "roman": "야 / 나인" },
+    "howmuch": { "native": "Was kostet das?", "roman": "바스 코스테트 다스?" },
+    "order": { "native": "Das hier, bitte", "roman": "다스 히어, 비테" },
+    "delicious": { "native": "Sehr fein!", "roman": "제어 파인!" },
+    "toilet": { "native": "Wo ist die Toilette?", "roman": "보 이스트 디 토일레테?" },
+    "english": { "native": "Sprechen Sie Englisch?", "roman": "슈프레헨 지 엥글리쉬?" },
+    "help": { "native": "Hilfe!", "roman": "힐페!" },
+    "cheers": { "native": "Proscht! / Santé!", "roman": "프로슈트! / 상테!" }
+   }
+  },
+  "norway": {
+   "lang": "노르웨이어",
+   "items": {
+    "hello": { "native": "Hei", "roman": "헤이" },
+    "bye": { "native": "Ha det", "roman": "하 데" },
+    "thanks": { "native": "Takk", "roman": "탁" },
+    "sorry": { "native": "Unnskyld", "roman": "운쉴" },
+    "yesno": { "native": "Ja / Nei", "roman": "야 / 나이" },
+    "howmuch": { "native": "Hvor mye koster det?", "roman": "부르 뮈에 코스테르 데?" },
+    "order": { "native": "Denne, takk", "roman": "덴네, 탁" },
+    "delicious": { "native": "Veldig godt", "roman": "벨디 곳" },
+    "toilet": { "native": "Hvor er toalettet?", "roman": "부르 애르 투알레테?" },
+    "english": { "native": "Snakker du engelsk?", "roman": "스나케르 두 엥엘스크?" },
+    "help": { "native": "Hjelp!", "roman": "옐프!" },
+    "cheers": { "native": "Skål!", "roman": "스콜!" }
+   }
+  },
+  "sweden": {
+   "lang": "스웨덴어",
+   "items": {
+    "hello": { "native": "Hej", "roman": "헤이" },
+    "bye": { "native": "Hej då", "roman": "헤이 도" },
+    "thanks": { "native": "Tack", "roman": "탁" },
+    "sorry": { "native": "Ursäkta", "roman": "우쉑타" },
+    "yesno": { "native": "Ja / Nej", "roman": "야 / 네이" },
+    "howmuch": { "native": "Vad kostar det?", "roman": "바드 코스타르 데?" },
+    "order": { "native": "Den här, tack", "roman": "덴 해르, 탁" },
+    "delicious": { "native": "Jättegott", "roman": "예테곳" },
+    "toilet": { "native": "Var är toaletten?", "roman": "바르 애르 토아레텐?" },
+    "english": { "native": "Talar du engelska?", "roman": "탈라르 두 엥엘스카?" },
+    "help": { "native": "Hjälp!", "roman": "옐프!" },
+    "cheers": { "native": "Skål!", "roman": "스콜!" }
+   }
+  },
+  "denmark": {
+   "lang": "덴마크어",
+   "items": {
+    "hello": { "native": "Hej", "roman": "하이" },
+    "bye": { "native": "Farvel", "roman": "파벨" },
+    "thanks": { "native": "Tak", "roman": "탁" },
+    "sorry": { "native": "Undskyld", "roman": "운스퀼" },
+    "yesno": { "native": "Ja / Nej", "roman": "야 / 나이" },
+    "howmuch": { "native": "Hvad koster det?", "roman": "바 코스터 데?" },
+    "order": { "native": "Den her, tak", "roman": "덴 헤어, 탁" },
+    "delicious": { "native": "Det smager godt", "roman": "데 스마어 곳" },
+    "toilet": { "native": "Hvor er toilettet?", "roman": "보어 에어 토일레테?" },
+    "english": { "native": "Taler du engelsk?", "roman": "탈러 두 엥엘스크?" },
+    "help": { "native": "Hjælp!", "roman": "옐프!" },
+    "cheers": { "native": "Skål!", "roman": "스콜!" }
+   }
+  },
+  "finland": {
+   "lang": "핀란드어",
+   "items": {
+    "hello": { "native": "Hei", "roman": "헤이" },
+    "bye": { "native": "Näkemiin", "roman": "내케민" },
+    "thanks": { "native": "Kiitos", "roman": "키토스" },
+    "sorry": { "native": "Anteeksi", "roman": "안테엑시" },
+    "yesno": { "native": "Kyllä / Ei", "roman": "퀼래 / 에이" },
+    "howmuch": { "native": "Paljonko maksaa?", "roman": "팔리온코 막사?" },
+    "order": { "native": "Tämä, kiitos", "roman": "태매, 키토스" },
+    "delicious": { "native": "Herkullista", "roman": "헤르쿨리스타" },
+    "toilet": { "native": "Missä on vessa?", "roman": "미새 온 베사?" },
+    "english": { "native": "Puhutko englantia?", "roman": "푸훗코 엥글란티아?" },
+    "help": { "native": "Apua!", "roman": "아푸아!" },
+    "cheers": { "native": "Kippis!", "roman": "키피스!" }
+   }
+  },
+  "iceland": {
+   "lang": "아이슬란드어",
+   "items": {
+    "hello": { "native": "Halló / Góðan daginn", "roman": "할로 / 고단 다이인" },
+    "bye": { "native": "Bless", "roman": "블레스" },
+    "thanks": { "native": "Takk", "roman": "탁" },
+    "sorry": { "native": "Fyrirgefðu", "roman": "피리르게브두" },
+    "yesno": { "native": "Já / Nei", "roman": "야우 / 네이" },
+    "howmuch": { "native": "Hvað kostar þetta?", "roman": "크바드 코스타르 세타?" },
+    "order": { "native": "Þetta, takk", "roman": "세타, 탁" },
+    "delicious": { "native": "Mjög gott", "roman": "미외그 곳" },
+    "toilet": { "native": "Hvar er klósettið?", "roman": "크바르 에르 클로세티드?" },
+    "english": { "native": "Talarðu ensku?", "roman": "탈라르두 엔스쿠?" },
+    "help": { "native": "Hjálp!", "roman": "햐울프!" },
+    "cheers": { "native": "Skál!", "roman": "스카울!" }
+   }
+  },
+  "czechia": {
+   "lang": "체코어",
+   "items": {
+    "hello": { "native": "Dobrý den", "roman": "도브리 덴" },
+    "bye": { "native": "Na shledanou", "roman": "나 스흘레다노우" },
+    "thanks": { "native": "Děkuji", "roman": "뎨쿠이" },
+    "sorry": { "native": "Promiňte", "roman": "프로민테" },
+    "yesno": { "native": "Ano / Ne", "roman": "아노 / 네" },
+    "howmuch": { "native": "Kolik to stojí?", "roman": "콜리크 토 스토이?" },
+    "order": { "native": "Tohle, prosím", "roman": "토흘레, 프로심" },
+    "delicious": { "native": "Moc dobré", "roman": "모츠 도브레" },
+    "toilet": { "native": "Kde je záchod?", "roman": "그데 예 자호트?" },
+    "english": { "native": "Mluvíte anglicky?", "roman": "믈루비테 앙글리츠키?" },
+    "help": { "native": "Pomoc!", "roman": "포모츠!" },
+    "cheers": { "native": "Na zdraví!", "roman": "나 즈드라비!" }
+   }
+  },
+  "austria": {
+   "lang": "독일어(오스트리아)",
+   "note": "오스트리아에서는 'Guten Tag'보다 'Grüß Gott(그뤼스 고트)' 인사가 훨씬 흔합니다.",
+   "items": {
+    "hello": { "native": "Grüß Gott", "roman": "그뤼스 고트" },
+    "bye": { "native": "Auf Wiedersehen / Servus", "roman": "아우프 비더제엔 / 제르부스" },
+    "thanks": { "native": "Danke", "roman": "당케" },
+    "sorry": { "native": "Entschuldigung", "roman": "엔트슐디궁" },
+    "yesno": { "native": "Ja / Nein", "roman": "야 / 나인" },
+    "howmuch": { "native": "Was kostet das?", "roman": "바스 코스테트 다스?" },
+    "order": { "native": "Das hier, bitte", "roman": "다스 히어, 비테" },
+    "delicious": { "native": "Sehr lecker!", "roman": "제어 레커!" },
+    "toilet": { "native": "Wo ist die Toilette?", "roman": "보 이스트 디 토일레테?" },
+    "english": { "native": "Sprechen Sie Englisch?", "roman": "슈프레헨 지 엥글리쉬?" },
+    "help": { "native": "Hilfe!", "roman": "힐페!" },
+    "cheers": { "native": "Prost!", "roman": "프로스트!" }
+   }
+  },
+  "hungary": {
+   "lang": "헝가리어",
+   "note": "헝가리에서는 건배할 때 맥주잔은 부딪히지 않는 전통이 있습니다(1848년 혁명 유래).",
+   "items": {
+    "hello": { "native": "Jó napot", "roman": "요 너포트" },
+    "bye": { "native": "Viszlát", "roman": "비슬라트" },
+    "thanks": { "native": "Köszönöm", "roman": "쾨쇠뇜" },
+    "sorry": { "native": "Elnézést", "roman": "엘네제슈트" },
+    "yesno": { "native": "Igen / Nem", "roman": "이겐 / 넴" },
+    "howmuch": { "native": "Mennyibe kerül?", "roman": "멘니베 케륄?" },
+    "order": { "native": "Ezt kérem", "roman": "에스트 케렘" },
+    "delicious": { "native": "Nagyon finom", "roman": "너존 피놈" },
+    "toilet": { "native": "Hol van a mosdó?", "roman": "홀 번 어 모슈도?" },
+    "english": { "native": "Beszél angolul?", "roman": "베셀 언골룰?" },
+    "help": { "native": "Segítség!", "roman": "셰기트셰그!" },
+    "cheers": { "native": "Egészségedre!", "roman": "에게셰게드레!" }
+   }
+  },
+  "poland": {
+   "lang": "폴란드어",
+   "items": {
+    "hello": { "native": "Dzień dobry", "roman": "지엔 도브리" },
+    "bye": { "native": "Do widzenia", "roman": "도 비제니아" },
+    "thanks": { "native": "Dziękuję", "roman": "지엥쿠예" },
+    "sorry": { "native": "Przepraszam", "roman": "프셰프라샴" },
+    "yesno": { "native": "Tak / Nie", "roman": "탁 / 니에" },
+    "howmuch": { "native": "Ile to kosztuje?", "roman": "일레 토 코슈투예?" },
+    "order": { "native": "To poproszę", "roman": "토 포프로셰" },
+    "delicious": { "native": "Bardzo smaczne", "roman": "바르조 스마치네" },
+    "toilet": { "native": "Gdzie jest toaleta?", "roman": "그제 예스트 토알레타?" },
+    "english": { "native": "Czy mówi pan/pani po angielsku?", "roman": "치 무비 판/파니 포 앙기엘스쿠?" },
+    "help": { "native": "Pomocy!", "roman": "포모치!" },
+    "cheers": { "native": "Na zdrowie!", "roman": "나 즈드로비에!" }
+   }
+  },
+  "slovenia": {
+   "lang": "슬로베니아어",
+   "items": {
+    "hello": { "native": "Dober dan", "roman": "도베르 단" },
+    "bye": { "native": "Nasvidenje", "roman": "나스비데니에" },
+    "thanks": { "native": "Hvala", "roman": "흐발라" },
+    "sorry": { "native": "Oprostite", "roman": "오프로스티테" },
+    "yesno": { "native": "Da / Ne", "roman": "다 / 네" },
+    "howmuch": { "native": "Koliko stane?", "roman": "콜리코 스타네?" },
+    "order": { "native": "To, prosim", "roman": "토, 프로심" },
+    "delicious": { "native": "Zelo okusno", "roman": "젤로 오쿠스노" },
+    "toilet": { "native": "Kje je stranišče?", "roman": "키에 예 스트라니슈체?" },
+    "english": { "native": "Govorite angleško?", "roman": "고보리테 앙글레슈코?" },
+    "help": { "native": "Na pomoč!", "roman": "나 포모치!" },
+    "cheers": { "native": "Na zdravje!", "roman": "나 즈드라비에!" }
+   }
+  },
+  "slovakia": {
+   "lang": "슬로바키아어",
+   "items": {
+    "hello": { "native": "Dobrý deň", "roman": "도브리 뎬" },
+    "bye": { "native": "Dovidenia", "roman": "도비데니아" },
+    "thanks": { "native": "Ďakujem", "roman": "댜쿠옘" },
+    "sorry": { "native": "Prepáčte", "roman": "프레파치테" },
+    "yesno": { "native": "Áno / Nie", "roman": "아노 / 니에" },
+    "howmuch": { "native": "Koľko to stojí?", "roman": "콜코 토 스토이?" },
+    "order": { "native": "Toto, prosím", "roman": "토토, 프로심" },
+    "delicious": { "native": "Veľmi dobré", "roman": "벨미 도브레" },
+    "toilet": { "native": "Kde je toaleta?", "roman": "그데 예 토알레타?" },
+    "english": { "native": "Hovoríte po anglicky?", "roman": "호보리테 포 앙글리츠키?" },
+    "help": { "native": "Pomoc!", "roman": "포모츠!" },
+    "cheers": { "native": "Na zdravie!", "roman": "나 즈드라비에!" }
+   }
+  },
+  "romania": {
+   "lang": "루마니아어",
+   "items": {
+    "hello": { "native": "Bună ziua", "roman": "부너 지우아" },
+    "bye": { "native": "La revedere", "roman": "라 레베데레" },
+    "thanks": { "native": "Mulțumesc", "roman": "물추메스크" },
+    "sorry": { "native": "Scuzați-mă", "roman": "스쿠자치머" },
+    "yesno": { "native": "Da / Nu", "roman": "다 / 누" },
+    "howmuch": { "native": "Cât costă?", "roman": "컷 코스터?" },
+    "order": { "native": "Acesta, vă rog", "roman": "아체스타, 버 로그" },
+    "delicious": { "native": "Foarte gustos", "roman": "포아르테 구스토스" },
+    "toilet": { "native": "Unde este toaleta?", "roman": "운데 에스테 토알레타?" },
+    "english": { "native": "Vorbiți engleză?", "roman": "보르비치 엥글레저?" },
+    "help": { "native": "Ajutor!", "roman": "아주토르!" },
+    "cheers": { "native": "Noroc!", "roman": "노록!" }
+   }
+  },
+  "bulgaria": {
+   "lang": "불가리아어",
+   "note": "불가리아에서는 고개를 끄덕이면 '아니요', 좌우로 저으면 '네'에 가깝습니다 — 헷갈리면 말로 확인하세요.",
+   "items": {
+    "hello": { "native": "Здравейте", "roman": "즈드라베이테" },
+    "bye": { "native": "Довиждане", "roman": "도비주다네" },
+    "thanks": { "native": "Благодаря", "roman": "블라고다랴" },
+    "sorry": { "native": "Извинете", "roman": "이즈비네테" },
+    "yesno": { "native": "Да / Не", "roman": "다 / 네" },
+    "howmuch": { "native": "Колко струва?", "roman": "콜코 스트루바?" },
+    "order": { "native": "Това, моля", "roman": "토바, 몰랴" },
+    "delicious": { "native": "Много вкусно", "roman": "므노고 프쿠스노" },
+    "toilet": { "native": "Къде е тоалетната?", "roman": "커데 에 토알레트나타?" },
+    "english": { "native": "Говорите ли английски?", "roman": "고보리테 리 앙글리스키?" },
+    "help": { "native": "Помощ!", "roman": "포모슈트!" },
+    "cheers": { "native": "Наздраве!", "roman": "나즈드라베!" }
+   }
+  },
+  "estonia": {
+   "lang": "에스토니아어",
+   "items": {
+    "hello": { "native": "Tere", "roman": "테레" },
+    "bye": { "native": "Head aega", "roman": "헤아드 아에가" },
+    "thanks": { "native": "Aitäh", "roman": "아이태" },
+    "sorry": { "native": "Vabandust", "roman": "바반두스트" },
+    "yesno": { "native": "Jah / Ei", "roman": "야흐 / 에이" },
+    "howmuch": { "native": "Kui palju maksab?", "roman": "쿠이 팔유 막삽?" },
+    "order": { "native": "Selle, palun", "roman": "셀레, 팔룬" },
+    "delicious": { "native": "Väga maitsev", "roman": "배가 마이체브" },
+    "toilet": { "native": "Kus on tualett?", "roman": "쿠스 온 투알레트?" },
+    "english": { "native": "Kas te räägite inglise keelt?", "roman": "카스 테 래기테 잉글리세 켈트?" },
+    "help": { "native": "Appi!", "roman": "아피!" },
+    "cheers": { "native": "Terviseks!", "roman": "테르비섹스!" }
+   }
+  },
+  "latvia": {
+   "lang": "라트비아어",
+   "items": {
+    "hello": { "native": "Sveiki", "roman": "스베이키" },
+    "bye": { "native": "Uz redzēšanos", "roman": "우즈 레제샤노스" },
+    "thanks": { "native": "Paldies", "roman": "팔디에스" },
+    "sorry": { "native": "Atvainojiet", "roman": "아트바이노예트" },
+    "yesno": { "native": "Jā / Nē", "roman": "야 / 네" },
+    "howmuch": { "native": "Cik maksā?", "roman": "치크 막사?" },
+    "order": { "native": "Šo, lūdzu", "roman": "쇼, 루주" },
+    "delicious": { "native": "Ļoti garšīgi", "roman": "료티 가르시기" },
+    "toilet": { "native": "Kur ir tualete?", "roman": "쿠르 이르 투알레테?" },
+    "english": { "native": "Vai jūs runājat angliski?", "roman": "바이 유스 루나야트 앙글리스키?" },
+    "help": { "native": "Palīgā!", "roman": "팔리가!" },
+    "cheers": { "native": "Priekā!", "roman": "프리에카!" }
+   }
+  },
+  "lithuania": {
+   "lang": "리투아니아어",
+   "items": {
+    "hello": { "native": "Laba diena", "roman": "라바 디에나" },
+    "bye": { "native": "Viso gero", "roman": "비소 게로" },
+    "thanks": { "native": "Ačiū", "roman": "아추" },
+    "sorry": { "native": "Atsiprašau", "roman": "아치프라샤우" },
+    "yesno": { "native": "Taip / Ne", "roman": "타이프 / 네" },
+    "howmuch": { "native": "Kiek kainuoja?", "roman": "키에크 카이누오야?" },
+    "order": { "native": "Šitą, prašau", "roman": "시타, 프라샤우" },
+    "delicious": { "native": "Labai skanu", "roman": "라바이 스카누" },
+    "toilet": { "native": "Kur yra tualetas?", "roman": "쿠르 이라 투알레타스?" },
+    "english": { "native": "Ar kalbate angliškai?", "roman": "아르 칼바테 앙글리슈카이?" },
+    "help": { "native": "Padėkite!", "roman": "파데키테!" },
+    "cheers": { "native": "Į sveikatą!", "roman": "이 스베이카타!" }
+   }
+  },
+  "ireland": {
+   "lang": "영어(아일랜드)",
+   "note": "모국어가 영어입니다. 건배는 아일랜드어(게일어)로 'Sláinte'라고 하면 크게 환영받습니다.",
+   "items": {
+    "hello": { "native": "Hello / Hiya", "roman": "헬로 / 하이야" },
+    "bye": { "native": "Bye / See you", "roman": "바이 / 씨 유" },
+    "thanks": { "native": "Thanks a million", "roman": "탱스 어 밀리언" },
+    "sorry": { "native": "Sorry / Excuse me", "roman": "쏘리 / 익스큐즈 미" },
+    "yesno": { "native": "Yes / No", "roman": "예스 / 노" },
+    "howmuch": { "native": "How much is it?", "roman": "하우 머치 이즈 잇?" },
+    "order": { "native": "This one, please", "roman": "디스 원, 플리즈" },
+    "delicious": { "native": "It's lovely", "roman": "잇츠 러블리" },
+    "toilet": { "native": "Where's the toilet?", "roman": "웨어즈 더 토일렛?" },
+    "help": { "native": "Help!", "roman": "헬프!" },
+    "cheers": { "native": "Sláinte!", "roman": "슬론처!" }
+   }
+  },
+  "uk": {
+   "lang": "영어(영국)",
+   "note": "'Cheers'는 건배이자 가벼운 '고마워요'로도 씁니다.",
+   "items": {
+    "hello": { "native": "Hello / Hiya", "roman": "헬로 / 하이야" },
+    "bye": { "native": "Bye / Cheerio", "roman": "바이 / 치리오" },
+    "thanks": { "native": "Thank you / Cheers", "roman": "땡큐 / 치어스" },
+    "sorry": { "native": "Sorry / Excuse me", "roman": "쏘리 / 익스큐즈 미" },
+    "yesno": { "native": "Yes / No", "roman": "예스 / 노" },
+    "howmuch": { "native": "How much is it?", "roman": "하우 머치 이즈 잇?" },
+    "order": { "native": "This one, please", "roman": "디스 원, 플리즈" },
+    "delicious": { "native": "It's delicious", "roman": "잇츠 딜리셔스" },
+    "toilet": { "native": "Where's the loo?", "roman": "웨어즈 더 루?" },
+    "help": { "native": "Help!", "roman": "헬프!" },
+    "cheers": { "native": "Cheers!", "roman": "치어스!" }
+   }
+  },
+  "belgium": {
+   "lang": "프랑스어(브뤼셀·왈로니아)",
+   "note": "브뤼헤·겐트·안트베르펜 등 플랑드르 지역은 네덜란드어권입니다. 그쪽에서는 'Hallo / Dank u wel(할로/당크 위 벨)'을 쓰세요.",
+   "items": {
+    "hello": { "native": "Bonjour", "roman": "봉주르" },
+    "bye": { "native": "Au revoir", "roman": "오 르부아르" },
+    "thanks": { "native": "Merci", "roman": "메르시" },
+    "sorry": { "native": "Excusez-moi / Pardon", "roman": "엑스퀴제무아 / 파르동" },
+    "yesno": { "native": "Oui / Non", "roman": "위 / 농" },
+    "howmuch": { "native": "C'est combien ?", "roman": "세 콩비앙?" },
+    "order": { "native": "Ça, s'il vous plaît", "roman": "사, 실 부 플레" },
+    "delicious": { "native": "C'est délicieux", "roman": "세 델리시외" },
+    "toilet": { "native": "Où sont les toilettes ?", "roman": "우 송 레 투알레트?" },
+    "english": { "native": "Parlez-vous anglais ?", "roman": "파를레부 앙글레?" },
+    "help": { "native": "Aidez-moi !", "roman": "에데무아!" },
+    "cheers": { "native": "Santé ! / Proost !", "roman": "상테! / 프로스트!" }
+   }
+  },
+  "luxembourg": {
+   "lang": "룩셈부르크어",
+   "note": "프랑스어·독일어도 공용어라 어느 쪽으로 말해도 통합니다.",
+   "items": {
+    "hello": { "native": "Moien", "roman": "모이엔" },
+    "bye": { "native": "Äddi", "roman": "애디" },
+    "thanks": { "native": "Merci", "roman": "메르시" },
+    "sorry": { "native": "Pardon", "roman": "파르동" },
+    "yesno": { "native": "Jo / Neen", "roman": "요 / 넨" },
+    "howmuch": { "native": "Wéi vill kascht dat?", "roman": "베이 필 카슈트 닷?" },
+    "order": { "native": "Dat do, wann ech gelift", "roman": "닷 도, 반 에히 겔리프트" },
+    "delicious": { "native": "Ganz gutt", "roman": "간츠 굿" },
+    "toilet": { "native": "Wou ass d'Toilette?", "roman": "보우 아스 트왈레트?" },
+    "english": { "native": "Schwätzt Dir Englesch?", "roman": "슈베츠트 디어 엥레쉬?" },
+    "help": { "native": "Hëllef!", "roman": "헬레프!" },
+    "cheers": { "native": "Prost!", "roman": "프로스트!" }
+   }
+  },
+  "canary": {
+   "lang": "스페인어(카나리아)",
+   "note": "스페인 본토와 같은 스페인어를 쓰며, 억양이 라틴아메리카에 가깝습니다.",
+   "items": {
+    "hello": { "native": "Hola", "roman": "올라" },
+    "bye": { "native": "Adiós", "roman": "아디오스" },
+    "thanks": { "native": "Gracias", "roman": "그라시아스" },
+    "sorry": { "native": "Perdón / Disculpe", "roman": "페르돈 / 디스쿨페" },
+    "yesno": { "native": "Sí / No", "roman": "시 / 노" },
+    "howmuch": { "native": "¿Cuánto cuesta?", "roman": "쿠안토 쿠에스타?" },
+    "order": { "native": "Esto, por favor", "roman": "에스토, 포르 파보르" },
+    "delicious": { "native": "¡Qué rico!", "roman": "케 리코!" },
+    "toilet": { "native": "¿Dónde está el baño?", "roman": "돈데 에스타 엘 바뇨?" },
+    "english": { "native": "¿Habla inglés?", "roman": "아블라 잉글레스?" },
+    "help": { "native": "¿Me puede ayudar?", "roman": "메 푸에데 아유다르?" },
+    "cheers": { "native": "¡Salud!", "roman": "살루드!" }
+   }
+  }
+ }
+}
