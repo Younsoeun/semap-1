@@ -1,0 +1,260 @@
+{
+ "countries": [
+  {
+   "key": "austria",
+   "admin": "Austria",
+   "nameKo": "오스트리아",
+   "nameEn": "Austria",
+   "cities": 6,
+   "attractions": 8
+  },
+  {
+   "key": "belgium",
+   "admin": "Belgium",
+   "nameKo": "벨기에",
+   "nameEn": "Belgium",
+   "cities": 5,
+   "attractions": 6
+  },
+  {
+   "key": "bulgaria",
+   "admin": "Bulgaria",
+   "nameKo": "불가리아",
+   "nameEn": "Bulgaria",
+   "cities": 6,
+   "attractions": 6
+  },
+  {
+   "key": "canary",
+   "admin": "Spain",
+   "nameKo": "카나리아 제도",
+   "nameEn": "Canary Islands",
+   "cities": 6,
+   "attractions": 11
+  },
+  {
+   "key": "croatia",
+   "admin": "Croatia",
+   "nameKo": "크로아티아",
+   "nameEn": "Croatia",
+   "cities": 12,
+   "attractions": 16
+  },
+  {
+   "key": "czechia",
+   "admin": "Czechia",
+   "nameKo": "체코",
+   "nameEn": "Czechia",
+   "cities": 8,
+   "attractions": 12
+  },
+  {
+   "key": "denmark",
+   "admin": "Denmark",
+   "nameKo": "덴마크",
+   "nameEn": "Denmark",
+   "cities": 7,
+   "attractions": 9
+  },
+  {
+   "key": "estonia",
+   "admin": "Estonia",
+   "nameKo": "에스토니아",
+   "nameEn": "Estonia",
+   "cities": 4,
+   "attractions": 5
+  },
+  {
+   "key": "finland",
+   "admin": "Finland",
+   "nameKo": "핀란드",
+   "nameEn": "Finland",
+   "cities": 7,
+   "attractions": 9
+  },
+  {
+   "key": "france",
+   "admin": "France",
+   "nameKo": "프랑스",
+   "nameEn": "France",
+   "cities": 18,
+   "attractions": 30
+  },
+  {
+   "key": "germany",
+   "admin": "Germany",
+   "nameKo": "독일",
+   "nameEn": "Germany",
+   "cities": 13,
+   "attractions": 20
+  },
+  {
+   "key": "greece",
+   "admin": "Greece",
+   "nameKo": "그리스",
+   "nameEn": "Greece",
+   "cities": 16,
+   "attractions": 24
+  },
+  {
+   "key": "hungary",
+   "admin": "Hungary",
+   "nameKo": "헝가리",
+   "nameEn": "Hungary",
+   "cities": 5,
+   "attractions": 7
+  },
+  {
+   "key": "iceland",
+   "admin": "Iceland",
+   "nameKo": "아이슬란드",
+   "nameEn": "Iceland",
+   "cities": 8,
+   "attractions": 8
+  },
+  {
+   "key": "ireland",
+   "admin": "Ireland",
+   "nameKo": "아일랜드",
+   "nameEn": "Ireland",
+   "cities": 8,
+   "attractions": 9
+  },
+  {
+   "key": "italy",
+   "admin": "Italy",
+   "nameKo": "이탈리아",
+   "nameEn": "Italy",
+   "cities": 16,
+   "attractions": 30
+  },
+  {
+   "key": "latvia",
+   "admin": "Latvia",
+   "nameKo": "라트비아",
+   "nameEn": "Latvia",
+   "cities": 4,
+   "attractions": 5
+  },
+  {
+   "key": "lithuania",
+   "admin": "Lithuania",
+   "nameKo": "리투아니아",
+   "nameEn": "Lithuania",
+   "cities": 5,
+   "attractions": 5
+  },
+  {
+   "key": "luxembourg",
+   "admin": "Luxembourg",
+   "nameKo": "룩셈부르크",
+   "nameEn": "Luxembourg",
+   "cities": 3,
+   "attractions": 4
+  },
+  {
+   "key": "malta",
+   "admin": "Malta",
+   "nameKo": "몰타",
+   "nameEn": "Malta",
+   "cities": 8,
+   "attractions": 12
+  },
+  {
+   "key": "morocco",
+   "admin": "Morocco",
+   "nameKo": "모로코",
+   "nameEn": "Morocco",
+   "cities": 13,
+   "attractions": 21
+  },
+  {
+   "key": "netherlands",
+   "admin": "Netherlands",
+   "nameKo": "네덜란드",
+   "nameEn": "Netherlands",
+   "cities": 8,
+   "attractions": 13
+  },
+  {
+   "key": "norway",
+   "admin": "Norway",
+   "nameKo": "노르웨이",
+   "nameEn": "Norway",
+   "cities": 10,
+   "attractions": 14
+  },
+  {
+   "key": "poland",
+   "admin": "Poland",
+   "nameKo": "폴란드",
+   "nameEn": "Poland",
+   "cities": 7,
+   "attractions": 8
+  },
+  {
+   "key": "portugal",
+   "admin": "Portugal",
+   "nameKo": "포르투갈",
+   "nameEn": "Portugal",
+   "cities": 12,
+   "attractions": 28
+  },
+  {
+   "key": "romania",
+   "admin": "Romania",
+   "nameKo": "루마니아",
+   "nameEn": "Romania",
+   "cities": 8,
+   "attractions": 8
+  },
+  {
+   "key": "slovakia",
+   "admin": "Slovakia",
+   "nameKo": "슬로바키아",
+   "nameEn": "Slovakia",
+   "cities": 7,
+   "attractions": 7
+  },
+  {
+   "key": "slovenia",
+   "admin": "Slovenia",
+   "nameKo": "슬로베니아",
+   "nameEn": "Slovenia",
+   "cities": 5,
+   "attractions": 5
+  },
+  {
+   "key": "spain",
+   "admin": "Spain",
+   "nameKo": "스페인",
+   "nameEn": "Spain",
+   "cities": 18,
+   "attractions": 33
+  },
+  {
+   "key": "sweden",
+   "admin": "Sweden",
+   "nameKo": "스웨덴",
+   "nameEn": "Sweden",
+   "cities": 8,
+   "attractions": 12
+  },
+  {
+   "key": "switzerland",
+   "admin": "Switzerland",
+   "nameKo": "스위스",
+   "nameEn": "Switzerland",
+   "cities": 9,
+   "attractions": 14
+  },
+  {
+   "key": "uk",
+   "admin": "United Kingdom",
+   "nameKo": "영국",
+   "nameEn": "United Kingdom",
+   "cities": 12,
+   "attractions": 15
+  }
+ ]
+}

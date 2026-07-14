@@ -1,0 +1,222 @@
+{
+ "key": "netherlands",
+ "admin": "Netherlands",
+ "nameKo": "네덜란드",
+ "nameEn": "Netherlands",
+ "categories": [
+  {
+   "id": "canal",
+   "nameKo": "운하·마을",
+   "nameEn": "Canal & Village",
+   "varName": "--c1"
+  },
+  {
+   "id": "art",
+   "nameKo": "미술·박물관",
+   "nameEn": "Art & Museum",
+   "varName": "--c2"
+  },
+  {
+   "id": "windmill",
+   "nameKo": "풍차·전원",
+   "nameEn": "Windmill & Country",
+   "varName": "--c3"
+  },
+  {
+   "id": "landmark",
+   "nameKo": "랜드마크·건축",
+   "nameEn": "Landmark & Architecture",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "amsterdam",
+   "nameKo": "암스테르담",
+   "nameEn": "Amsterdam",
+   "lon": 4.9041,
+   "lat": 52.3676
+  },
+  {
+   "id": "rotterdam",
+   "nameKo": "로테르담",
+   "nameEn": "Rotterdam",
+   "lon": 4.4777,
+   "lat": 51.9244
+  },
+  {
+   "id": "den-haag",
+   "nameKo": "헤이그",
+   "nameEn": "The Hague",
+   "lon": 4.3007,
+   "lat": 52.0705
+  },
+  {
+   "id": "utrecht",
+   "nameKo": "위트레흐트",
+   "nameEn": "Utrecht",
+   "lon": 5.1214,
+   "lat": 52.0907
+  },
+  {
+   "id": "delft",
+   "nameKo": "델프트",
+   "nameEn": "Delft",
+   "lon": 4.3571,
+   "lat": 52.0116
+  },
+  {
+   "id": "kinderdijk",
+   "nameKo": "킨더다이크",
+   "nameEn": "Kinderdijk",
+   "lon": 4.64,
+   "lat": 51.8836
+  },
+  {
+   "id": "giethoorn",
+   "nameKo": "기트호른",
+   "nameEn": "Giethoorn",
+   "lon": 6.078,
+   "lat": 52.7386
+  },
+  {
+   "id": "zaanse-schans",
+   "nameKo": "잔서스칸스",
+   "nameEn": "Zaanse Schans",
+   "lon": 4.8167,
+   "lat": 52.4742
+  }
+ ],
+ "attractions": [
+  {
+   "id": "amsterdam-canal-ring",
+   "cityId": "amsterdam",
+   "category": "canal",
+   "nameKo": "운하 지구 (그라흐턴고르덜)",
+   "nameEn": "Canal Ring",
+   "history": "17세기 황금시대에 계획적으로 판 동심원형 운하망으로, 2010년 유네스코 세계유산에 등재됐다.",
+   "intro": "물길을 따라 늘어선 좁고 높은 박공 상인 저택과 다리, 하우스보트가 암스테르담의 상징이다. 보트 투어로 도시를 물 위에서 볼 수 있다.",
+   "tip": "낮보다 해질녘 운하 크루즈가 분위기 있다. 자전거가 많으니 다리·자전거도로에서 통행에 주의하자."
+  },
+  {
+   "id": "rijksmuseum",
+   "cityId": "amsterdam",
+   "category": "art",
+   "nameKo": "레이크스 국립미술관",
+   "nameEn": "Rijksmuseum",
+   "history": "네덜란드 황금시대 미술을 집대성한 국립미술관으로, 19세기 말 피에르 카위퍼르스가 설계한 건물을 쓴다.",
+   "intro": "렘브란트의 '야경', 페르메이르의 '우유 따르는 여인' 등 걸작을 소장한다. 명예의 갤러리(Gallery of Honour)가 하이라이트다.",
+   "tip": "시간지정 예매를 권한다. 뒤편 미술관 광장(뮤지엄플레인)의 'I amsterdam' 조형과 반 고흐 미술관이 가깝다."
+  },
+  {
+   "id": "van-gogh-museum",
+   "cityId": "amsterdam",
+   "category": "art",
+   "nameKo": "반 고흐 미술관",
+   "nameEn": "Van Gogh Museum",
+   "history": "빈센트 반 고흐의 작품을 세계에서 가장 많이 소장한 미술관으로, 1973년 개관했다.",
+   "intro": "'해바라기', '감자 먹는 사람들', '아몬드 꽃' 등 시기별 대표작과 편지를 통해 화가의 생애를 따라갈 수 있다.",
+   "tip": "온라인 시간지정 예매가 사실상 필수다. 현장 구매가 어려우니 미리 표를 확보하자."
+  },
+  {
+   "id": "anne-frank-house",
+   "cityId": "amsterdam",
+   "category": "art",
+   "nameKo": "안네 프랑크의 집",
+   "nameEn": "Anne Frank House",
+   "history": "2차대전 중 안네 프랑크 가족이 나치를 피해 숨어 지낸 은신처(옛 회사 건물 뒤편)를 보존한 박물관이다. 안네의 일기가 여기서 쓰였다.",
+   "intro": "책장 뒤에 숨겨진 '별채(안네 별관)'로 들어가 당시의 방과 일기 원본을 마주한다. 전쟁과 인권을 되새기게 하는 공간이다.",
+   "tip": "표는 온라인으로만 판매되며 몇 주 전 매진되니 미리 예매해야 한다. 내부는 촬영 금지·정숙이 요구된다."
+  },
+  {
+   "id": "cube-houses",
+   "cityId": "rotterdam",
+   "category": "landmark",
+   "nameKo": "큐브 하우스",
+   "nameEn": "Cube Houses",
+   "history": "건축가 피트 블롬이 1980년대에 지은 45도로 기울인 정육면체 주택 단지로, '나무가 모인 숲'을 형상화했다.",
+   "intro": "노란 큐브들이 기하학적으로 얽힌 실험적 주거로, 로테르담의 현대 건축을 상징한다. 한 채는 박물관으로 개방된다.",
+   "tip": "2차대전으로 도심이 파괴된 로테르담은 이후 대담한 현대 건축의 실험장이 됐다. 인근 마르크트할(시장 건물)도 함께 보자."
+  },
+  {
+   "id": "erasmus-bridge",
+   "cityId": "rotterdam",
+   "category": "landmark",
+   "nameKo": "에라스뮈스 다리",
+   "nameEn": "Erasmus Bridge",
+   "history": "1996년 완공된 사장교로, 백조를 닮은 우아한 실루엣 덕에 '더 스완(백조)'이라 불린다.",
+   "intro": "마스 강을 가로지르며 로테르담의 현대적 스카이라인을 상징한다. 밤 조명이 특히 아름답다.",
+   "tip": "강변 산책이나 워터택시로 다리와 항구 스카이라인을 함께 보기 좋다."
+  },
+  {
+   "id": "mauritshuis",
+   "cityId": "den-haag",
+   "category": "art",
+   "nameKo": "마우리츠하위스",
+   "nameEn": "Mauritshuis",
+   "history": "17세기 저택을 미술관으로 쓰는 곳으로, 네덜란드 황금시대 회화의 정수를 소장한다.",
+   "intro": "페르메이르의 '진주 귀걸이를 한 소녀'와 '델프트 풍경', 렘브란트의 작품이 대표적이다. 아담한 규모라 여유롭게 감상할 수 있다.",
+   "tip": "'진주 귀걸이를 한 소녀' 앞은 붐비니 개장 직후가 좋다. 인근 정부청사 비넨호프와 함께 보기 좋다."
+  },
+  {
+   "id": "binnenhof",
+   "cityId": "den-haag",
+   "category": "landmark",
+   "nameKo": "비넨호프",
+   "nameEn": "Binnenhof",
+   "history": "13세기부터 이어진 네덜란드 정치의 중심으로, 세계에서 가장 오래 쓰인 의회 건물 중 하나다. 안뜰에 고딕 기사의 홀(리더르잘)이 있다.",
+   "intro": "호수(호프페이버르)에 비친 고풍스러운 정부청사 실루엣이 헤이그의 상징이다. 헤이그는 국제사법재판소가 있는 '평화·정의의 도시'다.",
+   "tip": "대규모 보수를 거쳐 온 만큼 개방·투어 운영을 미리 확인하자. 호숫가에서 보는 전경이 사진 명소다."
+  },
+  {
+   "id": "dom-tower-utrecht",
+   "cityId": "utrecht",
+   "category": "landmark",
+   "nameKo": "돔 타워",
+   "nameEn": "Dom Tower",
+   "history": "14세기에 지은 높이 약 112m의 종탑으로, 네덜란드에서 가장 높은 교회탑이다. 폭풍으로 본당과 탑 사이가 무너져 지금은 광장으로 분리돼 있다.",
+   "intro": "465개의 계단을 올라 위트레흐트와 주변 전원을 조망할 수 있다. 운하 양옆 지하 창고를 개조한 카페(부르프)가 있는 아기자기한 대학 도시다.",
+   "tip": "탑 등반은 가이드 투어로만 가능하다. 암스테르담에서 기차로 30분 거리라 당일치기가 쉽다."
+  },
+  {
+   "id": "delft-old-town",
+   "cityId": "delft",
+   "category": "canal",
+   "nameKo": "델프트 구시가",
+   "nameEn": "Delft Old Town",
+   "history": "화가 페르메이르의 고향이자, 파란 도자기 '델프트 블루'의 본고장이다. 오라녜 왕가의 영묘가 있는 신교회(니우어 케르크)가 있다.",
+   "intro": "운하와 보리수, 나지막한 벽돌집이 어우러진 그림 같은 소도시다. 관광지 암스테르담보다 한적하고 정갈하다.",
+   "tip": "델프트 도자기 공방을 견학할 수 있다. 신교회 탑에 오르면 붉은 지붕의 구시가가 내려다보인다."
+  },
+  {
+   "id": "kinderdijk-windmills",
+   "cityId": "kinderdijk",
+   "category": "windmill",
+   "nameKo": "킨더다이크 풍차",
+   "nameEn": "Kinderdijk Windmills",
+   "history": "18세기에 저지대의 물을 퍼내기 위해 세운 19기의 풍차가 모여 있는 곳으로, 1997년 유네스코 세계유산에 등재됐다.",
+   "intro": "운하를 따라 늘어선 풍차의 행렬이 네덜란드의 물 관리 역사를 보여준다. 자전거·보트로 풍차 사이를 돌 수 있다.",
+   "tip": "로테르담에서 워터버스로 닿는다. 물에 비친 풍차가 아름다운 아침·해질녘을 노려보자."
+  },
+  {
+   "id": "giethoorn-village",
+   "cityId": "giethoorn",
+   "category": "canal",
+   "nameKo": "기트호른 물의 마을",
+   "nameEn": "Giethoorn",
+   "history": "도로 대신 운하와 오솔길로 이어진 마을로, 이탄을 캐낸 자리에 물길이 생기며 형성됐다. '네덜란드의 베네치아'라 불린다.",
+   "intro": "차 없이 배(위스퍼보트)와 아치형 나무다리로만 오가는 초가지붕 집들이 그림 같다. 조용하고 목가적인 분위기다.",
+   "tip": "성수기 낮에는 붐비니 이른 아침이나 늦은 오후가 한적하다. 작은 전기보트를 직접 몰며 마을을 도는 것이 백미다."
+  },
+  {
+   "id": "zaanse-schans-windmills",
+   "cityId": "zaanse-schans",
+   "category": "windmill",
+   "nameKo": "잔서스칸스 풍차 마을",
+   "nameEn": "Zaanse Schans",
+   "history": "17~18세기 잔 지역의 목조 가옥과 작동하는 풍차들을 한곳에 모아 보존한 야외 마을이다.",
+   "intro": "제재·염료·기름을 빻던 풍차가 지금도 돌아가고, 치즈·나막신(클롬펀) 공방을 볼 수 있다. 암스테르담 근교의 인기 나들이 코스다.",
+   "tip": "암스테르담에서 기차로 약 20분이라 반나절 코스로 좋다. 이른 오전이 붐비지 않는다."
+  }
+ ]
+}

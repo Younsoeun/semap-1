@@ -1,0 +1,325 @@
+{
+ "stops": [
+  {
+   "id": "fr",
+   "nameKo": "프랑스",
+   "nameEn": "France",
+   "flag": "🇫🇷",
+   "countryKey": "france",
+   "season": "8월 말~9월",
+   "hint": "겨울엔 춥고 습해서 초가을에 먼저",
+   "cities": [
+    {
+     "id": "fr-paris",
+     "nameKo": "파리",
+     "nameEn": "Paris",
+     "cityId": "paris"
+    },
+    {
+     "id": "fr-lyon",
+     "nameKo": "리옹",
+     "nameEn": "Lyon",
+     "cityId": "lyon"
+    },
+    {
+     "id": "fr-provence",
+     "nameKo": "프로방스",
+     "nameEn": "Provence"
+    },
+    {
+     "id": "fr-alsace",
+     "nameKo": "알자스(스트라스부르)",
+     "nameEn": "Alsace",
+     "cityId": "strasbourg"
+    }
+   ]
+  },
+  {
+   "id": "es-n",
+   "nameKo": "스페인 북부",
+   "nameEn": "Northern Spain",
+   "flag": "🇪🇸",
+   "countryKey": "spain",
+   "season": "9월",
+   "hint": "여름 온화·겨울 흐림, 포르투갈↔프랑스 길목",
+   "cities": [
+    {
+     "id": "es-n-sansebastian",
+     "nameKo": "산세바스티안",
+     "nameEn": "San Sebastián",
+     "cityId": "san-sebastian"
+    },
+    {
+     "id": "es-n-bilbao",
+     "nameKo": "빌바오",
+     "nameEn": "Bilbao",
+     "cityId": "bilbao"
+    },
+    {
+     "id": "es-n-santiago",
+     "nameKo": "산티아고",
+     "nameEn": "Santiago de Compostela",
+     "cityId": "santiago"
+    }
+   ]
+  },
+  {
+   "id": "gr",
+   "nameKo": "그리스",
+   "nameEn": "Greece",
+   "flag": "🇬🇷",
+   "countryKey": "greece",
+   "season": "10월 초",
+   "hint": "섬은 10월이 마지막 따뜻한 창",
+   "cities": [
+    {
+     "id": "gr-athens",
+     "nameKo": "아테네",
+     "nameEn": "Athens",
+     "cityId": "athens"
+    },
+    {
+     "id": "gr-santorini",
+     "nameKo": "산토리니",
+     "nameEn": "Santorini",
+     "cityId": "santorini"
+    },
+    {
+     "id": "gr-crete",
+     "nameKo": "크레타",
+     "nameEn": "Crete",
+     "cityId": "heraklion"
+    }
+   ]
+  },
+  {
+   "id": "it",
+   "nameKo": "이탈리아",
+   "nameEn": "Italy",
+   "flag": "🇮🇹",
+   "countryKey": "italy",
+   "season": "10월",
+   "hint": "9~10월 황금기, 수확철·한산",
+   "cities": [
+    {
+     "id": "it-rome",
+     "nameKo": "로마",
+     "nameEn": "Rome",
+     "cityId": "rome"
+    },
+    {
+     "id": "it-florence",
+     "nameKo": "피렌체",
+     "nameEn": "Florence",
+     "cityId": "florence"
+    },
+    {
+     "id": "it-venice",
+     "nameKo": "베네치아",
+     "nameEn": "Venice",
+     "cityId": "venice"
+    },
+    {
+     "id": "it-naples",
+     "nameKo": "나폴리",
+     "nameEn": "Naples",
+     "cityId": "naples"
+    }
+   ]
+  },
+  {
+   "id": "ma",
+   "nameKo": "모로코",
+   "nameEn": "Morocco",
+   "flag": "🇲🇦",
+   "countryKey": "morocco",
+   "season": "11월",
+   "hint": "9~11월이 이상적, 11월 한산",
+   "cities": [
+    {
+     "id": "ma-marrakech",
+     "nameKo": "마라케시",
+     "nameEn": "Marrakech",
+     "cityId": "marrakech"
+    },
+    {
+     "id": "ma-fez",
+     "nameKo": "페스",
+     "nameEn": "Fez",
+     "cityId": "fez"
+    },
+    {
+     "id": "ma-chefchaouen",
+     "nameKo": "셰프샤우엔",
+     "nameEn": "Chefchaouen",
+     "cityId": "chefchaouen"
+    },
+    {
+     "id": "ma-sahara",
+     "nameKo": "사하라(메르주가)",
+     "nameEn": "Sahara",
+     "cityId": "merzouga"
+    },
+    {
+     "id": "ma-essaouira",
+     "nameKo": "에사우이라",
+     "nameEn": "Essaouira",
+     "cityId": "essaouira"
+    }
+   ]
+  },
+  {
+   "id": "es-s",
+   "nameKo": "스페인 남부",
+   "nameEn": "Southern Spain",
+   "flag": "🇪🇸",
+   "countryKey": "spain",
+   "season": "12~1월",
+   "hint": "겨울에도 15~20°C로 온화",
+   "cities": [
+    {
+     "id": "es-s-seville",
+     "nameKo": "세비야",
+     "nameEn": "Seville",
+     "cityId": "sevilla"
+    },
+    {
+     "id": "es-s-granada",
+     "nameKo": "그라나다",
+     "nameEn": "Granada",
+     "cityId": "granada"
+    },
+    {
+     "id": "es-s-cordoba",
+     "nameKo": "코르도바",
+     "nameEn": "Córdoba",
+     "cityId": "cordoba"
+    },
+    {
+     "id": "es-s-malaga",
+     "nameKo": "말라가",
+     "nameEn": "Málaga",
+     "cityId": "malaga"
+    }
+   ]
+  },
+  {
+   "id": "ic",
+   "nameKo": "카나리아 제도",
+   "nameEn": "Canary Islands",
+   "flag": "🇮🇨",
+   "countryKey": "canary",
+   "season": "12~1월",
+   "hint": "22°C, 유럽 최고의 겨울 태양",
+   "cities": [
+    {
+     "id": "ic-tenerife",
+     "nameKo": "테네리페",
+     "nameEn": "Tenerife",
+     "cityId": "tenerife"
+    },
+    {
+     "id": "ic-grancanaria",
+     "nameKo": "그란카나리아",
+     "nameEn": "Gran Canaria",
+     "cityId": "gran-canaria"
+    }
+   ]
+  },
+  {
+   "id": "mt",
+   "nameKo": "몰타",
+   "nameEn": "Malta",
+   "flag": "🇲🇹",
+   "countryKey": "malta",
+   "season": "1월",
+   "hint": "17°C, 연 300일 맑음",
+   "cities": [
+    {
+     "id": "mt-valletta",
+     "nameKo": "발레타",
+     "nameEn": "Valletta",
+     "cityId": "valletta"
+    }
+   ]
+  },
+  {
+   "id": "pt-w",
+   "nameKo": "포르투갈 겨울",
+   "nameEn": "Portugal (winter)",
+   "flag": "🇵🇹",
+   "countryKey": "portugal",
+   "season": "1~2월",
+   "hint": "홈 베이스 겨울 태양으로 마무리",
+   "cities": [
+    {
+     "id": "pt-w-algarve",
+     "nameKo": "알가르브(라구스·파루)",
+     "nameEn": "Algarve",
+     "cityId": "algarve"
+    },
+    {
+     "id": "pt-w-madeira",
+     "nameKo": "마데이라(푼샬)",
+     "nameEn": "Madeira"
+    }
+   ]
+  },
+  {
+   "id": "eu-c",
+   "nameKo": "중부 유럽",
+   "nameEn": "Central Europe",
+   "flag": "🇪🇺",
+   "season": "9월",
+   "optional": true,
+   "hint": "네덜란드·독일·스위스 등 겨울에 추운 곳, 묶어서 초가을에",
+   "cities": [
+    {
+     "id": "eu-c-amsterdam",
+     "nameKo": "암스테르담",
+     "nameEn": "Amsterdam",
+     "countryKey": "netherlands",
+     "cityId": "amsterdam"
+    },
+    {
+     "id": "eu-c-berlin",
+     "nameKo": "베를린",
+     "nameEn": "Berlin",
+     "countryKey": "germany",
+     "cityId": "berlin"
+    },
+    {
+     "id": "eu-c-swiss",
+     "nameKo": "스위스(루체른)",
+     "nameEn": "Switzerland",
+     "countryKey": "switzerland",
+     "cityId": "lucerne"
+    }
+   ]
+  },
+  {
+   "id": "hr",
+   "nameKo": "크로아티아",
+   "nameEn": "Croatia",
+   "flag": "🇭🇷",
+   "countryKey": "croatia",
+   "season": "10월",
+   "optional": true,
+   "hint": "10월 온화, 아드리아 해안",
+   "cities": [
+    {
+     "id": "hr-dubrovnik",
+     "nameKo": "두브로브니크",
+     "nameEn": "Dubrovnik",
+     "cityId": "dubrovnik"
+    },
+    {
+     "id": "hr-split",
+     "nameKo": "스플리트",
+     "nameEn": "Split",
+     "cityId": "split"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "key": "luxembourg",
+ "admin": "Luxembourg",
+ "nameKo": "룩셈부르크",
+ "nameEn": "Luxembourg",
+ "categories": [
+  {
+   "id": "fortress",
+   "nameKo": "요새·구시가",
+   "nameEn": "Fortress & Old Town",
+   "varName": "--c1"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·계곡",
+   "nameEn": "Nature & Valley",
+   "varName": "--c2"
+  }
+ ],
+ "cities": [
+  {
+   "id": "luxembourg-city",
+   "nameKo": "룩셈부르크 시",
+   "nameEn": "Luxembourg City",
+   "lon": 6.1319,
+   "lat": 49.6116
+  },
+  {
+   "id": "vianden",
+   "nameKo": "비앙당",
+   "nameEn": "Vianden",
+   "lon": 6.2019,
+   "lat": 49.9344
+  },
+  {
+   "id": "mullerthal",
+   "nameKo": "뮐러탈",
+   "nameEn": "Mullerthal",
+   "lon": 6.4208,
+   "lat": 49.8127
+  }
+ ],
+ "attractions": [
+  {
+   "id": "luxembourg-old-quarters",
+   "cityId": "luxembourg-city",
+   "category": "fortress",
+   "nameKo": "구시가·요새",
+   "nameEn": "Old Quarters & Fortifications",
+   "history": "깊은 협곡 위 절벽에 세워진 요새 도시로, '북쪽의 지브롤터'라 불렸다. 옛 지구와 요새가 1994년 유네스코 세계유산에 등재됐다.",
+   "intro": "협곡을 가로지르는 다리와 절벽 위 구시가, 대공궁, 헌법 광장의 전망이 어우러진다. 유럽연합 기관이 모인 국제도시이기도 하다.",
+   "tip": "무료 대중교통(버스·트램·기차)이 전국에서 운영돼 이동이 편하다. 협곡을 잇는 '코르니슈 산책로'가 전망 명소다."
+  },
+  {
+   "id": "bock-casemates",
+   "cityId": "luxembourg-city",
+   "category": "fortress",
+   "nameKo": "보크 포곽·그룬트",
+   "nameEn": "Bock Casemates & Grund",
+   "history": "절벽을 뚫어 만든 방어용 지하 터널망(포곽)으로, 한때 수 km에 이르렀다. 아래쪽 그룬트 지구는 협곡 바닥의 옛 마을이다.",
+   "intro": "바위를 파낸 지하 통로에서 대포 구멍으로 협곡을 내려다본다. 협곡 바닥 그룬트의 강변 산책로와 카페가 아늑하다.",
+   "tip": "보크 포곽은 계단이 많으니 편한 신발이 좋다. 엘리베이터(생테스프리)로 절벽 위아래를 오갈 수 있다."
+  },
+  {
+   "id": "vianden-castle",
+   "cityId": "vianden",
+   "category": "fortress",
+   "nameKo": "비앙당 성",
+   "nameEn": "Vianden Castle",
+   "history": "11~14세기에 지은 언덕 위 로마네스크·고딕 성으로, 유럽에서 가장 크고 아름다운 성 중 하나로 꼽힌다. 위고가 머문 곳이기도 하다.",
+   "intro": "숲이 우거진 계곡 위로 솟은 성이 동화처럼 서 있다. 리프트(텔레지에주)에서 성과 마을 전경을 조망할 수 있다.",
+   "tip": "가을 단풍철 풍경이 특히 아름답다. 8월 중세 축제 시기에 방문하면 색다른 볼거리가 있다."
+  },
+  {
+   "id": "mullerthal-trail",
+   "cityId": "mullerthal",
+   "category": "nature",
+   "nameKo": "뮐러탈 (작은 스위스)",
+   "nameEn": "Mullerthal Region",
+   "history": "기암과 협곡, 숲이 어우러진 지역으로, 풍경이 스위스를 닮아 '룩셈부르크의 작은 스위스'라 불린다.",
+   "intro": "이끼 낀 사암 절벽과 좁은 협곡, 폭포(슈슬레이) 사이를 걷는 트레킹 코스(뮐러탈 트레일)로 유명하다. 인근 에히터나흐에는 오래된 수도원이 있다.",
+   "tip": "트레킹화를 신고 뮐러탈 트레일을 걸어보자. 에히터나흐 수도원과 함께 하루 코스로 좋다."
+  }
+ ]
+}

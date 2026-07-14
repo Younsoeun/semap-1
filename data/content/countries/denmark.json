@@ -1,0 +1,175 @@
+{
+ "key": "denmark",
+ "admin": "Denmark",
+ "nameKo": "덴마크",
+ "nameEn": "Denmark",
+ "categories": [
+  {
+   "id": "harbor",
+   "nameKo": "항구·거리",
+   "nameEn": "Harbour & Street",
+   "varName": "--c1"
+  },
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c2"
+  },
+  {
+   "id": "museum",
+   "nameKo": "박물관·문화",
+   "nameEn": "Museum & Culture",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·해안",
+   "nameEn": "Nature & Coast",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "copenhagen",
+   "nameKo": "코펜하겐",
+   "nameEn": "Copenhagen",
+   "lon": 12.5683,
+   "lat": 55.6761
+  },
+  {
+   "id": "helsingor",
+   "nameKo": "헬싱외르",
+   "nameEn": "Helsingør",
+   "lon": 12.6136,
+   "lat": 56.0361
+  },
+  {
+   "id": "roskilde",
+   "nameKo": "로스킬레",
+   "nameEn": "Roskilde",
+   "lon": 12.0803,
+   "lat": 55.6415
+  },
+  {
+   "id": "odense",
+   "nameKo": "오덴세",
+   "nameEn": "Odense",
+   "lon": 10.4024,
+   "lat": 55.4038
+  },
+  {
+   "id": "aarhus",
+   "nameKo": "오르후스",
+   "nameEn": "Aarhus",
+   "lon": 10.2039,
+   "lat": 56.1629
+  },
+  {
+   "id": "skagen",
+   "nameKo": "스카겐",
+   "nameEn": "Skagen",
+   "lon": 10.589,
+   "lat": 57.7211
+  },
+  {
+   "id": "billund",
+   "nameKo": "빌룬 (레고랜드)",
+   "nameEn": "Billund",
+   "lon": 9.12,
+   "lat": 55.7333
+  }
+ ],
+ "attractions": [
+  {
+   "id": "nyhavn",
+   "cityId": "copenhagen",
+   "category": "harbor",
+   "nameKo": "뉘하운",
+   "nameEn": "Nyhavn",
+   "history": "17세기에 판 운하 항구로, 한때 선원들의 거리였다. 동화작가 안데르센이 이 거리의 여러 집에서 살았다.",
+   "intro": "알록달록한 박공 건물과 목조 범선이 늘어선 운하 풍경이 코펜하겐의 상징이다. 노천 카페가 이어져 늘 활기차다.",
+   "tip": "운하 보트 투어의 출발지다. 해질녘 색색의 건물과 물빛이 특히 아름답다."
+  },
+  {
+   "id": "tivoli-gardens",
+   "cityId": "copenhagen",
+   "category": "harbor",
+   "nameKo": "티볼리 정원",
+   "nameEn": "Tivoli Gardens",
+   "history": "1843년 문을 연 세계에서 가장 오래된 놀이공원 중 하나로, 월트 디즈니에게 영감을 준 것으로 알려져 있다.",
+   "intro": "고풍스러운 놀이기구와 정원, 조명이 어우러진 도심 속 낭만적인 공원이다. 저녁 불빛과 공연이 특히 아름답다.",
+   "tip": "여름·핼러윈·크리스마스 시즌에 특별히 화려하다. 중앙역 바로 옆이라 접근이 편하다."
+  },
+  {
+   "id": "little-mermaid",
+   "cityId": "copenhagen",
+   "category": "museum",
+   "nameKo": "인어공주 동상·아마리엔보르",
+   "nameEn": "The Little Mermaid & Amalienborg",
+   "history": "안데르센의 동화를 기려 1913년 세운 청동 인어공주 상과, 로코코 양식의 왕궁 아마리엔보르가 항구변에 있다.",
+   "intro": "바위에 앉은 작은 인어공주 상은 코펜하겐의 상징이다. 인근 왕궁에서는 정오 근위병 교대식을 볼 수 있다.",
+   "tip": "인어공주 상은 생각보다 작으니 기대를 조절하자. 왕궁·프레데릭 교회(대리석 교회)와 도보로 이어진다."
+  },
+  {
+   "id": "kronborg-castle",
+   "cityId": "helsingor",
+   "category": "castle",
+   "nameKo": "크론보르 성",
+   "nameEn": "Kronborg Castle",
+   "history": "16세기 르네상스 성으로, 셰익스피어 '햄릿'의 무대 '엘시노어'로 유명하다. 2000년 유네스코 세계유산에 등재됐다.",
+   "intro": "외레순 해협을 지키던 성으로, 지하에는 나라가 위기에 처하면 깨어난다는 홀거 단스케 상이 있다. 여름엔 성에서 햄릿 공연이 열린다.",
+   "tip": "코펜하겐에서 기차로 약 45분 거리다. 해협 건너 스웨덴 헬싱보리가 보인다."
+  },
+  {
+   "id": "roskilde-viking",
+   "cityId": "roskilde",
+   "category": "museum",
+   "nameKo": "로스킬레 바이킹 박물관·대성당",
+   "nameEn": "Roskilde Viking & Cathedral",
+   "history": "11세기 침몰한 바이킹 배 다섯 척을 인양해 전시한 박물관과, 덴마크 왕실의 묘가 있는 벽돌 고딕 대성당(유네스코)이 있다.",
+   "intro": "실제 바이킹 배와 그 복원선을 볼 수 있고, 대성당에는 40여 명의 왕과 왕비가 잠들어 있다. 여름 로스킬레 음악 페스티벌로도 유명하다.",
+   "tip": "코펜하겐에서 기차로 25분이면 닿는다. 박물관에서 바이킹 배를 직접 타 보는 체험도 있다."
+  },
+  {
+   "id": "andersen-odense",
+   "cityId": "odense",
+   "category": "museum",
+   "nameKo": "안데르센의 도시 오덴세",
+   "nameEn": "Hans Christian Andersen's Odense",
+   "history": "동화작가 한스 크리스티안 안데르센이 태어난 도시로, 그의 생가와 현대적인 안데르센 박물관(2021년 재개관)이 있다.",
+   "intro": "'미운 오리 새끼', '성냥팔이 소녀'의 세계로 들어가는 박물관과, 색색의 옛집이 있는 아기자기한 구시가가 어우러진다.",
+   "tip": "코펜하겐에서 기차로 약 1시간 15분 거리다. 동화 속 장면을 재현한 정원과 전시가 아이들에게 특히 인기다."
+  },
+  {
+   "id": "aros-aarhus",
+   "cityId": "aarhus",
+   "category": "museum",
+   "nameKo": "아로스 미술관·구시가",
+   "nameEn": "ARoS & Den Gamle By",
+   "history": "덴마크 제2의 도시로, 옥상에 무지개색 원형 통로 '유어 레인보 파노라마'를 얹은 아로스 현대미술관이 있다.",
+   "intro": "무지개 원을 걸으며 도시를 내려다보는 미술관과, 옛 건물을 옮겨 모은 야외 박물관 '덴 감레 뷔'가 볼거리다.",
+   "tip": "무지개 파노라마는 색색의 유리 너머로 도시가 물든다. 대학 도시라 젊고 활기찬 분위기다."
+  },
+  {
+   "id": "grenen-skagen",
+   "cityId": "skagen",
+   "category": "nature",
+   "nameKo": "스카겐·그레넨",
+   "nameEn": "Skagen & Grenen",
+   "history": "덴마크 최북단 곶으로, 19세기 말 특유의 빛에 매료된 '스카겐 화파' 화가들이 모여든 예술가 마을이다.",
+   "intro": "그레넨에서는 발트해와 북해, 두 바다가 만나 파도가 부딪치는 진풍경을 볼 수 있다. 노란 집과 모래언덕이 어우러진다.",
+   "tip": "두 바다가 만나는 모래톱 끝까지 걸어(또는 트랙터 버스로) 갈 수 있다. 특유의 맑은 빛과 일몰이 아름답다."
+  },
+  {
+   "id": "legoland-billund",
+   "cityId": "billund",
+   "category": "harbor",
+   "nameKo": "레고랜드",
+   "nameEn": "Legoland Billund",
+   "history": "레고의 고향 빌룬에 1968년 문을 연 세계 최초의 레고랜드 테마파크다.",
+   "intro": "수백만 개의 레고 블록으로 만든 도시·명소 미니어처(미니랜드)와 놀이기구가 가득하다. 가족 여행지로 인기다.",
+   "tip": "주로 4~10월에 운영한다. 인근 레고 하우스(브랜드 체험관)도 함께 보면 좋다."
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "key": "croatia",
+ "admin": "Croatia",
+ "nameKo": "크로아티아",
+ "nameEn": "Croatia",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·성벽",
+   "nameEn": "Old Town & Walls",
+   "varName": "--c1"
+  },
+  {
+   "id": "ancient",
+   "nameKo": "고대·로마 유적",
+   "nameEn": "Ancient & Roman",
+   "varName": "--c2"
+  },
+  {
+   "id": "cathedral",
+   "nameKo": "성당",
+   "nameEn": "Cathedral",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "국립공원·자연",
+   "nameEn": "Park & Nature",
+   "varName": "--c4"
+  },
+  {
+   "id": "culture",
+   "nameKo": "거리·명소",
+   "nameEn": "Street & Landmark",
+   "varName": "--c5"
+  }
+ ],
+ "cities": [
+  {
+   "id": "dubrovnik",
+   "nameKo": "두브로브니크",
+   "nameEn": "Dubrovnik",
+   "lon": 18.0944,
+   "lat": 42.6507
+  },
+  {
+   "id": "split",
+   "nameKo": "스플리트",
+   "nameEn": "Split",
+   "lon": 16.4402,
+   "lat": 43.5081
+  },
+  {
+   "id": "plitvice",
+   "nameKo": "플리트비체",
+   "nameEn": "Plitvice",
+   "lon": 15.6167,
+   "lat": 44.8654
+  },
+  {
+   "id": "krka",
+   "nameKo": "크르카",
+   "nameEn": "Krka",
+   "lon": 15.97,
+   "lat": 43.8
+  },
+  {
+   "id": "zadar",
+   "nameKo": "자다르",
+   "nameEn": "Zadar",
+   "lon": 15.2314,
+   "lat": 44.1194
+  },
+  {
+   "id": "sibenik",
+   "nameKo": "시베니크",
+   "nameEn": "Šibenik",
+   "lon": 15.8886,
+   "lat": 43.735
+  },
+  {
+   "id": "trogir",
+   "nameKo": "트로기르",
+   "nameEn": "Trogir",
+   "lon": 16.2517,
+   "lat": 43.5125
+  },
+  {
+   "id": "hvar",
+   "nameKo": "흐바르",
+   "nameEn": "Hvar",
+   "lon": 16.4419,
+   "lat": 43.1729
+  },
+  {
+   "id": "korcula",
+   "nameKo": "코르출라",
+   "nameEn": "Korčula",
+   "lon": 17.1361,
+   "lat": 42.96
+  },
+  {
+   "id": "zagreb",
+   "nameKo": "자그레브",
+   "nameEn": "Zagreb",
+   "lon": 15.9819,
+   "lat": 45.815
+  },
+  {
+   "id": "rovinj",
+   "nameKo": "로빈",
+   "nameEn": "Rovinj",
+   "lon": 13.6387,
+   "lat": 45.0811
+  },
+  {
+   "id": "pula",
+   "nameKo": "풀라",
+   "nameEn": "Pula",
+   "lon": 13.8496,
+   "lat": 44.8666
+  }
+ ],
+ "attractions": [
+  {
+   "id": "dubrovnik-walls",
+   "cityId": "dubrovnik",
+   "category": "oldtown",
+   "nameKo": "두브로브니크 성벽",
+   "nameEn": "Walls of Dubrovnik",
+   "history": "13~17세기에 완성된 둘레 약 2km의 방어 성벽으로, 라구사 공화국의 번영을 지켰다. 두브로브니크 구시가는 1979년 유네스코 세계유산에 등재됐다.",
+   "intro": "성벽 위를 한 바퀴 걸으며 붉은 지붕의 구시가와 아드리아해를 조망할 수 있다. '왕좌의 게임'의 킹스랜딩 촬영지로도 유명하다.",
+   "tip": "그늘이 적어 이른 아침이나 늦은 오후가 좋다. 성벽 입장권은 구시가 여러 명소와 통합권으로 묶을 수 있다."
+  },
+  {
+   "id": "dubrovnik-stradun",
+   "cityId": "dubrovnik",
+   "category": "oldtown",
+   "nameKo": "구시가·스트라둔",
+   "nameEn": "Old Town & Stradun",
+   "history": "라구사 공화국의 중심 대로 스트라둔을 축으로 한 구시가로, 오노프리오 분수·렉터 궁전·프란치스코 수도원(유럽 최고(最古)급 약국) 등이 모여 있다.",
+   "intro": "반질반질 윤이 나는 석회암 대로를 따라 바로크 건물과 광장, 종탑이 이어진다. 저녁이면 조명이 켜진 골목이 특히 아름답다.",
+   "tip": "성벽에 오르기 전 구시가를 먼저 걸으면 동선이 좋다. 케이블카로 스르지 산에 올라 야경을 보는 것도 추천한다."
+  },
+  {
+   "id": "mount-srd-dubrovnik",
+   "cityId": "dubrovnik",
+   "category": "nature",
+   "nameKo": "스르지 산 케이블카",
+   "nameEn": "Mount Srđ Cable Car",
+   "history": "구시가 뒤편 해발 약 412m의 스르지 산으로, 케이블카가 정상까지 오른다. 정상에는 나폴레옹 시대 요새와 조국전쟁 박물관이 있다.",
+   "intro": "정상에서 성벽으로 둘러싸인 구시가와 로크룸 섬, 아드리아해가 한눈에 내려다보인다. 일몰과 야경 명소다.",
+   "tip": "해질녘에 올라 낮·노을·야경을 모두 담기 좋다. 도보·차량으로도 오를 수 있다."
+  },
+  {
+   "id": "diocletian-palace",
+   "cityId": "split",
+   "category": "ancient",
+   "nameKo": "디오클레티아누스 궁전",
+   "nameEn": "Diocletian's Palace",
+   "history": "서기 4세기 초 로마 황제 디오클레티아누스가 은퇴 후 살기 위해 지은 궁전으로, 이후 주민들이 그 안에 도시를 이루며 살아 왔다. 1979년 유네스코 세계유산에 등재됐다.",
+   "intro": "1,700년 된 궁전 성벽 안에 카페·상점·주택이 들어찬 '살아 있는 유적'이다. 지하홀, 열주 광장(페리스틸), 대성당으로 개조된 황제 영묘가 남아 있다.",
+   "tip": "미로 같은 궁전 골목을 여유롭게 걷자. 성 도미니우스 대성당 종탑에 오르면 스플리트 전경이 펼쳐진다."
+  },
+  {
+   "id": "marjan-split",
+   "cityId": "split",
+   "category": "nature",
+   "nameKo": "마르얀 언덕",
+   "nameEn": "Marjan Hill",
+   "history": "스플리트 반도 서쪽 끝의 숲이 우거진 언덕으로, 오랫동안 시민의 휴식처이자 은수자들의 은거지였다.",
+   "intro": "소나무 숲길과 전망대에서 구시가와 아드리아해, 인근 섬들이 내려다보인다. 산책·조깅·암벽등반을 즐기는 도심 속 자연이다.",
+   "tip": "구시가에서 걸어 오를 수 있다. 리바 해안 산책로와 묶어 반나절 코스로 좋다."
+  },
+  {
+   "id": "plitvice-lakes",
+   "cityId": "plitvice",
+   "category": "nature",
+   "nameKo": "플리트비체 호수 국립공원",
+   "nameEn": "Plitvice Lakes",
+   "history": "석회화(트래버틴) 둑이 자라며 형성된 16개의 계단식 호수와 폭포가 있는 크로아티아 최고(最古)의 국립공원으로, 1979년 유네스코 세계유산에 등재됐다.",
+   "intro": "에메랄드·청록빛 호수가 폭포로 이어지고, 나무 산책로가 물 위를 가로지른다. 크로아티아 자연의 상징이다.",
+   "tip": "봄·초가을이 물이 풍부하고 덜 붐빈다. 코스가 길고 그늘·매점이 적으니 물과 편한 신발을 챙기고, 성수기엔 입장 시간지정 예매를 권한다."
+  },
+  {
+   "id": "krka-waterfalls",
+   "cityId": "krka",
+   "category": "nature",
+   "nameKo": "크르카 국립공원 폭포",
+   "nameEn": "Krka National Park",
+   "history": "크르카 강을 따라 이어지는 석회화 폭포 지대로, 스크라딘스키 부크 폭포가 대표적이다.",
+   "intro": "숲과 물길 사이로 넓게 쏟아지는 폭포와 나무 산책로가 어우러진다. 플리트비체보다 접근이 쉽고 아담하다.",
+   "tip": "시베니크·스플리트에서 당일치기가 가능하다. 물놀이 규정이 해마다 바뀌니 방문 전 확인하자."
+  },
+  {
+   "id": "sea-organ-zadar",
+   "cityId": "zadar",
+   "category": "culture",
+   "nameKo": "바다 오르간·태양의 인사",
+   "nameEn": "Sea Organ & Sun Salutation",
+   "history": "2005년 건축가 니콜라 바시치가 만든 설치물로, 계단 아래 파이프가 파도에 따라 소리를 내는 '바다 오르간'과 태양광으로 빛나는 원형 패널 '태양의 인사'가 나란히 있다.",
+   "intro": "파도가 연주하는 자연의 오르간 소리를 들으며 아드리아해로 지는 노을을 본다. 히치콕이 '세계에서 가장 아름다운 일몰'이라 했다는 곳이다.",
+   "tip": "해질녘에 맞춰 방문하면 노을과 오르간 소리, 빛나는 패널을 한꺼번에 즐길 수 있다."
+  },
+  {
+   "id": "st-donatus-zadar",
+   "cityId": "zadar",
+   "category": "ancient",
+   "nameKo": "성 도나투스 성당·로마 포룸",
+   "nameEn": "St. Donatus & Roman Forum",
+   "history": "9세기에 지은 원통형 비잔틴 교회로, 고대 로마 포룸 유적 위에 로마 석재를 재활용해 세웠다.",
+   "intro": "독특한 원형 구조와 뛰어난 음향으로 지금도 음악 공연이 열린다. 주변에 로마 시대 광장과 기둥 유적이 흩어져 있다.",
+   "tip": "바다 오르간과 함께 자다르 구시가를 걷는 동선에 자연스럽게 들어온다."
+  },
+  {
+   "id": "st-james-sibenik",
+   "cityId": "sibenik",
+   "category": "cathedral",
+   "nameKo": "성 야고보 대성당",
+   "nameEn": "Cathedral of St. James",
+   "history": "15~16세기에 오직 돌만으로(목재·벽돌 없이) 조립하듯 지은 대성당으로, 고딕과 르네상스가 어우러진다. 2000년 유네스코 세계유산에 등재됐다.",
+   "intro": "외벽에 71명의 실제 인물 얼굴을 조각한 프리즈와, 짜맞춘 돌판만으로 올린 돔이 독창적이다. 석공 예술의 걸작이다.",
+   "tip": "시베니크는 조용한 편이라 크르카 국립공원과 묶어 반나절 코스로 좋다."
+  },
+  {
+   "id": "trogir-old-town",
+   "cityId": "trogir",
+   "category": "oldtown",
+   "nameKo": "트로기르 구시가",
+   "nameEn": "Trogir Old Town",
+   "history": "작은 섬 위에 자리한 로마네스크·고딕 도시로, 잘 보존된 중세 도시 구조 덕에 1997년 유네스코 세계유산에 등재됐다.",
+   "intro": "성 로렌스 대성당과 그 정문(라도반의 조각), 좁은 돌골목이 손바닥만 한 섬에 촘촘히 들어차 있다. 다리로 육지·섬과 이어진다.",
+   "tip": "스플리트에서 가까워 함께 묶기 좋다. 대성당 종탑에 오르면 붉은 지붕과 항구가 내려다보인다."
+  },
+  {
+   "id": "hvar-town-fortress",
+   "cityId": "hvar",
+   "category": "oldtown",
+   "nameKo": "흐바르 타운·요새",
+   "nameEn": "Hvar Town & Fortress",
+   "history": "베네치아 지배기의 흔적이 남은 섬 도시로, 언덕 위 스페인 요새(포르티차)가 항구를 굽어본다.",
+   "intro": "대리석 광장과 성당, 요트가 정박한 항구, 그리고 요새에서 내려다보는 파클레니 제도의 풍경이 아름답다. 라벤더와 화창한 날씨로 유명하다.",
+   "tip": "스플리트에서 페리로 닿는다. 요새에 올라 항구와 섬들을 조망하고, 근처 파클레니 섬으로 물놀이를 가기 좋다."
+  },
+  {
+   "id": "korcula-old-town",
+   "cityId": "korcula",
+   "category": "oldtown",
+   "nameKo": "코르출라 구시가",
+   "nameEn": "Korčula Old Town",
+   "history": "생선뼈 모양으로 설계된 성벽 도시로, 마르코 폴로의 고향으로 알려져 '작은 두브로브니크'라 불린다.",
+   "intro": "바람길을 고려한 독특한 골목 구조와 성 마르코 대성당, 성벽 탑이 반도 끝에 촘촘히 들어차 있다. 검(劍)의 춤 '모레슈카' 공연으로도 유명하다.",
+   "tip": "여름철에는 전통 검무 모레슈카 공연이 열린다. 주변이 와인 산지라 그르크·플라바츠 마리 와인을 곁들이기 좋다."
+  },
+  {
+   "id": "zagreb-gornji-grad",
+   "cityId": "zagreb",
+   "category": "oldtown",
+   "nameKo": "자그레브 구시가 (고르니 그라드)",
+   "nameEn": "Zagreb Upper Town",
+   "history": "중세부터 이어진 언덕 위 구시가로, 알록달록한 타일 지붕의 성 마르코 성당과 로트르슈차크 탑, 돌문(카메니타 브라타)이 있다.",
+   "intro": "성 마르코 성당 지붕의 문장(紋章) 타일이 상징적이다. 케이블카(우스피냐차)로 오르내리며, 골목마다 박물관과 카페가 숨어 있다.",
+   "tip": "정오에 로트르슈차크 탑에서 대포를 쏘는 전통이 있다. 아래 돌라츠 시장과 반 옐라치치 광장도 함께 걷기 좋다."
+  },
+  {
+   "id": "rovinj-old-town",
+   "cityId": "rovinj",
+   "category": "oldtown",
+   "nameKo": "로빈 구시가",
+   "nameEn": "Rovinj Old Town",
+   "history": "이스트리아 반도 서안의 옛 베네치아 어촌으로, 언덕 꼭대기의 성 에우페미아 성당 종탑이 마을을 굽어본다.",
+   "intro": "바다에서 곧장 솟은 파스텔빛 집들과 좁은 골목, 이탈리아풍 분위기가 어우러진다. 크로아티아에서 가장 사진 잘 나오는 마을로 꼽힌다.",
+   "tip": "이스트리아는 트러플·와인·올리브유의 미식 지역이다. 종탑에 올라 마을과 바다를 조망해보자."
+  },
+  {
+   "id": "pula-arena",
+   "cityId": "pula",
+   "category": "ancient",
+   "nameKo": "풀라 원형경기장",
+   "nameEn": "Pula Arena",
+   "history": "서기 1세기에 지은 로마 원형경기장으로, 세계에서 가장 잘 보존된 여섯 곳 중 하나다. 약 2만 명을 수용했다.",
+   "intro": "3층 아치 외벽이 거의 온전히 남아, 지금도 여름 콘서트·영화제 무대로 쓰인다. 이스트리아 로마 유산의 상징이다.",
+   "tip": "여름에는 이 경기장에서 열리는 공연·풀라 영화제를 노려볼 만하다. 지하 전시실에서 로마 시대 유물을 볼 수 있다."
+  }
+ ]
+}

@@ -1,0 +1,165 @@
+{
+ "key": "poland",
+ "admin": "Poland",
+ "nameKo": "폴란드",
+ "nameEn": "Poland",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c1"
+  },
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c2"
+  },
+  {
+   "id": "history",
+   "nameKo": "역사·기념",
+   "nameEn": "History & Memorial",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·소금광산",
+   "nameEn": "Nature & Mine",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "krakow",
+   "nameKo": "크라쿠프",
+   "nameEn": "Kraków",
+   "lon": 19.945,
+   "lat": 50.0647
+  },
+  {
+   "id": "warsaw",
+   "nameKo": "바르샤바",
+   "nameEn": "Warsaw",
+   "lon": 21.0122,
+   "lat": 52.2297
+  },
+  {
+   "id": "wroclaw",
+   "nameKo": "브로츠와프",
+   "nameEn": "Wrocław",
+   "lon": 17.0385,
+   "lat": 51.1079
+  },
+  {
+   "id": "gdansk",
+   "nameKo": "그단스크",
+   "nameEn": "Gdańsk",
+   "lon": 18.6466,
+   "lat": 54.352
+  },
+  {
+   "id": "wieliczka",
+   "nameKo": "비엘리치카",
+   "nameEn": "Wieliczka",
+   "lon": 20.0546,
+   "lat": 49.9835
+  },
+  {
+   "id": "zakopane",
+   "nameKo": "자코파네",
+   "nameEn": "Zakopane",
+   "lon": 19.95,
+   "lat": 49.2992
+  },
+  {
+   "id": "oswiecim",
+   "nameKo": "오시비엥침 (아우슈비츠)",
+   "nameEn": "Oświęcim",
+   "lon": 19.2033,
+   "lat": 50.0344
+  }
+ ],
+ "attractions": [
+  {
+   "id": "krakow-rynek",
+   "cityId": "krakow",
+   "category": "oldtown",
+   "nameKo": "크라쿠프 중앙광장 (리네크)",
+   "nameEn": "Kraków Main Square",
+   "history": "13세기에 조성된 유럽 최대급 중세 광장으로, 직물 회관(수키엔니체)과 성 마리아 성당이 있다. 크라쿠프 구시가는 1978년 유네스코 세계유산에 처음 등재됐다.",
+   "intro": "직물 회관 시장과, 매시 정각 나팔수의 연주(헤이나우)가 울리는 성 마리아 성당이 광장을 채운다. 전쟁을 피해 온전히 남은 옛 수도의 심장이다.",
+   "tip": "성 마리아 성당 안 목조 제단(피트 스토스)이 걸작이다. 지하 박물관에서 중세 시장 유적을 볼 수 있다."
+  },
+  {
+   "id": "wawel-castle",
+   "cityId": "krakow",
+   "category": "castle",
+   "nameKo": "바벨 성·대성당",
+   "nameEn": "Wawel Castle & Cathedral",
+   "history": "비스와 강변 언덕의 왕궁과 대성당으로, 수백 년간 폴란드 왕의 대관식과 안장이 이뤄진 국가의 상징이다.",
+   "intro": "르네상스 궁전과 왕들의 묘가 있는 대성당, 전설 속 '바벨 용'이 어우러진다. 크라쿠프 구시가를 굽어보는 언덕에 있다.",
+   "tip": "구역별 입장권이 나뉘니 관심 있는 곳을 골라 예매하자. 언덕 아래 용 동상은 불을 뿜는다."
+  },
+  {
+   "id": "warsaw-oldtown",
+   "cityId": "warsaw",
+   "category": "history",
+   "nameKo": "바르샤바 구시가",
+   "nameEn": "Warsaw Old Town",
+   "history": "2차대전으로 완전히 파괴된 구시가를 시민들이 옛 그림을 보며 벽돌 하나까지 복원한 곳으로, 그 재건 정신을 인정받아 1980년 유네스코 세계유산에 등재됐다.",
+   "intro": "복원된 왕궁과 색색의 광장, 성벽이 원래 모습을 되찾았다. 파괴와 부활의 역사를 담은 도시다.",
+   "tip": "왕궁 광장과 구시장 광장을 걸으며 복원의 이야기를 느껴보자. 쇼팽의 심장이 안치된 성 십자가 성당도 인근이다."
+  },
+  {
+   "id": "wroclaw-rynek",
+   "cityId": "wroclaw",
+   "category": "oldtown",
+   "nameKo": "브로츠와프 광장·난쟁이",
+   "nameEn": "Wrocław Market Square",
+   "history": "오데르 강의 여러 섬과 다리로 이어진 도시로, 화려한 색색의 상인 저택이 둘러싼 중세 광장이 있다.",
+   "intro": "고딕 시청사와 파스텔빛 광장, 그리고 도시 곳곳에 숨은 수백 개의 청동 난쟁이 상(크라스날) 찾기가 즐겁다.",
+   "tip": "난쟁이 상 찾기가 도시 여행의 재미다. '100개의 다리 도시'답게 강과 섬(오스트루프 툼스키)을 산책하기 좋다."
+  },
+  {
+   "id": "gdansk-oldtown",
+   "cityId": "gdansk",
+   "category": "oldtown",
+   "nameKo": "그단스크 구시가",
+   "nameEn": "Gdańsk Old Town",
+   "history": "발트해의 한자동맹 무역항으로, 화려한 상인 저택과 거대한 중세 크레인(주라프)이 있다. 2차대전의 발발지이자 자유노조 '연대'의 발상지다.",
+   "intro": "긴 시장 거리(들우기 타르크)의 황금빛 저택과 넵튠 분수, 호박(琥珀) 상점이 이어진다. 항구의 역사가 켜켜이 쌓인 도시다.",
+   "tip": "발트해 호박 장신구가 명물이다. 유럽 연대 센터에서 냉전과 민주화의 역사를 볼 수 있다."
+  },
+  {
+   "id": "wieliczka-mine",
+   "cityId": "wieliczka",
+   "category": "nature",
+   "nameKo": "비엘리치카 소금광산",
+   "nameEn": "Wieliczka Salt Mine",
+   "history": "13세기부터 채굴한 소금광산으로, 광부들이 소금을 깎아 예배당·조각·샹들리에를 만들었다. 1978년 유네스코 세계유산에 처음 등재됐다.",
+   "intro": "지하 깊은 곳에 소금으로 만든 거대한 성 킹가 예배당과 지하 호수가 펼쳐진다. 벽·바닥·조각이 모두 소금이다.",
+   "tip": "가이드 투어로만 관람하며 계단이 많다. 크라쿠프에서 가까워 반나절 코스로 좋다."
+  },
+  {
+   "id": "zakopane-tatra",
+   "cityId": "zakopane",
+   "category": "nature",
+   "nameKo": "자코파네·타트라 산",
+   "nameEn": "Zakopane & Tatra Mountains",
+   "history": "타트라 산맥 기슭의 산악 휴양지로, 목조 '자코파네 양식' 건축과 고랄(산악민) 문화로 유명하다.",
+   "intro": "케이블카로 오르는 카스프로비 베르흐 전망과, 목조 산장·전통 시장이 있는 활기찬 거리(크루푸프키)가 어우러진다. 폴란드의 겨울 스포츠 중심지다.",
+   "tip": "여름엔 트레킹(모르스키에 오코 호수), 겨울엔 스키를 즐긴다. 훈제 양젖 치즈 오스치펙이 명물이다."
+  },
+  {
+   "id": "auschwitz",
+   "cityId": "oswiecim",
+   "category": "history",
+   "nameKo": "아우슈비츠-비르케나우",
+   "nameEn": "Auschwitz-Birkenau",
+   "history": "2차대전 중 나치 독일이 운영한 최대 규모의 강제수용소·학살 시설로, 100만 명 이상이 희생됐다. 1979년 유네스코 세계유산에 등재됐다.",
+   "intro": "보존된 수용소 막사와 유품, 추모 공간이 인류가 되풀이하지 말아야 할 비극을 증언한다. 엄숙한 추모의 장소다.",
+   "tip": "성수기에는 가이드 투어 사전 예약이 필수다. 촬영·복장 등 추모 예절을 지키자. 크라쿠프에서 약 1시간 30분 거리다."
+  }
+ ]
+}

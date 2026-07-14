@@ -1,0 +1,108 @@
+{
+ "key": "latvia",
+ "admin": "Latvia",
+ "nameKo": "라트비아",
+ "nameEn": "Latvia",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·건축",
+   "nameEn": "Old Town & Architecture",
+   "varName": "--c1"
+  },
+  {
+   "id": "palace",
+   "nameKo": "궁전·성",
+   "nameEn": "Palace & Castle",
+   "varName": "--c2"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·해안",
+   "nameEn": "Nature & Coast",
+   "varName": "--c3"
+  }
+ ],
+ "cities": [
+  {
+   "id": "riga",
+   "nameKo": "리가",
+   "nameEn": "Riga",
+   "lon": 24.1052,
+   "lat": 56.9496
+  },
+  {
+   "id": "jurmala",
+   "nameKo": "유르말라",
+   "nameEn": "Jūrmala",
+   "lon": 23.771,
+   "lat": 56.968
+  },
+  {
+   "id": "sigulda",
+   "nameKo": "시굴다",
+   "nameEn": "Sigulda",
+   "lon": 24.85,
+   "lat": 57.154
+  },
+  {
+   "id": "rundale",
+   "nameKo": "룬달레",
+   "nameEn": "Rundāle",
+   "lon": 24.02,
+   "lat": 56.414
+  }
+ ],
+ "attractions": [
+  {
+   "id": "riga-oldtown",
+   "cityId": "riga",
+   "category": "oldtown",
+   "nameKo": "리가 구시가",
+   "nameEn": "Riga Old Town",
+   "history": "발트해의 한자동맹 무역 도시로, 중세 길드하우스와 교회, 성벽 흔적이 남았다. 구시가와 아르누보 지구가 함께 유네스코 세계유산에 등재됐다.",
+   "intro": "'검은 머리 전당'과 리가 대성당, 세 형제 건물, 성 베드로 교회 탑이 어우러진다. 발트 3국에서 가장 큰 도시다.",
+   "tip": "성 베드로 교회 탑 전망대에서 붉은 지붕을 조망하자. 도심 중앙시장(옛 비행선 격납고)도 볼 만하다."
+  },
+  {
+   "id": "riga-art-nouveau",
+   "cityId": "riga",
+   "category": "oldtown",
+   "nameKo": "리가 아르누보 지구",
+   "nameEn": "Riga Art Nouveau District",
+   "history": "20세기 초 리가가 급성장하며 지은 아르누보(유겐트슈틸) 건물이 도시 건축의 3분의 1을 차지할 만큼 밀집해 있다.",
+   "intro": "알베르타 거리 등에는 얼굴·괴수·꽃 장식으로 뒤덮인 화려한 파사드가 늘어서 있다. 세계 최대급 아르누보 컬렉션이다.",
+   "tip": "알베르타 거리와 엘리자베테스 거리를 걸으며 파사드 장식을 올려다보자. 아르누보 박물관도 있다."
+  },
+  {
+   "id": "jurmala-beach",
+   "cityId": "jurmala",
+   "category": "nature",
+   "nameKo": "유르말라 해변",
+   "nameEn": "Jūrmala",
+   "history": "리가 근교 발트해변의 휴양 도시로, 긴 백사장과 소나무 숲, 목조 별장(다차)이 유명하다.",
+   "intro": "완만한 백사장과 19~20세기 목조 리조트 건축, 산책로가 어우러진 발트의 여름 휴양지다.",
+   "tip": "리가에서 기차로 약 30분이면 닿는다. 여름 해변 산책과 목조 별장 거리(요마스)가 좋다."
+  },
+  {
+   "id": "turaida-sigulda",
+   "cityId": "sigulda",
+   "category": "palace",
+   "nameKo": "투라이다 성·가우야 계곡",
+   "nameEn": "Turaida Castle & Gauja Valley",
+   "history": "13세기의 붉은 벽돌 성으로, 가우야 강 계곡을 굽어본다. 주변 가우야 국립공원은 '라트비아의 스위스'로 불린다.",
+   "intro": "붉은 탑에 올라 숲과 강 계곡을 조망하고, 케이블카·트레일로 계곡을 즐긴다. 동굴과 옛 성 유적도 흩어져 있다.",
+   "tip": "리가에서 기차로 약 1시간 거리다. 가을 단풍철 계곡 풍경이 특히 아름답다."
+  },
+  {
+   "id": "rundale-palace",
+   "cityId": "rundale",
+   "category": "palace",
+   "nameKo": "룬달레 궁전",
+   "nameEn": "Rundāle Palace",
+   "history": "18세기에 상트페테르부르크 겨울궁전을 지은 라스트렐리가 설계한 바로크·로코코 궁전으로, '라트비아의 베르사유'라 불린다.",
+   "intro": "화려한 무도회장과 황금의 방, 정형식 프랑스 정원(장미원)이 어우러진다. 발트 지역의 대표 궁전이다.",
+   "tip": "리가에서 남쪽으로 약 1시간 반 거리다. 여름 장미가 만개할 때 정원이 가장 아름답다."
+  }
+ ]
+}

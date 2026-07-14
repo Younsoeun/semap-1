@@ -1,0 +1,141 @@
+{
+ "key": "hungary",
+ "admin": "Hungary",
+ "nameKo": "헝가리",
+ "nameEn": "Hungary",
+ "categories": [
+  {
+   "id": "landmark",
+   "nameKo": "랜드마크·건축",
+   "nameEn": "Landmark",
+   "varName": "--c1"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·성",
+   "nameEn": "Old Town & Castle",
+   "varName": "--c2"
+  },
+  {
+   "id": "spa",
+   "nameKo": "온천·문화",
+   "nameEn": "Spa & Culture",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "호수·자연",
+   "nameEn": "Lake & Nature",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "budapest",
+   "nameKo": "부다페스트",
+   "nameEn": "Budapest",
+   "lon": 19.0402,
+   "lat": 47.4979
+  },
+  {
+   "id": "eger",
+   "nameKo": "에게르",
+   "nameEn": "Eger",
+   "lon": 20.3772,
+   "lat": 47.9026
+  },
+  {
+   "id": "pecs",
+   "nameKo": "페치",
+   "nameEn": "Pécs",
+   "lon": 18.2329,
+   "lat": 46.0727
+  },
+  {
+   "id": "szentendre",
+   "nameKo": "센텐드레",
+   "nameEn": "Szentendre",
+   "lon": 19.077,
+   "lat": 47.669
+  },
+  {
+   "id": "balaton",
+   "nameKo": "발라톤 호수",
+   "nameEn": "Lake Balaton",
+   "lon": 17.889,
+   "lat": 46.83
+  }
+ ],
+ "attractions": [
+  {
+   "id": "hungarian-parliament",
+   "cityId": "budapest",
+   "category": "landmark",
+   "nameKo": "국회의사당",
+   "nameEn": "Hungarian Parliament",
+   "history": "1902년 완공된 네오고딕 양식의 국회의사당으로, 다뉴브 강변에 서 있다. 유럽에서 손꼽히는 규모다.",
+   "intro": "강에 비친 화려한 첨탑의 실루엣이 부다페스트의 상징이다. 내부에는 헝가리 왕관(성 이슈트반 왕관)이 전시돼 있다.",
+   "tip": "내부는 예약 가이드 투어로만 관람한다. 강 건너 부다 언덕이나 야경 크루즈에서 보는 조명이 특히 아름답다."
+  },
+  {
+   "id": "buda-castle",
+   "cityId": "budapest",
+   "category": "oldtown",
+   "nameKo": "부다 성·어부의 요새",
+   "nameEn": "Buda Castle & Fisherman's Bastion",
+   "history": "다뉴브 서안 언덕의 왕궁과 마차시 성당, 동화 같은 흰 회랑 '어부의 요새'가 모인 구역으로, 유네스코 세계유산이다.",
+   "intro": "어부의 요새 테라스에서 국회의사당과 페스트 시가지, 다뉴브의 다리들이 파노라마로 펼쳐진다. 부다페스트 최고의 전망이다.",
+   "tip": "케이블카(시클로)나 버스로 언덕에 오른다. 해질녘·야경 시간이 특히 아름답다."
+  },
+  {
+   "id": "szechenyi-baths",
+   "cityId": "budapest",
+   "category": "spa",
+   "nameKo": "세체니 온천",
+   "nameEn": "Széchenyi Thermal Bath",
+   "history": "1913년 문을 연 유럽 최대급 온천으로, 노란 네오바로크 건물 안팎에 여러 온탕이 있다. 부다페스트는 '온천의 수도'로 불린다.",
+   "intro": "야외 대온탕에서 김이 오르는 가운데 체스를 두는 풍경이 유명하다. 실내외 여러 온도의 탕과 사우나를 즐길 수 있다.",
+   "tip": "수영모·수건을 챙기거나 대여한다. 겨울에 야외탕에서 몸을 담그는 경험이 특별하다."
+  },
+  {
+   "id": "eger-castle",
+   "cityId": "eger",
+   "category": "oldtown",
+   "nameKo": "에게르 성·구시가",
+   "nameEn": "Eger Castle & Old Town",
+   "history": "1552년 오스만의 공격을 소수 병력으로 막아낸 성으로, 헝가리 애국의 상징이다. 바로크 구시가와 오스만 시대의 미너렛이 남아 있다.",
+   "intro": "성과 바로크 성당, 헝가리 최북단 오스만 미너렛이 어우러진다. 근교 '미녀의 계곡'은 와인(에그리 비카베르, 황소의 피) 산지다.",
+   "tip": "'미녀의 계곡' 와인 셀러에서 시음을 즐겨보자. 부다페스트에서 기차로 약 2시간 거리다."
+  },
+  {
+   "id": "pecs-oldtown",
+   "cityId": "pecs",
+   "category": "oldtown",
+   "nameKo": "페치 구시가",
+   "nameEn": "Pécs Old Town",
+   "history": "로마 시대까지 거슬러 올라가는 남부의 도시로, 초기 그리스도교 지하 묘지(유네스코)와 오스만 모스크가 남아 있다.",
+   "intro": "이슬람 모스크를 개조한 성당, 로마 유적, 졸너이 도자기 문화가 어우러진 다층적 역사 도시다.",
+   "tip": "지중해에 가까운 온화한 기후의 대학 도시다. 졸너이 문화지구에서 화려한 도자기를 볼 수 있다."
+  },
+  {
+   "id": "szentendre-town",
+   "cityId": "szentendre",
+   "category": "landmark",
+   "nameKo": "센텐드레 예술 마을",
+   "nameEn": "Szentendre",
+   "history": "다뉴브 강변의 세르비아계 이주민이 세운 바로크 마을로, 20세기부터 예술가들이 모여들었다.",
+   "intro": "파스텔빛 골목과 정교회 성당, 갤러리와 공방, 마지팬 박물관이 있는 아기자기한 예술 마을이다.",
+   "tip": "부다페스트에서 근교열차(HÉV)로 약 40분이라 반나절 나들이로 좋다. 강변 산책과 골목 카페가 여유롭다."
+  },
+  {
+   "id": "balaton-tihany",
+   "cityId": "balaton",
+   "category": "nature",
+   "nameKo": "발라톤 호수·티하니",
+   "nameEn": "Lake Balaton & Tihany",
+   "history": "중부 유럽에서 가장 큰 호수로, '헝가리의 바다'라 불린다. 반도 마을 티하니의 베네딕트 수도원이 상징이다.",
+   "intro": "따뜻하고 얕은 호수를 따라 해변 휴양지와 포도밭, 라벤더 밭이 이어진다. 티하니 언덕에서 호수 전경이 내려다보인다.",
+   "tip": "여름 물놀이·요트의 명소다. 티하니의 라벤더는 초여름에 절정이며, 호숫가 와인 산지도 유명하다."
+  }
+ ]
+}

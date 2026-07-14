@@ -1,0 +1,125 @@
+{
+ "key": "belgium",
+ "admin": "Belgium",
+ "nameKo": "벨기에",
+ "nameEn": "Belgium",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c1"
+  },
+  {
+   "id": "landmark",
+   "nameKo": "랜드마크·근대",
+   "nameEn": "Landmark & Modern",
+   "varName": "--c2"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·강",
+   "nameEn": "Nature & River",
+   "varName": "--c3"
+  }
+ ],
+ "cities": [
+  {
+   "id": "brussels",
+   "nameKo": "브뤼셀",
+   "nameEn": "Brussels",
+   "lon": 4.3517,
+   "lat": 50.8503
+  },
+  {
+   "id": "bruges",
+   "nameKo": "브뤼헤",
+   "nameEn": "Bruges",
+   "lon": 3.2247,
+   "lat": 51.2093
+  },
+  {
+   "id": "ghent",
+   "nameKo": "겐트",
+   "nameEn": "Ghent",
+   "lon": 3.7174,
+   "lat": 51.0543
+  },
+  {
+   "id": "antwerp",
+   "nameKo": "안트베르펜",
+   "nameEn": "Antwerp",
+   "lon": 4.4025,
+   "lat": 51.2194
+  },
+  {
+   "id": "dinant",
+   "nameKo": "디낭",
+   "nameEn": "Dinant",
+   "lon": 4.9127,
+   "lat": 50.2607
+  }
+ ],
+ "attractions": [
+  {
+   "id": "grand-place",
+   "cityId": "brussels",
+   "category": "oldtown",
+   "nameKo": "그랑 플라스·오줌싸개 소년",
+   "nameEn": "Grand-Place & Manneken Pis",
+   "history": "황금빛 길드하우스와 시청사가 둘러싼 브뤼셀의 중앙 광장으로, 1998년 유네스코 세계유산에 등재됐다. 인근에는 명물 분수 '오줌싸개 소년'이 있다.",
+   "intro": "화려한 바로크 길드하우스가 사방을 감싼 광장은 유럽에서 손꼽히는 아름다움으로 꼽힌다. 2년마다 광장을 꽃으로 뒤덮는 '플라워 카펫' 행사가 열린다.",
+   "tip": "저녁 조명이 켜진 광장이 특히 아름답다. 벨기에 와플·초콜릿·감자튀김을 이 근처에서 맛보자."
+  },
+  {
+   "id": "atomium",
+   "cityId": "brussels",
+   "category": "landmark",
+   "nameKo": "아토미움",
+   "nameEn": "Atomium",
+   "history": "1958년 브뤼셀 만국박람회를 위해 지은, 철 원자 구조를 1,650억 배 확대한 형태의 건축물이다.",
+   "intro": "아홉 개의 거대한 금속 구가 연결된 미래적 조형으로, 브뤼셀 근대의 상징이다. 위쪽 구에서 도시가 조망된다.",
+   "tip": "구 사이를 잇는 에스컬레이터·전망 구가 볼거리다. 인근 미니 유럽(유럽 명소 미니어처 공원)도 함께 볼 만하다."
+  },
+  {
+   "id": "bruges-centre",
+   "cityId": "bruges",
+   "category": "oldtown",
+   "nameKo": "브뤼헤 역사지구",
+   "nameEn": "Historic Bruges",
+   "history": "중세 무역으로 번영한 도시로, 운하와 중세 건축이 온전히 남아 '북유럽의 베네치아'라 불린다. 역사지구가 유네스코 세계유산이다.",
+   "intro": "운하를 낀 붉은 벽돌 건물과 종탑(벨포르트), 마르크트 광장, 백조가 노니는 사랑의 호수가 동화 같다. 보트 투어가 인기다.",
+   "tip": "종탑에 오르면 붉은 지붕의 도시가 내려다보인다. 당일 관광객이 빠진 저녁·이른 아침이 고요하다."
+  },
+  {
+   "id": "ghent-oldtown",
+   "cityId": "ghent",
+   "category": "oldtown",
+   "nameKo": "겐트 구시가",
+   "nameEn": "Ghent Old Town",
+   "history": "중세 플랑드르의 부유한 도시로, 그라벤스텐 성과 성 바보 대성당(반 에이크의 '겐트 제단화')이 있다.",
+   "intro": "운하변의 길드하우스(흐라슬레이·코렌레이)와 세 개의 탑, 활기찬 대학 도시의 분위기가 어우러진다. 브뤼헤보다 덜 붐빈다.",
+   "tip": "성 바보 대성당의 '겐트 제단화'는 예약 관람을 권한다. 저녁 운하변 조명 산책이 아름답다."
+  },
+  {
+   "id": "antwerp-cathedral",
+   "cityId": "antwerp",
+   "category": "oldtown",
+   "nameKo": "안트베르펜 성모 대성당",
+   "nameEn": "Cathedral of Our Lady, Antwerp",
+   "history": "고딕 대성당으로, 화가 루벤스의 걸작 제단화를 소장한다. 안트베르펜은 세계 다이아몬드 거래의 중심이자 '플란다스의 개' 이야기의 무대다.",
+   "intro": "높은 첨탑의 대성당과 루벤스의 그림, 화려한 중앙역, 다이아몬드 지구가 어우러진다. 패션·디자인의 도시이기도 하다.",
+   "tip": "대성당의 루벤스 제단화가 하이라이트다. '플란다스의 개'의 소년 네로가 보고 싶어 한 그림이 바로 이곳에 있다."
+  },
+  {
+   "id": "dinant-citadel",
+   "cityId": "dinant",
+   "category": "nature",
+   "nameKo": "디낭·시타델",
+   "nameEn": "Dinant & Citadel",
+   "history": "뫼즈 강과 절벽 사이에 낀 마을로, 색소폰을 발명한 아돌프 삭스의 고향이다. 절벽 위에 시타델(요새)이 있다.",
+   "intro": "강변에 선 양파 모양 종탑의 성당과 절벽 위 요새, 색색의 대형 색소폰 조형이 어우러진다. 아르덴 지방 여행의 관문이다.",
+   "tip": "케이블카·계단으로 시타델에 올라 강 계곡을 조망하자. 강 위 카약이나 아르덴 드라이브를 곁들이기 좋다."
+  }
+ ]
+}

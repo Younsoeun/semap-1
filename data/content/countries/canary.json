@@ -1,0 +1,188 @@
+{
+ "key": "canary",
+ "admin": "Spain",
+ "nameKo": "카나리아 제도",
+ "nameEn": "Canary Islands",
+ "categories": [
+  {
+   "id": "volcano",
+   "nameKo": "화산·국립공원",
+   "nameEn": "Volcano & Park",
+   "varName": "--c1"
+  },
+  {
+   "id": "nature",
+   "nameKo": "해안·사구·자연",
+   "nameEn": "Coast & Dunes",
+   "varName": "--c2"
+  },
+  {
+   "id": "town",
+   "nameKo": "마을·구시가",
+   "nameEn": "Town & Old Quarter",
+   "varName": "--c3"
+  },
+  {
+   "id": "culture",
+   "nameKo": "예술·전망",
+   "nameEn": "Art & Viewpoint",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "tenerife",
+   "nameKo": "테네리페",
+   "nameEn": "Tenerife",
+   "lon": -16.6291,
+   "lat": 28.2916
+  },
+  {
+   "id": "gran-canaria",
+   "nameKo": "그란카나리아",
+   "nameEn": "Gran Canaria",
+   "lon": -15.59,
+   "lat": 27.92
+  },
+  {
+   "id": "lanzarote",
+   "nameKo": "란사로테",
+   "nameEn": "Lanzarote",
+   "lon": -13.63,
+   "lat": 29.0469
+  },
+  {
+   "id": "fuerteventura",
+   "nameKo": "푸에르테벤투라",
+   "nameEn": "Fuerteventura",
+   "lon": -13.8626,
+   "lat": 28.7167
+  },
+  {
+   "id": "la-palma",
+   "nameKo": "라팔마",
+   "nameEn": "La Palma",
+   "lon": -17.86,
+   "lat": 28.71
+  },
+  {
+   "id": "la-gomera",
+   "nameKo": "라고메라",
+   "nameEn": "La Gomera",
+   "lon": -17.11,
+   "lat": 28.1
+  }
+ ],
+ "attractions": [
+  {
+   "id": "teide-national-park",
+   "cityId": "tenerife",
+   "category": "volcano",
+   "nameKo": "테이데 국립공원",
+   "nameEn": "Teide National Park",
+   "history": "해발 3,715m의 테이데 화산은 스페인 전체에서 가장 높은 봉우리다. 2007년 유네스코 세계자연유산에 등재됐다.",
+   "intro": "화성 같은 붉은 용암 대지 위로 화산 원뿔이 솟아 있고, 케이블카로 정상 부근까지 오를 수 있다. 공기가 맑아 밤에는 손꼽히는 별 관측지가 된다.",
+   "tip": "정상(3,555m 지점 위) 접근은 사전 허가가 필요하다. 겨울엔 정상에 눈이 쌓여 바다·눈·화산이 어우러진 풍경을 볼 수 있다."
+  },
+  {
+   "id": "la-laguna-oldtown",
+   "cityId": "tenerife",
+   "category": "town",
+   "nameKo": "라라구나 구시가",
+   "nameEn": "San Cristóbal de La Laguna",
+   "history": "16세기에 계획된 격자형 도시로, 아메리카 여러 식민 도시의 원형이 됐다. 1999년 유네스코 세계유산에 등재됐다.",
+   "intro": "파스텔빛 식민 건축과 목조 발코니, 안뜰이 있는 저택이 늘어선 대학 도시다. 테네리페의 옛 수도로 활기가 넘친다.",
+   "tip": "산타크루스에서 트램으로 쉽게 닿는다. 골목 카페와 성당을 천천히 걷기 좋다."
+  },
+  {
+   "id": "los-gigantes-cliffs",
+   "cityId": "tenerife",
+   "category": "nature",
+   "nameKo": "로스 히간테스 절벽",
+   "nameEn": "Los Gigantes Cliffs",
+   "history": "테네리페 서부 해안에 바다에서 최대 약 600m까지 치솟는 거대한 수직 절벽으로, '거인들'이라는 이름이 붙었다.",
+   "intro": "검은 화산 절벽이 대서양으로 곧장 떨어지는 장관이다. 보트 투어로 절벽 아래에서 돌고래·고래를 만나기도 한다.",
+   "tip": "고래 관찰 투어의 출발지로 인기다. 검은 모래 해변에서 절벽을 배경으로 한 일몰이 아름답다."
+  },
+  {
+   "id": "maspalomas-dunes",
+   "cityId": "gran-canaria",
+   "category": "nature",
+   "nameKo": "마스팔로마스 사구",
+   "nameEn": "Maspalomas Dunes",
+   "history": "그란카나리아 남단에 펼쳐진 자연보호구역으로, 바람이 빚은 황금빛 모래언덕이 바다까지 이어진다.",
+   "intro": "사막 같은 사구와 야자수 오아시스, 등대와 해변이 어우러진다. 겨울에도 온화해 '유럽의 겨울 태양'을 상징하는 풍경이다.",
+   "tip": "보호구역이라 지정된 길로만 걷는다. 이른 아침·해질녘 빛이 모래 결을 가장 아름답게 드러낸다."
+  },
+  {
+   "id": "roque-nublo",
+   "cityId": "gran-canaria",
+   "category": "nature",
+   "nameKo": "로케 누블로",
+   "nameEn": "Roque Nublo",
+   "history": "그란카나리아 중앙 고지대에 솟은 높이 약 80m의 화산 바위 기둥으로, 섬 원주민(관체족)에게 신성한 장소였다.",
+   "intro": "구름 위로 솟은 바위까지 완만한 트레일을 걸으면 섬 전체와 멀리 테이데 화산까지 조망된다. 그란카나리아의 상징이다.",
+   "tip": "정상 트레일은 왕복 1시간 남짓으로 가볍다. 구름 바다(운해) 위로 해가 지는 풍경이 유명하다."
+  },
+  {
+   "id": "vegueta-las-palmas",
+   "cityId": "gran-canaria",
+   "category": "town",
+   "nameKo": "베게타 구시가 (라스팔마스)",
+   "nameEn": "Vegueta, Las Palmas",
+   "history": "1478년 스페인의 카나리아 정복이 시작된 유서 깊은 구역으로, 콜럼버스가 아메리카로 가는 길에 머문 곳이다.",
+   "intro": "산타아나 대성당과 콜럼버스의 집(카사 데 콜론), 자갈 골목이 있는 라스팔마스의 옛 심장이다. 도심 해변 라스칸테라스도 유명하다.",
+   "tip": "목요일 저녁 '타파스의 밤'에 골목 바가 활기를 띤다. 콜럼버스의 집 박물관을 함께 보면 좋다."
+  },
+  {
+   "id": "timanfaya-national-park",
+   "cityId": "lanzarote",
+   "category": "volcano",
+   "nameKo": "티만파야 국립공원",
+   "nameEn": "Timanfaya National Park",
+   "history": "1730~1736년의 대분화로 형성된 광대한 용암 지대로, '불의 산'이라 불린다. 지금도 지표 아래가 뜨겁다.",
+   "intro": "달 표면 같은 붉고 검은 화산 풍경이 끝없이 펼쳐진다. 지열로 물을 끓여 올리거나 즉석 그릴 시연을 보여준다.",
+   "tip": "보호를 위해 지정 버스 투어로만 핵심 구역을 돈다. 낙타 트레킹 등 화산 지대 체험도 인기다."
+  },
+  {
+   "id": "jameos-del-agua",
+   "cityId": "lanzarote",
+   "category": "culture",
+   "nameKo": "하메오스 델 아과",
+   "nameEn": "Jameos del Agua",
+   "history": "화산 용암 동굴을 예술가 세사르 만리케가 자연을 살려 개조한 공간이다. 만리케는 란사로테 전역의 개발을 자연과 조화시킨 인물로 유명하다.",
+   "intro": "지하 용암 동굴 속 에메랄드빛 호수(눈먼 흰 게가 사는)와 하얀 야외 수영장, 콘서트홀이 어우러진다. 자연과 예술이 결합된 란사로테의 상징이다.",
+   "tip": "인근 쿠에바 데 로스 베르데스(용암 터널)와 만리케 재단 등 그의 작품을 함께 묶어 보면 좋다."
+  },
+  {
+   "id": "corralejo-dunes",
+   "cityId": "fuerteventura",
+   "category": "nature",
+   "nameKo": "코랄레호 사구·해변",
+   "nameEn": "Corralejo Dunes",
+   "history": "푸에르테벤투라 북부의 자연공원으로, 흰 모래 사구가 청록빛 바다와 맞닿아 있다.",
+   "intro": "끝없이 이어지는 백사장과 얕은 바다가 카리브해를 연상시킨다. 바람이 좋아 서핑·카이트서핑의 성지다.",
+   "tip": "바로 앞 로보스 섬으로 배편 당일 트립이 가능하다. 바람이 강한 날이 많으니 해변용 방풍 준비를 하자."
+  },
+  {
+   "id": "roque-de-los-muchachos",
+   "cityId": "la-palma",
+   "category": "culture",
+   "nameKo": "로케 데 로스 무차초스",
+   "nameEn": "Roque de los Muchachos",
+   "history": "라팔마 최고봉(2,426m) 정상으로, 세계 최고 수준의 천문대가 자리한다. 섬 전체가 '스타라이트 보호구역'으로 지정돼 있다.",
+   "intro": "구름 바다 위로 솟은 정상에서 은하수와 별이 쏟아지는 밤하늘을 만난다. 낮에는 거대한 타부리엔테 칼데라를 굽어본다.",
+   "tip": "빛 공해가 극도로 적어 별 관측 여행지로 손꼽힌다. 밤엔 매우 추우니 방한 준비가 필수다."
+  },
+  {
+   "id": "garajonay-national-park",
+   "cityId": "la-gomera",
+   "category": "nature",
+   "nameKo": "가라호나이 국립공원",
+   "nameEn": "Garajonay National Park",
+   "history": "빙하기의 잔존 식생인 월계수림(라우리실바)이 보존된 원시림으로, 1986년 유네스코 세계자연유산에 등재됐다.",
+   "intro": "안개가 감도는 이끼 낀 월계수 숲이 태고의 분위기를 자아낸다. 라고메라 섬은 휘파람 언어 '실보 고메로'로도 유명하다.",
+   "tip": "테네리페에서 페리로 닿는 조용한 섬이다. 숲길 트레킹과 전망대(미라도르)를 함께 즐기기 좋다."
+  }
+ ]
+}

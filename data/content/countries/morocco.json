@@ -1,0 +1,343 @@
+{
+ "key": "morocco",
+ "admin": "Morocco",
+ "nameKo": "모로코",
+ "nameEn": "Morocco",
+ "categories": [
+  {
+   "id": "medina",
+   "nameKo": "메디나·거리",
+   "nameEn": "Medina & Street",
+   "varName": "--c1"
+  },
+  {
+   "id": "palace",
+   "nameKo": "궁전·카스바·요새",
+   "nameEn": "Palace & Kasbah",
+   "varName": "--c2"
+  },
+  {
+   "id": "mosque",
+   "nameKo": "모스크·성지",
+   "nameEn": "Mosque & Shrine",
+   "varName": "--c3"
+  },
+  {
+   "id": "ancient",
+   "nameKo": "고대 유적",
+   "nameEn": "Ancient Site",
+   "varName": "--c4"
+  },
+  {
+   "id": "nature",
+   "nameKo": "사막·자연·정원",
+   "nameEn": "Desert & Nature",
+   "varName": "--c5"
+  }
+ ],
+ "cities": [
+  {
+   "id": "marrakech",
+   "nameKo": "마라케시",
+   "nameEn": "Marrakech",
+   "lon": -7.9811,
+   "lat": 31.6295
+  },
+  {
+   "id": "fez",
+   "nameKo": "페스",
+   "nameEn": "Fez",
+   "lon": -5,
+   "lat": 34.0331
+  },
+  {
+   "id": "chefchaouen",
+   "nameKo": "셰프샤우엔",
+   "nameEn": "Chefchaouen",
+   "lon": -5.2636,
+   "lat": 35.1688
+  },
+  {
+   "id": "merzouga",
+   "nameKo": "메르주가 (사하라)",
+   "nameEn": "Merzouga (Sahara)",
+   "lon": -4.01,
+   "lat": 31.0994
+  },
+  {
+   "id": "todra",
+   "nameKo": "토드라 협곡",
+   "nameEn": "Todra Gorge",
+   "lon": -5.596,
+   "lat": 31.59
+  },
+  {
+   "id": "ait-ben-haddou",
+   "nameKo": "아이트 벤 하두",
+   "nameEn": "Aït Benhaddou",
+   "lon": -7.131,
+   "lat": 31.047
+  },
+  {
+   "id": "ouarzazate",
+   "nameKo": "와르자자트",
+   "nameEn": "Ouarzazate",
+   "lon": -6.937,
+   "lat": 30.92
+  },
+  {
+   "id": "essaouira",
+   "nameKo": "에사우이라",
+   "nameEn": "Essaouira",
+   "lon": -9.7595,
+   "lat": 31.5085
+  },
+  {
+   "id": "meknes",
+   "nameKo": "메크네스",
+   "nameEn": "Meknes",
+   "lon": -5.5473,
+   "lat": 33.8935
+  },
+  {
+   "id": "volubilis",
+   "nameKo": "볼루빌리스",
+   "nameEn": "Volubilis",
+   "lon": -5.5547,
+   "lat": 34.0741
+  },
+  {
+   "id": "rabat",
+   "nameKo": "라바트",
+   "nameEn": "Rabat",
+   "lon": -6.8498,
+   "lat": 34.0209
+  },
+  {
+   "id": "casablanca",
+   "nameKo": "카사블랑카",
+   "nameEn": "Casablanca",
+   "lon": -7.5898,
+   "lat": 33.5731
+  },
+  {
+   "id": "tangier",
+   "nameKo": "탕헤르",
+   "nameEn": "Tangier",
+   "lon": -5.8129,
+   "lat": 35.7595
+  }
+ ],
+ "attractions": [
+  {
+   "id": "jemaa-el-fnaa",
+   "cityId": "marrakech",
+   "category": "medina",
+   "nameKo": "제마 엘 프나 광장",
+   "nameEn": "Jemaa el-Fnaa",
+   "history": "11세기 마라케시 건설 이래 도시의 심장이던 대광장으로, 2001년 유네스코가 인류무형문화유산으로 지정한 '살아 있는 문화 공간'이다.",
+   "intro": "낮에는 오렌지 주스 노점과 뱀 부리는 사람, 밤에는 수백 개의 포장마차와 이야기꾼·악사가 들어차 거대한 야시장으로 변한다. 마라케시 여행의 중심이다.",
+   "tip": "해질녘부터 밤이 가장 활기차다. 주변 카페 옥상 테라스에서 내려다보는 야경이 일품이다. 사진 촬영 시 공연자에게 소액 팁을 요구받을 수 있다."
+  },
+  {
+   "id": "koutoubia-mosque",
+   "cityId": "marrakech",
+   "category": "mosque",
+   "nameKo": "쿠투비아 모스크",
+   "nameEn": "Koutoubia Mosque",
+   "history": "12세기 알모하드 왕조가 세운 마라케시 최대의 모스크로, 높이 약 77m의 미너렛은 세비야 히랄다와 라바트 하산 탑의 원형이 됐다.",
+   "intro": "도시 어디서나 보이는 마라케시의 랜드마크로, 특히 야자수와 정원을 배경으로 한 저녁 실루엣이 아름답다.",
+   "tip": "이슬람 사원이라 비신자는 내부 입장이 불가하니 외관과 주변 정원을 감상한다. 제마 엘 프나 광장에서 걸어서 가깝다."
+  },
+  {
+   "id": "bahia-palace",
+   "cityId": "marrakech",
+   "category": "palace",
+   "nameKo": "바히아 궁전",
+   "nameEn": "Bahia Palace",
+   "history": "19세기 후반 재상의 저택으로 지어진 궁전으로, '바히아'는 '빛나는·아름다운'이라는 뜻이다. 당대 모로코 장인 예술의 정수를 모았다.",
+   "intro": "정교한 스투코 장식과 삼나무 천장, 젤리주(모자이크 타일) 안뜰과 정원이 이어진다. 화려한 하렘과 접견실을 거닐 수 있다.",
+   "tip": "오전 이른 시간이 붐비지 않는다. 인근 사아디 무덤과 엘 바디 궁전 유적을 함께 묶어 보기 좋다."
+  },
+  {
+   "id": "saadian-tombs",
+   "cityId": "marrakech",
+   "category": "palace",
+   "nameKo": "사아디 무덤",
+   "nameEn": "Saadian Tombs",
+   "history": "16세기 사아디 왕조의 왕실 묘역으로, 이후 봉인됐다가 1917년에 재발견됐다. 그 덕에 화려한 장식이 온전히 보존됐다.",
+   "intro": "삼나무·스투코·대리석과 열두 기둥의 방으로 꾸며진 술탄의 묘실이 백미다. 좁은 통로를 지나 숨겨진 정원 묘역으로 들어간다.",
+   "tip": "공간이 좁아 대기 줄이 길 수 있으니 개장 직후가 좋다. 바히아 궁전과 가까워 함께 도는 동선이 자연스럽다."
+  },
+  {
+   "id": "majorelle-garden",
+   "cityId": "marrakech",
+   "category": "nature",
+   "nameKo": "마조렐 정원",
+   "nameEn": "Jardin Majorelle",
+   "history": "프랑스 화가 자크 마조렐이 조성하고, 훗날 패션 디자이너 이브 생로랑이 사들여 되살린 정원이다. 강렬한 '마조렐 블루'로 유명하다.",
+   "intro": "선인장·야자·대나무가 우거진 정원과 코발트빛 건물, 베르베르 박물관, 이브 생로랑 미술관이 어우러진다. 도심 속 오아시스다.",
+   "tip": "매우 인기가 많아 온라인 예매를 권한다. 이른 아침이 붐비지 않고 사진도 잘 나온다."
+  },
+  {
+   "id": "fes-el-bali",
+   "cityId": "fez",
+   "category": "medina",
+   "nameKo": "페스 엘 발리 (구 메디나)",
+   "nameEn": "Fes el-Bali",
+   "history": "9세기에 형성된 페스의 구시가로, 차가 다닐 수 없는 세계 최대급 보행 메디나다. 1981년 유네스코 세계유산에 등재됐다.",
+   "intro": "9천 개가 넘는 골목이 미로처럼 얽혀 있고, 당나귀가 짐을 나르는 중세의 풍경이 그대로 살아 있다. 장인 공방과 시장이 골목마다 숨어 있다.",
+   "tip": "길을 잃기 쉬우니 공식 가이드를 고용하거나 오프라인 지도를 준비하는 게 좋다. 밤보다 낮에 다니는 것이 안전하다."
+  },
+  {
+   "id": "al-qarawiyyin",
+   "cityId": "fez",
+   "category": "mosque",
+   "nameKo": "알 카라윈 대학·모스크",
+   "nameEn": "Al-Qarawiyyin",
+   "history": "859년 파티마 알 피흐리가 세운 교육기관으로, 세계에서 가장 오래된 '계속 운영 중인 대학'으로 기네스에 등재돼 있다. 부속 도서관도 세계 최고(最古)급이다.",
+   "intro": "이슬람 학문의 중심이던 대학이자 모스크로, 페스 메디나의 정신적 심장이다.",
+   "tip": "모스크 내부는 비신자 입장이 제한되나, 문틈과 안뜰로 화려한 내부를 엿볼 수 있다. 인근 부 이나니아 마드라사는 비신자도 들어갈 수 있다."
+  },
+  {
+   "id": "bou-inania-madrasa",
+   "cityId": "fez",
+   "category": "mosque",
+   "nameKo": "부 이나니아 마드라사",
+   "nameEn": "Bou Inania Madrasa",
+   "history": "14세기 마린 왕조가 세운 신학교(마드라사)로, 페스에서 비신자도 입장할 수 있는 드문 종교 건축이다.",
+   "intro": "삼나무 조각, 스투코, 젤리주 타일이 안뜰을 빈틈없이 채운 모로코 마린 건축의 걸작이다. 물시계 유적도 맞은편에 남아 있다.",
+   "tip": "규모는 작지만 장식 밀도가 압도적이라 천천히 올려다보며 감상하자. 페스 메디나 산책 중 들르기 좋다."
+  },
+  {
+   "id": "chouara-tannery",
+   "cityId": "fez",
+   "category": "medina",
+   "nameKo": "슈아라 가죽 무두질터",
+   "nameEn": "Chouara Tannery",
+   "history": "중세부터 이어져 온 전통 가죽 무두질 작업장으로, 돌로 만든 수십 개의 염색 통에서 지금도 옛 방식 그대로 가죽을 처리한다.",
+   "intro": "색색의 염료 통이 벌집처럼 늘어선 풍경이 페스의 상징적 이미지다. 주변 가죽 상점 테라스에서 작업 광경을 내려다볼 수 있다.",
+   "tip": "특유의 냄새가 강해 가게에서 민트 잎을 건네준다. 테라스는 대개 가죽 상점을 통해 올라가며, 구경 후 구매 권유가 있을 수 있다."
+  },
+  {
+   "id": "chefchaouen-medina",
+   "cityId": "chefchaouen",
+   "category": "medina",
+   "nameKo": "셰프샤우엔 블루 메디나",
+   "nameEn": "Chefchaouen Blue Medina",
+   "history": "리프 산맥 기슭의 산골 마을로, 15세기 말에 세워졌다. 온 마을이 파란색으로 칠해진 유래는 여러 설(시원함·모기 퇴치·유대 전통 등)이 전한다.",
+   "intro": "골목과 계단, 문과 화분까지 온통 파랗게 물든 동화 같은 마을이다. 걷는 것 자체가 여행이며, 사진 명소가 끝없이 이어진다.",
+   "tip": "언덕 위 스페인 모스크 전망대에서 파란 마을 전경과 일몰을 볼 수 있다. 산악 지대라 초가을·겨울 저녁은 쌀쌀하다."
+  },
+  {
+   "id": "erg-chebbi",
+   "cityId": "merzouga",
+   "category": "nature",
+   "nameKo": "에르그 셰비 사막",
+   "nameEn": "Erg Chebbi Dunes",
+   "history": "메르주가 인근에 펼쳐진 거대한 모래 언덕 지대로, 높이 150m에 이르는 오렌지빛 모래산이 사하라의 상징적 풍경을 이룬다.",
+   "intro": "낙타를 타고 사구를 넘어 사막 캠프에서 하룻밤을 보내며, 쏟아지는 별과 일출·일몰을 만난다. 모로코 여행의 하이라이트로 꼽힌다.",
+   "tip": "사막 1박 투어(캠프)는 초가을~겨울이 낮에 덜 덥고 밤은 매우 춥다. 마라케시·페스에서 2~3일 코스로 이어지며 방한 옷이 필요하다."
+  },
+  {
+   "id": "todra-gorge",
+   "cityId": "todra",
+   "category": "nature",
+   "nameKo": "토드라 협곡",
+   "nameEn": "Todra Gorge",
+   "history": "아틀라스 산맥 동부, 수만 년에 걸쳐 강이 깎아낸 협곡으로, 양쪽 절벽이 높이 160m까지 치솟는다.",
+   "intro": "가장 좁은 구간은 폭이 10m 남짓에 불과해, 붉은 절벽 사이를 걷는 경험이 극적이다. 사막 투어의 경유지로 인기다.",
+   "tip": "사하라로 가는 길목이라 메르주가 투어와 자연스럽게 이어진다. 협곡 바닥을 흐르는 물길을 따라 산책하기 좋다."
+  },
+  {
+   "id": "ait-benhaddou-ksar",
+   "cityId": "ait-ben-haddou",
+   "category": "palace",
+   "nameKo": "아이트 벤 하두 크사르",
+   "nameEn": "Ksar of Aït Benhaddou",
+   "history": "붉은 흙(피세)으로 지은 요새화된 마을(크사르)로, 사하라 대상 교역로의 관문이었다. 1987년 유네스코 세계유산에 등재됐다.",
+   "intro": "언덕을 따라 층층이 쌓인 흙집과 탑이 사막빛으로 빛난다. '글래디에이터'·'왕좌의 게임' 등 수많은 영화의 배경으로 쓰였다.",
+   "tip": "이른 아침·해질녘의 빛에 흙벽이 가장 아름답게 물든다. 마라케시↔사하라 루트 중간에 있어 경유하기 좋다."
+  },
+  {
+   "id": "taourirt-kasbah",
+   "cityId": "ouarzazate",
+   "category": "palace",
+   "nameKo": "타우리르트 카스바",
+   "nameEn": "Taourirt Kasbah",
+   "history": "19~20세기 글라위 가문의 거점이던 흙벽 요새(카스바)로, 미로 같은 방과 탑으로 이루어져 있다.",
+   "intro": "'사막의 할리우드'라 불리는 와르자자트의 상징으로, 인근에 대형 영화 스튜디오(아틀라스 스튜디오)가 있다. 사하라와 아틀라스를 잇는 관문 도시다.",
+   "tip": "복원된 일부 방과 정교한 천장 장식을 볼 수 있다. 아이트 벤 하두와 함께 묶어 하루에 보기 좋다."
+  },
+  {
+   "id": "essaouira-medina",
+   "cityId": "essaouira",
+   "category": "medina",
+   "nameKo": "에사우이라 메디나·성벽",
+   "nameEn": "Essaouira Medina",
+   "history": "18세기 유럽 군사 건축가의 설계로 정비된 대서양 항구 도시로, 반듯한 성벽과 바스티온이 특징이다. 메디나는 유네스코 세계유산이다.",
+   "intro": "바닷바람이 시원한 흰·파란 항구 마을로, 갈매기와 어선이 있는 성벽(스칼라)과 활기찬 생선 시장이 명물이다. 지미 헨드릭스가 머문 곳으로도 알려져 있다.",
+   "tip": "'바람의 도시'답게 카이트·윈드서핑의 성지다. 마라케시에서 당일치기도 가능하지만 1박하며 노을을 즐기길 권한다."
+  },
+  {
+   "id": "bab-mansour-meknes",
+   "cityId": "meknes",
+   "category": "palace",
+   "nameKo": "밥 만수르·메크네스 왕성",
+   "nameEn": "Bab Mansour & Imperial Meknes",
+   "history": "17세기 술탄 물레이 이스마일이 수도로 삼아 거대한 성벽과 궁을 지은 도시로, '모로코의 베르사유'라 불린다. 유네스코 세계유산이다.",
+   "intro": "정교한 젤리주 타일로 장식된 웅장한 성문 '밥 만수르'가 상징이다. 광대한 곡물창고·마구간과 물레이 이스마일 영묘가 남아 있다.",
+   "tip": "인근 볼루빌리스 로마 유적, 성지 물레이 이드리스와 하루에 묶어 보기 좋다. 페스에서 가까워 당일치기가 가능하다."
+  },
+  {
+   "id": "volubilis-ruins",
+   "cityId": "volubilis",
+   "category": "ancient",
+   "nameKo": "볼루빌리스 로마 유적",
+   "nameEn": "Volubilis",
+   "history": "기원전 3세기부터 발달한 고대 도시로, 로마 제국 최남서단 속주 도시 중 하나였다. 1997년 유네스코 세계유산에 등재됐다.",
+   "intro": "개선문, 바실리카, 열주 대로와 정교한 바닥 모자이크가 밀밭 언덕 위에 남아 있다. 북아프리카에서 보존이 뛰어난 로마 유적이다.",
+   "tip": "그늘이 적으니 오전이나 늦은 오후가 좋다. 메크네스에서 가까워 함께 도는 반나절 코스로 인기다."
+  },
+  {
+   "id": "hassan-tower-rabat",
+   "cityId": "rabat",
+   "category": "mosque",
+   "nameKo": "하산 탑",
+   "nameEn": "Hassan Tower",
+   "history": "12세기 알모하드 왕조가 세계 최대 모스크를 지으려다 중단하며 남은 미완성 미너렛으로, 높이 약 44m다. 라바트 유적과 함께 유네스코 세계유산이다.",
+   "intro": "미완성 모스크 터에 늘어선 200여 개의 기둥과 탑, 그리고 맞은편 무함마드 5세 영묘가 어우러진다. 근위병이 지키는 라바트의 상징이다.",
+   "tip": "영묘 내부는 정숙·복장 규정을 지키면 관람할 수 있다. 인근 우다야 카스바와 함께 보기 좋다."
+  },
+  {
+   "id": "kasbah-udayas",
+   "cityId": "rabat",
+   "category": "palace",
+   "nameKo": "우다야 카스바",
+   "nameEn": "Kasbah of the Udayas",
+   "history": "12세기에 세워진 언덕 위 요새 겸 주거 구역으로, 부레그레그 강이 대서양과 만나는 어귀를 굽어본다.",
+   "intro": "셰프샤우엔을 닮은 파랗고 흰 골목, 안달루시아식 정원, 강과 바다 전망이 어우러진다. 라바트에서 가장 사랑스러운 산책 코스다.",
+   "tip": "골목 카페(카페 마우레)에서 민트 티를 마시며 강 하구를 조망하기 좋다. 하산 탑과 도보권이다."
+  },
+  {
+   "id": "hassan-ii-mosque",
+   "cityId": "casablanca",
+   "category": "mosque",
+   "nameKo": "하산 2세 모스크",
+   "nameEn": "Hassan II Mosque",
+   "history": "1993년 완공된 모로코 최대의 모스크로, 높이 약 210m의 미너렛은 세계에서 가장 높은 축에 든다. 일부가 대서양 바다 위로 지어졌다.",
+   "intro": "약 10만 명을 수용하는 거대한 규모에, 바닷물 위에 떠 있는 듯한 입지와 정교한 장식이 압도적이다. 모로코에서 비신자도 내부를 볼 수 있는 드문 모스크다.",
+   "tip": "내부는 정해진 시간의 가이드 투어로만 입장한다. 해질녘 광장에서 바다를 배경으로 한 실루엣이 아름답다."
+  },
+  {
+   "id": "tangier-medina",
+   "cityId": "tangier",
+   "category": "medina",
+   "nameKo": "탕헤르 메디나·카스바",
+   "nameEn": "Tangier Medina & Kasbah",
+   "history": "지브롤터 해협을 마주한 유럽과 아프리카의 관문으로, 20세기 국제 관리 시절 예술가·작가들이 모여든 국제 도시였다.",
+   "intro": "언덕 위 카스바에서 해협 너머 스페인이 보이고, 미로 같은 메디나 골목과 활기찬 항구가 어우러진다. 마티스가 그리고 폴 볼스가 머문 도시다.",
+   "tip": "스페인 남부에서 페리로 닿는 아프리카의 첫 관문이라 유럽↔모로코 이동의 거점이 된다. 인근 헤라클레스 동굴도 볼거리다."
+  }
+ ]
+}

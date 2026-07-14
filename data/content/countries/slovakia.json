@@ -1,0 +1,155 @@
+{
+ "key": "slovakia",
+ "admin": "Slovakia",
+ "nameKo": "슬로바키아",
+ "nameEn": "Slovakia",
+ "categories": [
+  {
+   "id": "castle",
+   "nameKo": "성·요새",
+   "nameEn": "Castle & Fortress",
+   "varName": "--c1"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c2"
+  },
+  {
+   "id": "nature",
+   "nameKo": "산·자연",
+   "nameEn": "Mountains & Nature",
+   "varName": "--c3"
+  },
+  {
+   "id": "village",
+   "nameKo": "전통 마을",
+   "nameEn": "Traditional Village",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "bratislava",
+   "nameKo": "브라티슬라바",
+   "nameEn": "Bratislava",
+   "lon": 17.1077,
+   "lat": 48.1486
+  },
+  {
+   "id": "spis",
+   "nameKo": "스피시 성",
+   "nameEn": "Spiš Castle",
+   "lon": 20.7683,
+   "lat": 48.9989
+  },
+  {
+   "id": "high-tatras",
+   "nameKo": "고타트라",
+   "nameEn": "High Tatras",
+   "lon": 20.06,
+   "lat": 49.12
+  },
+  {
+   "id": "bojnice",
+   "nameKo": "보이니체",
+   "nameEn": "Bojnice",
+   "lon": 18.578,
+   "lat": 48.78
+  },
+  {
+   "id": "banska-stiavnica",
+   "nameKo": "반스카 슈티아브니차",
+   "nameEn": "Banská Štiavnica",
+   "lon": 18.8925,
+   "lat": 48.459
+  },
+  {
+   "id": "kosice",
+   "nameKo": "코시체",
+   "nameEn": "Košice",
+   "lon": 21.2611,
+   "lat": 48.7164
+  },
+  {
+   "id": "vlkolinec",
+   "nameKo": "블콜리네츠",
+   "nameEn": "Vlkolínec",
+   "lon": 19.05,
+   "lat": 49.04
+  }
+ ],
+ "attractions": [
+  {
+   "id": "bratislava-castle",
+   "cityId": "bratislava",
+   "category": "castle",
+   "nameKo": "브라티슬라바 성·구시가",
+   "nameEn": "Bratislava Castle & Old Town",
+   "history": "다뉴브 강변 언덕의 네모난 성과 그 아래 구시가로, 슬로바키아의 수도다. 성은 여러 번 재건을 거쳐 지금의 흰 모습이 됐다.",
+   "intro": "네 귀퉁이에 탑이 선 '뒤집힌 탁자' 같은 성과, 파스텔빛 구시가·미하엘 문·구시청사가 어우러진다. 성에서 다뉴브와 도시가 조망된다.",
+   "tip": "구시가 곳곳의 익살스러운 청동상(추밀·나폴레옹 병사)을 찾아보자. 빈에서 기차·배로 약 1시간 거리라 함께 묶기 좋다."
+  },
+  {
+   "id": "spis-castle",
+   "cityId": "spis",
+   "category": "castle",
+   "nameKo": "스피시 성",
+   "nameEn": "Spiš Castle",
+   "history": "12세기부터 지은 중부 유럽 최대급 성 유적으로, 언덕을 뒤덮은 폐허가 웅장하다. 1993년 유네스코 세계유산에 등재됐다.",
+   "intro": "드넓은 성벽과 탑의 폐허가 초원 언덕 위에 펼쳐진다. 성에서 스피시 지역의 목가적 풍경이 내려다보인다.",
+   "tip": "그늘이 적으니 물·모자를 챙기자. 인근 레보차 구시가(유네스코)와 함께 보기 좋다."
+  },
+  {
+   "id": "high-tatras-park",
+   "cityId": "high-tatras",
+   "category": "nature",
+   "nameKo": "고타트라 산·슈트르브스케 플레소",
+   "nameEn": "High Tatras",
+   "history": "폴란드와 국경을 이루는 카르파티아 산맥 최고봉 지대로, 슬로바키아에서 가장 높은 산들이 모여 있다.",
+   "intro": "빙하호 슈트르브스케 플레소와 뾰족한 봉우리, 케이블카로 오르는 롬니츠키 슈티트 전망이 어우러진다. 트레킹·스키의 성지다.",
+   "tip": "여름 트레킹, 겨울 스키가 인기다. 산악 날씨가 급변하니 준비를 갖추고, 케이블카로 고산 전망을 즐기자."
+  },
+  {
+   "id": "bojnice-castle",
+   "cityId": "bojnice",
+   "category": "castle",
+   "nameKo": "보이니체 성",
+   "nameEn": "Bojnice Castle",
+   "history": "12세기 성을 19세기 말 낭만주의 양식으로 개조한 성으로, 프랑스 루아르의 성들에서 영감을 받았다.",
+   "intro": "뾰족한 첨탑과 해자, 화려한 내부를 갖춘 '동화 속 성'으로, 슬로바키아에서 가장 많이 찾는 성이다. 여름 유령 축제로도 유명하다.",
+   "tip": "봄 튤립, 여름 밤의 유령 투어 등 시즌 행사가 있다. 성 앞 수령 700년의 보리수도 명물이다."
+  },
+  {
+   "id": "banska-stiavnica-town",
+   "cityId": "banska-stiavnica",
+   "category": "oldtown",
+   "nameKo": "반스카 슈티아브니차",
+   "nameEn": "Banská Štiavnica",
+   "history": "중세 은·금 채굴로 번영한 광산 도시로, 1993년 도시 전체가 유네스코 세계유산에 등재됐다.",
+   "intro": "언덕에 계단식으로 앉은 르네상스·바로크 저택과 옛 성, 광산 유적이 어우러진다. 유럽 광업 기술의 요람이었다.",
+   "tip": "옛 광산 갱도를 견학할 수 있다. 언덕 위 칼바리(순례 언덕)에서 도시 전경이 내려다보인다."
+  },
+  {
+   "id": "kosice-cathedral",
+   "cityId": "kosice",
+   "category": "oldtown",
+   "nameKo": "코시체·성 엘리자베트 대성당",
+   "nameEn": "Košice & St. Elisabeth Cathedral",
+   "history": "슬로바키아 제2의 도시로, 유럽 최동단의 고딕 대성당인 성 엘리자베트 대성당이 구시가 중심에 있다.",
+   "intro": "긴 광장을 따라 대성당과 극장, 분수, 파스텔빛 건물이 늘어선 활기찬 도시다. 동부 슬로바키아 여행의 관문이다.",
+   "tip": "대성당 탑에 오르면 도시가 조망된다. 스피시 성 등 동부 명소를 함께 묶기 좋다."
+  },
+  {
+   "id": "vlkolinec-village",
+   "cityId": "vlkolinec",
+   "category": "village",
+   "nameKo": "블콜리네츠 목조 마을",
+   "nameEn": "Vlkolínec",
+   "history": "카르파티아 산악 지대의 통나무집 마을로, 중부 유럽 전통 촌락의 원형을 잘 간직해 1993년 유네스코 세계유산에 등재됐다.",
+   "intro": "색색으로 칠한 통나무집과 목조 종탑, 산을 배경으로 한 목가적 풍경이 시간이 멈춘 듯하다. 지금도 사람이 사는 살아 있는 마을이다.",
+   "tip": "차분한 시골 정취를 즐기며 천천히 걷자. 근처 온천 도시 루좀베로크에서 접근한다."
+  }
+ ]
+}

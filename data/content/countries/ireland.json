@@ -1,0 +1,176 @@
+{
+ "key": "ireland",
+ "admin": "Ireland",
+ "nameKo": "아일랜드",
+ "nameEn": "Ireland",
+ "categories": [
+  {
+   "id": "city",
+   "nameKo": "도시·거리",
+   "nameEn": "City & Street",
+   "varName": "--c1"
+  },
+  {
+   "id": "heritage",
+   "nameKo": "성·유적",
+   "nameEn": "Castle & Heritage",
+   "varName": "--c2"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·해안",
+   "nameEn": "Nature & Coast",
+   "varName": "--c3"
+  }
+ ],
+ "cities": [
+  {
+   "id": "dublin",
+   "nameKo": "더블린",
+   "nameEn": "Dublin",
+   "lon": -6.2603,
+   "lat": 53.3498
+  },
+  {
+   "id": "newgrange",
+   "nameKo": "뉴그레인지",
+   "nameEn": "Newgrange",
+   "lon": -6.4755,
+   "lat": 53.6947
+  },
+  {
+   "id": "galway",
+   "nameKo": "골웨이",
+   "nameEn": "Galway",
+   "lon": -9.0568,
+   "lat": 53.2707
+  },
+  {
+   "id": "cliffs-moher",
+   "nameKo": "모허 절벽",
+   "nameEn": "Cliffs of Moher",
+   "lon": -9.4309,
+   "lat": 52.9715
+  },
+  {
+   "id": "dingle",
+   "nameKo": "딩글",
+   "nameEn": "Dingle",
+   "lon": -10.2683,
+   "lat": 52.1409
+  },
+  {
+   "id": "kerry",
+   "nameKo": "링 오브 케리",
+   "nameEn": "Ring of Kerry",
+   "lon": -9.5044,
+   "lat": 52.0599
+  },
+  {
+   "id": "cork",
+   "nameKo": "코크 (블라니)",
+   "nameEn": "Cork",
+   "lon": -8.57,
+   "lat": 51.929
+  },
+  {
+   "id": "cashel",
+   "nameKo": "캐셜",
+   "nameEn": "Cashel",
+   "lon": -7.8905,
+   "lat": 52.519
+  }
+ ],
+ "attractions": [
+  {
+   "id": "trinity-book-of-kells",
+   "cityId": "dublin",
+   "category": "city",
+   "nameKo": "트리니티 칼리지·켈스의 서",
+   "nameEn": "Trinity College & Book of Kells",
+   "history": "1592년에 세워진 아일랜드에서 가장 오래된 대학으로, 9세기의 화려한 채색 필사본 '켈스의 서'와 롱 룸 도서관이 있다.",
+   "intro": "긴 목조 서가가 늘어선 롱 룸과 켈스의 서가 압권이다. 더블린 도심의 지적·역사적 중심이다.",
+   "tip": "켈스의 서 전시는 온라인 예매를 권한다. 인근 그래프턴 거리와 성 스티븐스 그린도 함께 걷기 좋다."
+  },
+  {
+   "id": "guinness-temple-bar",
+   "cityId": "dublin",
+   "category": "city",
+   "nameKo": "기네스 창고·템플 바",
+   "nameEn": "Guinness Storehouse & Temple Bar",
+   "history": "1759년 창업한 기네스 양조장의 방문자 센터와, 자갈길에 펍이 늘어선 문화 지구 템플 바가 더블린의 활기를 상징한다.",
+   "intro": "기네스 창고 꼭대기 그래비티 바에서 흑맥주 한 잔과 함께 더블린 전경을 조망한다. 템플 바에서는 라이브 아이리시 음악이 흐른다.",
+   "tip": "그래비티 바 전망이 하이라이트다. 템플 바 펍은 관광지라 물가가 높은 편이니 감안하자."
+  },
+  {
+   "id": "newgrange-tomb",
+   "cityId": "newgrange",
+   "category": "heritage",
+   "nameKo": "뉴그레인지 고분",
+   "nameEn": "Newgrange",
+   "history": "기원전 3200년경에 지은 통로식 무덤으로, 이집트 피라미드와 스톤헨지보다 오래됐다. 보인 계곡 유적으로 유네스코 세계유산이다.",
+   "intro": "동지(冬至) 아침 햇빛이 통로를 따라 안쪽 방을 비추도록 설계된 5천 년 전 무덤이다. 소용돌이 무늬가 새겨진 거석이 인상적이다.",
+   "tip": "방문자 센터를 통한 가이드 투어로만 입장한다. 동지 채광 관람은 추첨제로 경쟁이 매우 치열하다."
+  },
+  {
+   "id": "galway-connemara",
+   "cityId": "galway",
+   "category": "city",
+   "nameKo": "골웨이·코네마라",
+   "nameEn": "Galway & Connemara",
+   "history": "서부 해안의 활기찬 문화 도시로, 아이리시 전통 음악과 축제의 중심이다. 근교 코네마라는 야생의 산과 호수, 습지로 유명하다.",
+   "intro": "색색의 상점 거리(퀘이 스트리트)와 라이브 음악, 그리고 코네마라의 거친 자연이 어우러진다. 게일어 문화가 짙게 남은 지역이다.",
+   "tip": "저녁 펍의 라이브 세션을 즐겨보자. 코네마라 국립공원·카일모어 수도원으로 당일 드라이브가 좋다."
+  },
+  {
+   "id": "cliffs-of-moher",
+   "cityId": "cliffs-moher",
+   "category": "nature",
+   "nameKo": "모허 절벽",
+   "nameEn": "Cliffs of Moher",
+   "history": "대서양을 마주한 최대 높이 약 214m의 해안 절벽으로, 아일랜드에서 가장 많이 찾는 자연 명소다.",
+   "intro": "8km에 걸쳐 이어지는 수직 절벽과 파도, 그 위를 나는 바닷새(퍼핀 포함)가 장관이다. 절벽 위 오브라이언 탑이 전망 포인트다.",
+   "tip": "바람이 강하고 날씨가 급변하니 방풍 옷과 튼튼한 신발이 좋다. 안전 난간 안쪽에서 관람하자. 인근 버렌 카르스트 지형도 볼 만하다."
+  },
+  {
+   "id": "dingle-peninsula",
+   "cityId": "dingle",
+   "category": "nature",
+   "nameKo": "딩글 반도",
+   "nameEn": "Dingle Peninsula",
+   "history": "게일어(아이리시)가 일상어로 쓰이는 서부 반도로, 슬레아 헤드 드라이브 코스와 초기 그리스도교 유적이 있다.",
+   "intro": "거친 해안 절벽과 초록 언덕, 돌집이 어우러진다. 항구 마을 딩글의 알록달록한 펍과 해산물, 옛 벌집 모양 석조 오두막이 명물이다.",
+   "tip": "슬레아 헤드 드라이브를 천천히 돌자. 아이리시 음악과 신선한 굴·해산물을 즐기기 좋다."
+  },
+  {
+   "id": "ring-of-kerry",
+   "cityId": "kerry",
+   "category": "nature",
+   "nameKo": "링 오브 케리",
+   "nameEn": "Ring of Kerry",
+   "history": "아이베라 반도를 한 바퀴 도는 약 179km의 순환 드라이브 코스로, 아일랜드의 대표적인 경관 도로다.",
+   "intro": "호수와 산(맥길리커디 리크스), 해안 절벽, 킬라니 국립공원, 스켈릭 마이클(스타워즈 촬영지)의 전망이 이어진다.",
+   "tip": "관광버스와 반대 방향으로 돌면 한산하다. 킬라니를 거점으로 하루 코스로 도는 게 일반적이다."
+  },
+  {
+   "id": "blarney-castle",
+   "cityId": "cork",
+   "category": "heritage",
+   "nameKo": "블라니 성",
+   "nameEn": "Blarney Castle",
+   "history": "15세기에 지은 중세 성으로, 꼭대기의 '블라니 스톤'에 입을 맞추면 말솜씨(언변)를 얻는다는 전설로 유명하다.",
+   "intro": "성탑과 아름다운 정원, 독 가든이 어우러진다. 아일랜드 제2의 도시 코크와 항구 마을 코브(타이태닉의 마지막 기항지)가 인근이다.",
+   "tip": "블라니 스톤 키스는 몸을 뒤로 젖혀야 해 줄이 길 수 있다. 코크 잉글리시 마켓의 먹거리도 즐겨보자."
+  },
+  {
+   "id": "rock-of-cashel",
+   "cityId": "cashel",
+   "category": "heritage",
+   "nameKo": "캐셜의 바위",
+   "nameEn": "Rock of Cashel",
+   "history": "초원 위 바위 언덕에 세운 중세 종교 유적군으로, 성당·원탑·예배당이 모여 있다. 옛 먼스터 왕들의 자리였다.",
+   "intro": "평원 위로 솟은 바위에 회색 성당과 둥근 탑이 극적으로 서 있다. 아일랜드에서 가장 인상적인 중세 유적 중 하나다.",
+   "tip": "더블린~코크/케리 이동 중 경유하기 좋다. 맞은편 언덕에서 유적 전체를 조망할 수 있다."
+  }
+ ]
+}

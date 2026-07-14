@@ -1,0 +1,115 @@
+{
+ "key": "slovenia",
+ "admin": "Slovenia",
+ "nameKo": "슬로베니아",
+ "nameEn": "Slovenia",
+ "categories": [
+  {
+   "id": "lake",
+   "nameKo": "호수·자연",
+   "nameEn": "Lake & Nature",
+   "varName": "--c1"
+  },
+  {
+   "id": "cave",
+   "nameKo": "동굴·카르스트",
+   "nameEn": "Cave & Karst",
+   "varName": "--c2"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·해안",
+   "nameEn": "Old Town & Coast",
+   "varName": "--c3"
+  }
+ ],
+ "cities": [
+  {
+   "id": "ljubljana",
+   "nameKo": "류블랴나",
+   "nameEn": "Ljubljana",
+   "lon": 14.5058,
+   "lat": 46.0569
+  },
+  {
+   "id": "bled",
+   "nameKo": "블레드",
+   "nameEn": "Bled",
+   "lon": 14.1136,
+   "lat": 46.3683
+  },
+  {
+   "id": "bohinj",
+   "nameKo": "보힌",
+   "nameEn": "Bohinj",
+   "lon": 13.8804,
+   "lat": 46.283
+  },
+  {
+   "id": "postojna",
+   "nameKo": "포스토이나",
+   "nameEn": "Postojna",
+   "lon": 14.2065,
+   "lat": 45.783
+  },
+  {
+   "id": "piran",
+   "nameKo": "피란",
+   "nameEn": "Piran",
+   "lon": 13.5683,
+   "lat": 45.5285
+  }
+ ],
+ "attractions": [
+  {
+   "id": "ljubljana-oldtown",
+   "cityId": "ljubljana",
+   "category": "oldtown",
+   "nameKo": "류블랴나 구시가·성",
+   "nameEn": "Ljubljana Old Town & Castle",
+   "history": "류블랴니차 강을 낀 구시가로, 건축가 요제 플레치니크가 다리와 광장을 디자인해 도시에 독특한 정체성을 주었다. 언덕 위에 중세 성이 있다.",
+   "intro": "'삼중 다리(트로모스토우예)'와 용의 다리, 강변 카페가 이어지는 아기자기한 수도다. 케이블카로 오르는 성에서 도시와 알프스가 조망된다.",
+   "tip": "차 없는 구시가라 걷기 좋다. 강변 노천 시장과 카페에서 여유를 즐기자."
+  },
+  {
+   "id": "lake-bled",
+   "cityId": "bled",
+   "category": "lake",
+   "nameKo": "블레드 호수",
+   "nameEn": "Lake Bled",
+   "history": "율리안 알프스 기슭의 빙하호로, 호수 한가운데 작은 섬과 언덕 위 중세 성이 있다. 슬로베니아를 대표하는 풍경이다.",
+   "intro": "에메랄드빛 호수에 떠 있는 섬 교회와, 절벽 위 블레드 성이 어우러진다. 전통 나룻배 '플레트나'를 타고 섬에 오른다.",
+   "tip": "섬 교회의 '소원의 종'을 울려보자. 오스트르니차 전망대에 오르면 호수 전경이 그림처럼 담긴다. 크림 케이크(크렘슈니타)가 명물이다."
+  },
+  {
+   "id": "lake-bohinj",
+   "cityId": "bohinj",
+   "category": "lake",
+   "nameKo": "보힌 호수·트리글라브",
+   "nameEn": "Lake Bohinj & Triglav",
+   "history": "트리글라브 국립공원 안의 슬로베니아 최대 빙하호로, 블레드보다 크고 한적하다.",
+   "intro": "산으로 둘러싸인 맑은 호수와 인근 사비차 폭포, 케이블카로 오르는 부겔 전망이 어우러진다. 자연 그대로의 알프스 정취가 있다.",
+   "tip": "블레드보다 조용해 하이킹·수영·카약에 좋다. 사비차 폭포 트레킹을 함께 하면 좋다."
+  },
+  {
+   "id": "postojna-predjama",
+   "cityId": "postojna",
+   "category": "cave",
+   "nameKo": "포스토이나 동굴·프레드야마 성",
+   "nameEn": "Postojna Cave & Predjama Castle",
+   "history": "24km에 이르는 카르스트 석회동굴로, 동굴 열차를 타고 들어간다. 인근 프레드야마 성은 절벽 동굴 입구에 지은 세계 최대급 동굴 성이다.",
+   "intro": "동굴 열차로 종유석 궁전을 지나며, 동굴에 사는 '인간 물고기' 올름을 볼 수 있다. 절벽에 박힌 프레드야마 성도 극적이다.",
+   "tip": "동굴 안은 연중 약 10℃로 서늘하니 겉옷을 챙기자. 동굴과 성을 묶은 통합권이 있다."
+  },
+  {
+   "id": "piran-town",
+   "cityId": "piran",
+   "category": "oldtown",
+   "nameKo": "피란 구시가",
+   "nameEn": "Piran",
+   "history": "아드리아 해에 면한 베네치아풍 항구 도시로, 좁은 반도 끝에 자리한다. 작곡가 타르티니의 고향이다.",
+   "intro": "붉은 지붕과 종탑, 타르티니 광장, 성벽에서 보는 바다 전망이 이탈리아를 닮았다. 슬로베니아의 짧은 해안선이 품은 보석이다.",
+   "tip": "성벽에 올라 반도와 바다를 조망하자. 인근 염전(세초블레)과 신선한 해산물이 유명하다."
+  }
+ ]
+}

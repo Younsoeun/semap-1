@@ -1,0 +1,276 @@
+{
+ "key": "uk",
+ "admin": "United Kingdom",
+ "nameKo": "영국",
+ "nameEn": "United Kingdom",
+ "categories": [
+  {
+   "id": "landmark",
+   "nameKo": "랜드마크·기념물",
+   "nameEn": "Landmark",
+   "varName": "--c1"
+  },
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c2"
+  },
+  {
+   "id": "museum",
+   "nameKo": "박물관·유적",
+   "nameEn": "Museum & Heritage",
+   "varName": "--c3"
+  },
+  {
+   "id": "town",
+   "nameKo": "도시·마을",
+   "nameEn": "Town & Village",
+   "varName": "--c4"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·해안",
+   "nameEn": "Nature & Coast",
+   "varName": "--c5"
+  }
+ ],
+ "cities": [
+  {
+   "id": "london",
+   "nameKo": "런던",
+   "nameEn": "London",
+   "lon": -0.1278,
+   "lat": 51.5074
+  },
+  {
+   "id": "windsor",
+   "nameKo": "윈저",
+   "nameEn": "Windsor",
+   "lon": -0.6044,
+   "lat": 51.4839
+  },
+  {
+   "id": "stonehenge",
+   "nameKo": "스톤헨지",
+   "nameEn": "Stonehenge",
+   "lon": -1.8262,
+   "lat": 51.1789
+  },
+  {
+   "id": "bath",
+   "nameKo": "바스",
+   "nameEn": "Bath",
+   "lon": -2.359,
+   "lat": 51.3811
+  },
+  {
+   "id": "oxford",
+   "nameKo": "옥스퍼드",
+   "nameEn": "Oxford",
+   "lon": -1.2577,
+   "lat": 51.752
+  },
+  {
+   "id": "cotswolds",
+   "nameKo": "코츠월드",
+   "nameEn": "Cotswolds",
+   "lon": -1.85,
+   "lat": 51.83
+  },
+  {
+   "id": "york",
+   "nameKo": "요크",
+   "nameEn": "York",
+   "lon": -1.0873,
+   "lat": 53.96
+  },
+  {
+   "id": "lake-district",
+   "nameKo": "레이크 디스트릭트",
+   "nameEn": "Lake District",
+   "lon": -2.9,
+   "lat": 54.46
+  },
+  {
+   "id": "edinburgh",
+   "nameKo": "에든버러",
+   "nameEn": "Edinburgh",
+   "lon": -3.1883,
+   "lat": 55.9533
+  },
+  {
+   "id": "skye",
+   "nameKo": "스카이 섬",
+   "nameEn": "Isle of Skye",
+   "lon": -6.21,
+   "lat": 57.27
+  },
+  {
+   "id": "snowdonia",
+   "nameKo": "스노도니아 (웨일스)",
+   "nameEn": "Snowdonia",
+   "lon": -3.98,
+   "lat": 53.0685
+  },
+  {
+   "id": "giants-causeway",
+   "nameKo": "자이언츠 코즈웨이",
+   "nameEn": "Giant's Causeway",
+   "lon": -6.5116,
+   "lat": 55.2408
+  }
+ ],
+ "attractions": [
+  {
+   "id": "westminster-bigben",
+   "cityId": "london",
+   "category": "landmark",
+   "nameKo": "웨스트민스터·빅벤",
+   "nameEn": "Westminster & Big Ben",
+   "history": "네오고딕 양식의 국회의사당(웨스트민스터 궁전)과 시계탑 '빅벤(엘리자베스 타워)'으로, 유네스코 세계유산이다. 옆 웨스트민스터 사원은 대관식이 열리는 곳이다.",
+   "intro": "템스강 변에 선 웨스트민스터 궁전과 빅벤의 종소리가 런던의 상징이다. 강 건너 런던아이 관람차에서 조망하기 좋다.",
+   "tip": "빅벤은 대대적 보수를 마쳐 다시 종을 울린다. 강변 산책이나 야경 크루즈로 조명을 감상하자."
+  },
+  {
+   "id": "tower-of-london",
+   "cityId": "london",
+   "category": "castle",
+   "nameKo": "런던탑·타워 브리지",
+   "nameEn": "Tower of London & Tower Bridge",
+   "history": "11세기 정복왕 윌리엄이 세운 요새 겸 궁전·감옥으로, 왕실 보물(크라운 주얼)을 보관한다. 옆 타워 브리지는 1894년 완공된 개폐식 다리다.",
+   "intro": "왕관 보석과 갑옷, 큰까마귀 전설, 근위병(비피터)이 있는 900년 된 요새다. 템스강 위 타워 브리지의 실루엣도 명물이다.",
+   "tip": "크라운 주얼 전시는 오전이 덜 붐빈다. 타워 브리지 개폐 시간표를 확인하면 다리가 열리는 장면을 볼 수 있다."
+  },
+  {
+   "id": "british-museum",
+   "cityId": "london",
+   "category": "museum",
+   "nameKo": "영국 박물관",
+   "nameEn": "British Museum",
+   "history": "1753년 설립된 세계 최초의 국립 공공 박물관으로, 로제타석·엘긴 마블스·이집트 미라 등 방대한 인류 유물을 소장한다.",
+   "intro": "유리 지붕의 그레이트 코트를 중심으로 세계 문명의 유물이 펼쳐진다. 입장료가 무료다.",
+   "tip": "무료지만 규모가 방대하니 관심 전시실(이집트·그리스 등)을 정해 동선을 짜자. 특별전은 예약이 필요할 수 있다."
+  },
+  {
+   "id": "buckingham-palace",
+   "cityId": "london",
+   "category": "landmark",
+   "nameKo": "버킹엄 궁전",
+   "nameEn": "Buckingham Palace",
+   "history": "영국 군주의 공식 관저로, 발코니 인사와 근위병 교대식으로 유명하다.",
+   "intro": "궁전 앞 광장의 근위병 교대식(체인징 더 가드)이 대표 볼거리다. 여름에는 스테이트 룸 내부가 공개되기도 한다.",
+   "tip": "근위병 교대식은 요일·계절에 따라 일정이 다르니 확인하자. 인근 세인트 제임스·하이드 파크와 함께 걷기 좋다."
+  },
+  {
+   "id": "windsor-castle",
+   "cityId": "windsor",
+   "category": "castle",
+   "nameKo": "윈저 성",
+   "nameEn": "Windsor Castle",
+   "history": "약 1천 년간 왕실이 거주해 온, 세계에서 가장 오래 사람이 산 성 중 하나다. 성 조지 예배당에는 여러 국왕이 잠들어 있다.",
+   "intro": "웅장한 성과 화려한 스테이트 아파트먼트, 인형의 집(퀸 메리's 돌하우스)이 볼거리다. 런던 근교 당일치기로 인기다.",
+   "tip": "런던에서 기차로 약 1시간이면 닿는다. 근위병 교대식 일정을 확인하고, 인근 이튼 칼리지도 볼 만하다."
+  },
+  {
+   "id": "stonehenge-circle",
+   "cityId": "stonehenge",
+   "category": "landmark",
+   "nameKo": "스톤헨지",
+   "nameEn": "Stonehenge",
+   "history": "기원전 3000~2000년경에 세운 거석 환상열석으로, 용도는 여전히 수수께끼다. 1986년 유네스코 세계유산에 등재됐다.",
+   "intro": "초원 위에 원형으로 늘어선 거대한 돌기둥이 하지·동지의 태양과 정렬한다. 선사시대의 미스터리를 마주하는 곳이다.",
+   "tip": "온라인 시간지정 예매를 권한다. 바스와 묶어 런던 근교 하루 코스로 자주 방문한다."
+  },
+  {
+   "id": "roman-baths-bath",
+   "cityId": "bath",
+   "category": "museum",
+   "nameKo": "로만 바스·바스",
+   "nameEn": "Roman Baths",
+   "history": "로마 시대의 온천 목욕탕 유적을 중심으로 발달한 조지 왕조풍 도시로, 도시 전체가 유네스코 세계유산이다.",
+   "intro": "2천 년 된 온천 대욕장과 꿀빛 석회암의 로열 크레센트, 바스 수도원이 어우러진다. 우아한 온천 도시다.",
+   "tip": "인접한 현대 온천 스파(서머싯)에서 실제로 온천욕을 즐길 수 있다. 스톤헨지와 함께 묶기 좋다."
+  },
+  {
+   "id": "oxford-university",
+   "cityId": "oxford",
+   "category": "town",
+   "nameKo": "옥스퍼드 대학",
+   "nameEn": "University of Oxford",
+   "history": "영어권에서 가장 오래된 대학으로, 12세기부터 이어졌다. 38개 칼리지와 보들리언 도서관, 라드클리프 카메라가 있다.",
+   "intro": "'꿈꾸는 첨탑의 도시'라 불리며, 해리 포터 촬영지(크라이스트 처치)로도 유명하다. 중세 대학 도시의 정취가 가득하다.",
+   "tip": "일부 칼리지는 방문 시간·요금이 있다. 라드클리프 카메라 주변과 크라이스트 처치가 사진 명소다."
+  },
+  {
+   "id": "cotswolds-villages",
+   "cityId": "cotswolds",
+   "category": "town",
+   "nameKo": "코츠월드 마을",
+   "nameEn": "Cotswolds Villages",
+   "history": "중세 양모 무역으로 번영한 잉글랜드 중부의 전원 지역으로, 꿀빛 석회암으로 지은 마을들이 흩어져 있다.",
+   "intro": "바이버리·버튼온더워터 등 개울과 돌다리가 있는 그림 같은 마을이 이어진다. 잉글랜드 전원의 낭만을 상징한다.",
+   "tip": "대중교통이 드물어 렌터카나 투어가 편하다. 마을 사이를 잇는 산책로(코츠월드 웨이)도 좋다."
+  },
+  {
+   "id": "york-minster",
+   "cityId": "york",
+   "category": "town",
+   "nameKo": "요크 민스터·성벽",
+   "nameEn": "York Minster & City Walls",
+   "history": "북유럽 최대급 고딕 대성당 요크 민스터와, 로마·바이킹 시대까지 거슬러 올라가는 성벽으로 둘러싸인 도시다.",
+   "intro": "거대한 스테인드글라스의 대성당, 중세 골목 '섐블스'(해리 포터 다이애건 앨리의 영감), 성벽 산책로가 어우러진다.",
+   "tip": "성벽 위를 걸으며 도시를 조망하자. 요빅 바이킹 센터에서 바이킹 시대 요크를 만날 수 있다."
+  },
+  {
+   "id": "lake-district-park",
+   "cityId": "lake-district",
+   "category": "nature",
+   "nameKo": "레이크 디스트릭트",
+   "nameEn": "Lake District",
+   "history": "잉글랜드 북서부의 국립공원으로, 빙하가 빚은 호수와 산이 어우러진다. 2017년 유네스코 세계유산에 등재됐다.",
+   "intro": "윈더미어 등 맑은 호수와 초록 언덕, 돌담이 목가적이다. 시인 워즈워스와 '피터 래빗'의 작가 비어트릭스 포터의 고향이다.",
+   "tip": "호수 유람선과 하이킹(스카펠 파이크 등)이 인기다. 날씨가 변덕스러우니 방수 옷을 챙기자."
+  },
+  {
+   "id": "edinburgh-castle",
+   "cityId": "edinburgh",
+   "category": "castle",
+   "nameKo": "에든버러 성·로열 마일",
+   "nameEn": "Edinburgh Castle & Royal Mile",
+   "history": "화산 바위 위에 선 성과, 성에서 홀리루드 궁전까지 이어지는 중세 대로 '로열 마일'이 스코틀랜드 수도의 심장이다. 구·신시가는 유네스코 세계유산이다.",
+   "intro": "언덕 위 성에서 스코틀랜드 왕관과 정오의 예포를 만나고, 로열 마일의 좁은 골목(클로즈)을 걷는다. 8월 에든버러 페스티벌로도 유명하다.",
+   "tip": "정오 예포(원 오클락 건은 오후 1시) 시간을 노리자. 아서스 시트 언덕에 오르면 도시 전경이 펼쳐진다."
+  },
+  {
+   "id": "isle-of-skye",
+   "cityId": "skye",
+   "category": "nature",
+   "nameKo": "스카이 섬",
+   "nameEn": "Isle of Skye",
+   "history": "스코틀랜드 서부 헤브리디스 제도의 섬으로, 극적인 산과 절벽·요정 전설로 이름 높다.",
+   "intro": "뾰족한 올드 맨 오브 스토어 바위기둥, 초록 협곡 쿼링, 요정 웅덩이(페어리 풀스)가 야생의 아름다움을 자아낸다.",
+   "tip": "날씨가 매우 변덕스러우니 여유 있는 일정과 방수 옷이 필요하다. 렌터카로 도는 것이 편하다."
+  },
+  {
+   "id": "snowdonia-park",
+   "cityId": "snowdonia",
+   "category": "nature",
+   "nameKo": "스노도니아 (에리리)",
+   "nameEn": "Snowdonia",
+   "history": "웨일스 북부의 국립공원으로, 웨일스 최고봉 스노든(이르 위드바)과 빙하 지형, 고성이 어우러진다.",
+   "intro": "산악 열차로 오르는 스노든 정상과 호수, 카나번 성(웨일스 성들의 유네스코 유산)이 가깝다. 웨일스어 문화가 살아 있다.",
+   "tip": "스노든 산악철도는 계절·날씨에 따라 운행한다. 카나번·콘위 성 등 웨일스 성들을 함께 묶기 좋다."
+  },
+  {
+   "id": "giants-causeway-basalt",
+   "cityId": "giants-causeway",
+   "category": "nature",
+   "nameKo": "자이언츠 코즈웨이",
+   "nameEn": "Giant's Causeway",
+   "history": "북아일랜드 해안의 약 4만 개 육각 현무암 기둥으로, 화산 활동으로 형성됐다. 1986년 유네스코 세계유산에 등재됐다.",
+   "intro": "바다로 이어지는 육각 돌기둥이 '거인의 둑길'이라는 전설을 낳았다. 인근 캐릭어리드 밧줄다리와 해안 절벽도 극적이다.",
+   "tip": "벨파스트에서 해안 도로(코즈웨이 코스탈 루트) 드라이브로 접근한다. 바람이 강하니 방풍 준비를 하자."
+  }
+ ]
+}

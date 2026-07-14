@@ -1,0 +1,158 @@
+{
+ "key": "austria",
+ "admin": "Austria",
+ "nameKo": "오스트리아",
+ "nameEn": "Austria",
+ "categories": [
+  {
+   "id": "palace",
+   "nameKo": "궁전·성",
+   "nameEn": "Palace & Castle",
+   "varName": "--c1"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c2"
+  },
+  {
+   "id": "music",
+   "nameKo": "음악·예술",
+   "nameEn": "Music & Art",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "알프스·호수",
+   "nameEn": "Alps & Lakes",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "vienna",
+   "nameKo": "빈",
+   "nameEn": "Vienna",
+   "lon": 16.3738,
+   "lat": 48.2082
+  },
+  {
+   "id": "salzburg",
+   "nameKo": "잘츠부르크",
+   "nameEn": "Salzburg",
+   "lon": 13.055,
+   "lat": 47.8095
+  },
+  {
+   "id": "hallstatt",
+   "nameKo": "할슈타트",
+   "nameEn": "Hallstatt",
+   "lon": 13.6493,
+   "lat": 47.5622
+  },
+  {
+   "id": "innsbruck",
+   "nameKo": "인스브루크",
+   "nameEn": "Innsbruck",
+   "lon": 11.4041,
+   "lat": 47.2692
+  },
+  {
+   "id": "graz",
+   "nameKo": "그라츠",
+   "nameEn": "Graz",
+   "lon": 15.4395,
+   "lat": 47.0707
+  },
+  {
+   "id": "wachau",
+   "nameKo": "바하우 계곡",
+   "nameEn": "Wachau Valley",
+   "lon": 15.409,
+   "lat": 48.376
+  }
+ ],
+ "attractions": [
+  {
+   "id": "schonbrunn",
+   "cityId": "vienna",
+   "category": "palace",
+   "nameKo": "쇤브룬 궁전",
+   "nameEn": "Schönbrunn Palace",
+   "history": "합스부르크 왕가의 여름 궁전으로, 마리아 테레지아 시대에 완성됐다. 1996년 유네스코 세계유산에 등재됐다.",
+   "intro": "1,441개의 방을 가진 바로크 궁전과 광대한 정원, 언덕 위 글로리에테, 세계에서 가장 오래된 동물원이 어우러진다.",
+   "tip": "정원은 무료이며 궁전 내부는 시간지정 예매를 권한다. 글로리에테에서 빈 시내가 조망된다."
+  },
+  {
+   "id": "vienna-hofburg-ring",
+   "cityId": "vienna",
+   "category": "oldtown",
+   "nameKo": "호프부르크·링슈트라세",
+   "nameEn": "Hofburg & Ringstrasse",
+   "history": "합스부르크의 겨울 궁전 호프부르크와, 옛 성벽 자리에 낸 순환대로 링슈트라세를 따라 국립오페라·미술사박물관·시청사가 늘어서 있다.",
+   "intro": "왕궁과 스페인 승마학교, 웅장한 역사주의 건축물이 이어지는 빈 구시가는 유네스코 세계유산이다. 마차(피아커)를 타고 돌아볼 수 있다.",
+   "tip": "미술사박물관(브뤼헐·페르메이르)과 왕궁 보물관을 함께 보자. 링을 도는 트램으로 건축물을 훑기 좋다."
+  },
+  {
+   "id": "belvedere-klimt",
+   "cityId": "vienna",
+   "category": "music",
+   "nameKo": "벨베데레·클림트 '키스'",
+   "nameEn": "Belvedere & Klimt's Kiss",
+   "history": "18세기 오이겐 공의 바로크 궁전으로, 지금은 미술관이다. 구스타프 클림트의 '키스'를 소장한 곳으로 유명하다.",
+   "intro": "황금빛 '키스'를 비롯한 클림트·실레의 걸작과, 바로크 정원이 어우러진다. 빈은 모차르트·베토벤·클림트의 도시다.",
+   "tip": "'키스' 앞은 붐비니 개장 직후가 좋다. 빈 국립오페라의 스탠딩 티켓으로 저렴하게 공연을 볼 수도 있다."
+  },
+  {
+   "id": "hohensalzburg",
+   "cityId": "salzburg",
+   "category": "palace",
+   "nameKo": "호엔잘츠부르크 성",
+   "nameEn": "Hohensalzburg Fortress",
+   "history": "11세기부터 지은 중부 유럽에서 가장 크고 잘 보존된 중세 성 중 하나로, 언덕 위에서 잘츠부르크를 굽어본다.",
+   "intro": "푸니쿨라로 오르는 성에서 구시가와 알프스가 내려다보인다. 잘츠부르크는 모차르트의 고향이자 '사운드 오브 뮤직'의 무대다.",
+   "tip": "구시가(게트라이데 거리·모차르트 생가)와 미라벨 정원을 함께 걷자. '사운드 오브 뮤직' 투어도 인기다."
+  },
+  {
+   "id": "hallstatt-village",
+   "cityId": "hallstatt",
+   "category": "nature",
+   "nameKo": "할슈타트 호수 마을",
+   "nameEn": "Hallstatt",
+   "history": "호수와 산 사이 좁은 땅에 자리한 소금 광산 마을로, '세계에서 가장 아름다운 호수 마을'로 꼽힌다. 잘츠캄머구트 문화경관으로 유네스코에 등재됐다.",
+   "intro": "호수에 비친 파스텔빛 목조 집과 뾰족한 교회탑, 산 위 스카이워크와 세계 최고(最古)의 소금광산이 어우러진다.",
+   "tip": "당일 관광객이 몰리니 이른 아침·저녁이 고요하다. 잘츠부르크에서 버스·기차+페리로 닿는다."
+  },
+  {
+   "id": "innsbruck-golden-roof",
+   "cityId": "innsbruck",
+   "category": "oldtown",
+   "nameKo": "인스브루크·황금 지붕",
+   "nameEn": "Innsbruck & Golden Roof",
+   "history": "알프스에 둘러싸인 티롤의 주도로, 15세기 막시밀리안 1세가 만든 금박 동판 지붕 '황금 지붕'이 구시가의 상징이다.",
+   "intro": "설산을 배경으로 한 파스텔빛 구시가와 황금 지붕, 케이블카로 오르는 노르트케테 산 전망이 어우러진다. 동계올림픽 개최지이기도 하다.",
+   "tip": "노르트케테 케이블카로 도심에서 곧장 고산 전망대에 오를 수 있다. 스와로브스키 크리스털 월드도 근교에 있다."
+  },
+  {
+   "id": "graz-oldtown",
+   "cityId": "graz",
+   "category": "oldtown",
+   "nameKo": "그라츠 구시가·슐로스베르크",
+   "nameEn": "Graz Old Town & Schlossberg",
+   "history": "오스트리아 제2의 도시로, 잘 보존된 구시가가 1999년 유네스코 세계유산에 등재됐다. 언덕 슐로스베르크의 시계탑이 상징이다.",
+   "intro": "붉은 지붕의 구시가와 시계탑, 강 위에 뜬 현대적 인공섬(무어인젤), 우주선 같은 쿤스트하우스가 옛것과 새것을 잇는다.",
+   "tip": "슐로스베르크는 계단·리프트로 오른다. 이탈리아풍 안뜰과 아케이드가 많아 산책하기 좋다."
+  },
+  {
+   "id": "wachau-melk",
+   "cityId": "wachau",
+   "category": "nature",
+   "nameKo": "바하우 계곡·멜크 수도원",
+   "nameEn": "Wachau Valley & Melk Abbey",
+   "history": "다뉴브 강을 따라 포도밭과 고성, 마을이 이어지는 계곡으로, 유네스코 세계유산이다. 언덕 위 바로크 멜크 수도원이 압권이다.",
+   "intro": "황금빛 멜크 수도원과 강변 마을(뒤른슈타인), 살구밭·포도밭이 어우러진다. 강 유람선으로 계곡을 둘러볼 수 있다.",
+   "tip": "빈~잘츠부르크 사이에 있어 경유하기 좋다. 멜크~크렘스 구간 다뉴브 크루즈나 자전거길이 인기다."
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "key": "germany",
+ "admin": "Germany",
+ "nameKo": "독일",
+ "nameEn": "Germany",
+ "categories": [
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c1"
+  },
+  {
+   "id": "church",
+   "nameKo": "성당·교회",
+   "nameEn": "Church",
+   "varName": "--c2"
+  },
+  {
+   "id": "history",
+   "nameKo": "역사·기념물",
+   "nameEn": "History & Memorial",
+   "varName": "--c3"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c4"
+  },
+  {
+   "id": "museum",
+   "nameKo": "박물관·문화",
+   "nameEn": "Museum & Culture",
+   "varName": "--c5"
+  },
+  {
+   "id": "nature",
+   "nameKo": "강·호수·자연",
+   "nameEn": "River & Nature",
+   "varName": "--c6"
+  }
+ ],
+ "cities": [
+  {
+   "id": "berlin",
+   "nameKo": "베를린",
+   "nameEn": "Berlin",
+   "lon": 13.405,
+   "lat": 52.52
+  },
+  {
+   "id": "potsdam",
+   "nameKo": "포츠담",
+   "nameEn": "Potsdam",
+   "lon": 13.0645,
+   "lat": 52.3906
+  },
+  {
+   "id": "munich",
+   "nameKo": "뮌헨",
+   "nameEn": "Munich",
+   "lon": 11.582,
+   "lat": 48.1351
+  },
+  {
+   "id": "neuschwanstein",
+   "nameKo": "퓌센 (노이슈반슈타인)",
+   "nameEn": "Füssen",
+   "lon": 10.7498,
+   "lat": 47.5576
+  },
+  {
+   "id": "cologne",
+   "nameKo": "쾰른",
+   "nameEn": "Cologne",
+   "lon": 6.9603,
+   "lat": 50.9375
+  },
+  {
+   "id": "hamburg",
+   "nameKo": "함부르크",
+   "nameEn": "Hamburg",
+   "lon": 9.9937,
+   "lat": 53.5511
+  },
+  {
+   "id": "dresden",
+   "nameKo": "드레스덴",
+   "nameEn": "Dresden",
+   "lon": 13.7373,
+   "lat": 51.0504
+  },
+  {
+   "id": "heidelberg",
+   "nameKo": "하이델베르크",
+   "nameEn": "Heidelberg",
+   "lon": 8.6724,
+   "lat": 49.3988
+  },
+  {
+   "id": "rothenburg",
+   "nameKo": "로텐부르크",
+   "nameEn": "Rothenburg",
+   "lon": 10.179,
+   "lat": 49.3777
+  },
+  {
+   "id": "rhine-valley",
+   "nameKo": "라인 계곡",
+   "nameEn": "Rhine Valley",
+   "lon": 7.715,
+   "lat": 50.14
+  },
+  {
+   "id": "nuremberg",
+   "nameKo": "뉘른베르크",
+   "nameEn": "Nuremberg",
+   "lon": 11.0767,
+   "lat": 49.4521
+  },
+  {
+   "id": "berchtesgaden",
+   "nameKo": "베르히테스가덴",
+   "nameEn": "Berchtesgaden",
+   "lon": 12.974,
+   "lat": 47.5926
+  },
+  {
+   "id": "frankfurt",
+   "nameKo": "프랑크푸르트",
+   "nameEn": "Frankfurt",
+   "lon": 8.6821,
+   "lat": 50.1109
+  }
+ ],
+ "attractions": [
+  {
+   "id": "brandenburg-gate",
+   "cityId": "berlin",
+   "category": "history",
+   "nameKo": "브란덴부르크 문",
+   "nameEn": "Brandenburg Gate",
+   "history": "18세기 말에 세운 신고전주의 개선문으로, 냉전기 동서 분단의 최전선에 있다가 1989년 장벽 붕괴 후 통일 독일의 상징이 됐다.",
+   "intro": "여섯 개의 도리스식 기둥과 꼭대기의 사두마차(콰드리가)가 위풍당당하다. 파리저 광장에 면해 베를린 관광의 중심이다.",
+   "tip": "야간 조명이 켜진 저녁이 특히 아름답다. 인근 국회의사당·홀로코스트 추모비와 도보로 이어진다."
+  },
+  {
+   "id": "reichstag",
+   "cityId": "berlin",
+   "category": "history",
+   "nameKo": "제국의회 의사당",
+   "nameEn": "Reichstag",
+   "history": "1894년 완공된 독일 연방의회 건물로, 통일 후 노먼 포스터가 유리 돔을 얹어 재건했다.",
+   "intro": "유리 돔의 나선 경사로를 오르며 의회 회의장과 베를린 시내를 조망할 수 있다. 투명한 돔은 '정치의 투명성'을 상징한다.",
+   "tip": "돔 방문은 무료지만 사전 온라인 등록이 필수다. 신분증을 지참해야 한다."
+  },
+  {
+   "id": "east-side-gallery",
+   "cityId": "berlin",
+   "category": "history",
+   "nameKo": "이스트사이드 갤러리",
+   "nameEn": "East Side Gallery",
+   "history": "베를린 장벽이 무너진 뒤, 남아 있는 약 1.3km 구간에 전 세계 예술가들이 그림을 그려 만든 야외 갤러리다.",
+   "intro": "'형제의 키스' 등 냉전과 자유를 주제로 한 벽화가 이어진다. 분단의 상처가 예술로 바뀐 현장이다.",
+   "tip": "슈프레 강변을 따라 걸으며 감상한다. 통일·분단의 역사를 함께 이해하면 감상이 깊어진다."
+  },
+  {
+   "id": "museum-island",
+   "cityId": "berlin",
+   "category": "museum",
+   "nameKo": "박물관 섬",
+   "nameEn": "Museum Island",
+   "history": "슈프레 강 가운데 섬에 다섯 개의 국립박물관이 모여 있는 곳으로, 1999년 유네스코 세계유산에 등재됐다.",
+   "intro": "페르가몬 제단, 네페르티티 흉상(신박물관) 등 고대 유물의 보고다. 고전 건축과 컬렉션이 어우러진다.",
+   "tip": "페르가몬 박물관은 대규모 보수로 일부 구역이 닫혀 있을 수 있으니 방문 전 개방 상태를 확인하자."
+  },
+  {
+   "id": "gendarmenmarkt",
+   "cityId": "berlin",
+   "category": "oldtown",
+   "nameKo": "젠다르멘마르크트",
+   "nameEn": "Gendarmenmarkt",
+   "history": "독일 대성당·프랑스 대성당과 콘체르트하우스가 마주 선 18세기 광장으로, 베를린에서 가장 아름다운 광장으로 꼽힌다.",
+   "intro": "대칭을 이룬 두 성당과 음악당, 실러 동상이 조화로운 광장이다. 겨울에는 인기 크리스마스 마켓이 열린다.",
+   "tip": "브란덴부르크 문·박물관 섬과 도보권이라 함께 걷기 좋다."
+  },
+  {
+   "id": "sanssouci-palace",
+   "cityId": "potsdam",
+   "category": "castle",
+   "nameKo": "상수시 궁전",
+   "nameEn": "Sanssouci Palace",
+   "history": "18세기 프리드리히 대왕이 여름 별궁으로 지은 로코코 궁전으로, '근심 없는(sans souci)'이라는 뜻이다. 1990년 유네스코 세계유산에 등재됐다.",
+   "intro": "계단식 포도밭 정원 위에 낮게 앉은 우아한 궁전과 광대한 공원이 '프로이센의 베르사유'라 불린다.",
+   "tip": "베를린에서 기차로 약 40분 거리다. 공원이 넓으니 자전거·도보 동선을 미리 짜자."
+  },
+  {
+   "id": "marienplatz",
+   "cityId": "munich",
+   "category": "oldtown",
+   "nameKo": "마리엔 광장·신 시청사",
+   "nameEn": "Marienplatz & New Town Hall",
+   "history": "1158년 이래 뮌헨의 중심 광장으로, 네오고딕 신 시청사(19세기 말)가 면해 있다.",
+   "intro": "신 시청사 탑의 인형 시계(글로켄슈필)가 정해진 시각에 인형극을 펼친다. 뮌헨 구시가 산책의 출발점이다.",
+   "tip": "글로켄슈필은 보통 오전 11시(계절에 따라 정오·오후 5시 추가)에 작동한다. 근처 빅투알리엔 시장에서 먹거리를 즐기자."
+  },
+  {
+   "id": "nymphenburg-palace",
+   "cityId": "munich",
+   "category": "castle",
+   "nameKo": "님펜부르크 궁전",
+   "nameEn": "Nymphenburg Palace",
+   "history": "17~18세기 바이에른 선제후의 여름 궁전으로, 넓은 바로크 정원과 운하를 갖췄다.",
+   "intro": "화려한 대연회장과 '미인들의 갤러리', 광대한 정원과 별궁(아말리엔부르크)이 볼거리다.",
+   "tip": "정원은 무료 산책이 가능하다. 뮌헨 도심에서 트램으로 닿는다."
+  },
+  {
+   "id": "english-garden",
+   "cityId": "munich",
+   "category": "nature",
+   "nameKo": "영국 정원",
+   "nameEn": "English Garden",
+   "history": "18세기 말에 조성된 도심 공원으로, 뉴욕 센트럴파크보다 넓은 유럽 최대급 도시 공원 중 하나다.",
+   "intro": "넓은 잔디와 시냇물, 중국탑 비어가르텐이 있고, 아이스바흐 강의 인공 파도에서 서퍼들이 파도를 탄다.",
+   "tip": "뮌헨은 맥주 문화의 도시다. 정원 비어가르텐에서 맥주 한잔의 여유를 즐겨보자(10월 옥토버페스트로 유명)."
+  },
+  {
+   "id": "neuschwanstein-castle",
+   "cityId": "neuschwanstein",
+   "category": "castle",
+   "nameKo": "노이슈반슈타인 성",
+   "nameEn": "Neuschwanstein Castle",
+   "history": "19세기 후반 바이에른 국왕 루트비히 2세가 알프스 산자락에 지은 낭만주의 성으로, 디즈니 신데렐라 성의 모티프로 유명하다.",
+   "intro": "숲과 호수, 눈 덮인 알프스를 배경으로 흰 성이 솟아 있다. 마리엔 다리(마리엔브뤼케)에서 보는 전경이 상징적이다.",
+   "tip": "성 내부는 가이드 투어 시간지정 예매가 필수다. 뮌헨에서 당일치기가 가능하며, 마리엔 다리는 겨울에 통제될 수 있다."
+  },
+  {
+   "id": "cologne-cathedral",
+   "cityId": "cologne",
+   "category": "church",
+   "nameKo": "쾰른 대성당",
+   "nameEn": "Cologne Cathedral",
+   "history": "1248년 착공해 1880년에야 완성된 고딕 대성당으로, 동방박사의 유해를 모신다. 1996년 유네스코 세계유산에 등재됐다.",
+   "intro": "높이 약 157m의 쌍둥이 첨탑이 압도적이며, 중세 스테인드글라스와 황금 성궤가 유명하다. 라인강과 중앙역 바로 옆에 서 있다.",
+   "tip": "533개의 계단을 오르면 첨탑 전망대에 이른다. 기차역에서 나오자마자 마주하는 규모가 압권이다."
+  },
+  {
+   "id": "elbphilharmonie",
+   "cityId": "hamburg",
+   "category": "museum",
+   "nameKo": "엘프필하모니·창고지구",
+   "nameEn": "Elbphilharmonie & Speicherstadt",
+   "history": "옛 창고 위에 유리 파도 형태를 얹어 2017년 개관한 콘서트홀이다. 인접한 붉은 벽돌 창고지구(슈파이허슈타트)는 유네스코 세계유산이다.",
+   "intro": "물결치는 유리 지붕의 콘서트홀과, 운하를 낀 붉은 벽돌 창고 거리가 항구 도시 함부르크를 상징한다. 8층 전망 광장(플라차)은 무료 개방된다.",
+   "tip": "플라차 전망대는 무료지만 입장권(시간지정)이 필요하다. 창고지구의 미니어처 원더랜드도 인기다."
+  },
+  {
+   "id": "frauenkirche-dresden",
+   "cityId": "dresden",
+   "category": "church",
+   "nameKo": "성모 교회 (프라우엔키르헤)",
+   "nameEn": "Frauenkirche",
+   "history": "18세기 바로크 교회로, 2차대전 공습으로 완전히 무너졌다가 통일 후 옛 돌을 모아 2005년 재건됐다. 화해의 상징이다.",
+   "intro": "돔형 사암 교회로, 검게 그을린 원래 돌과 밝은 새 돌이 섞여 재건의 역사를 보여준다. 노이마르크트 광장에 서 있다.",
+   "tip": "돔 전망대에 오르면 '엘베강의 피렌체' 드레스덴 구시가가 내려다보인다. 인근 츠빙거 궁전과 함께 보자."
+  },
+  {
+   "id": "zwinger-dresden",
+   "cityId": "dresden",
+   "category": "castle",
+   "nameKo": "츠빙거 궁전",
+   "nameEn": "Zwinger Palace",
+   "history": "18세기 초 작센 선제후 강건왕 아우구스트가 지은 바로크 궁전으로, 축제·전시를 위한 공간이었다.",
+   "intro": "화려한 왕관 문(크론엔토어)과 회랑으로 둘러싸인 안뜰, 그리고 라파엘로의 '시스티나의 성모'를 소장한 미술관(젬퍼갤러리)이 있다.",
+   "tip": "미술관·도자기 컬렉션은 별도 입장권이다. 안뜰과 정원은 자유롭게 산책할 수 있다."
+  },
+  {
+   "id": "heidelberg-castle",
+   "cityId": "heidelberg",
+   "category": "castle",
+   "nameKo": "하이델베르크 성",
+   "nameEn": "Heidelberg Castle",
+   "history": "13세기부터 증축된 팔츠 선제후의 성으로, 전쟁과 낙뢰로 일부가 폐허가 된 채 낭만적인 자태로 남았다.",
+   "intro": "언덕 위 붉은 사암 성에서 네카어 강과 붉은 지붕의 구시가, 옛 다리(알테 브뤼케)가 내려다보인다. 독일 낭만주의의 상징이다.",
+   "tip": "케이블카(베르크반)로 오를 수 있다. 강 건너 '철학자의 길'에서 성과 구시가 전경을 담기 좋다."
+  },
+  {
+   "id": "rothenburg-old-town",
+   "cityId": "rothenburg",
+   "category": "oldtown",
+   "nameKo": "로텐부르크 구시가",
+   "nameEn": "Rothenburg ob der Tauber",
+   "history": "중세 성벽이 온전히 남은 도시로, '로맨틱 가도'의 보석으로 꼽힌다. 시간이 멈춘 듯한 중세 풍경으로 유명하다.",
+   "intro": "색색의 목조 골조 집과 성벽 산책로, 플뢴라인(두 갈래 길이 만나는 그림 같은 모퉁이)이 상징이다. 1년 내내 크리스마스 상점이 열린다.",
+   "tip": "당일 관광객이 빠진 저녁·이른 아침이 가장 고즈넉하다. 야경 투어(나이트워치맨)가 인기다."
+  },
+  {
+   "id": "middle-rhine",
+   "cityId": "rhine-valley",
+   "category": "nature",
+   "nameKo": "라인 계곡 (중부 라인)",
+   "nameEn": "Middle Rhine Valley",
+   "history": "빙겐에서 코블렌츠까지 이어지는 계곡으로, 40여 개의 언덕 성과 포도밭, 로렐라이 바위가 있다. 2002년 유네스코 세계유산에 등재됐다.",
+   "intro": "강을 따라 고성과 포도밭 마을(뤼데스하임·바하라흐)이 이어진다. 유람선을 타고 성들을 지나며 감상하는 코스가 유명하다.",
+   "tip": "라인강 유람선(KD 라인) 구간 승선이 인기다. 가을엔 포도 수확과 와인 축제를 즐길 수 있다."
+  },
+  {
+   "id": "nuremberg-old-town",
+   "cityId": "nuremberg",
+   "category": "oldtown",
+   "nameKo": "뉘른베르크 구시가·황제성",
+   "nameEn": "Nuremberg Old Town & Castle",
+   "history": "신성로마제국 황제들이 머문 카이저부르크 성이 있는 중세 도시로, 성벽에 둘러싸여 있다. 근현대사(제국 전당대회·전범 재판)의 무대이기도 하다.",
+   "intro": "언덕 위 황제성과 목조 골조 집, 아름다운 분수(쇠너 브루넨)가 있는 구시가다. 세계적으로 유명한 크리스마스 마켓(크리스트킨들레스마르크트)이 열린다.",
+   "tip": "황제성에서 붉은 지붕의 구시가가 내려다보인다. 뉘른베르크 소시지와 렙쿠헨(향신료 쿠키)이 명물이다."
+  },
+  {
+   "id": "konigssee",
+   "cityId": "berchtesgaden",
+   "category": "nature",
+   "nameKo": "쾨니히제 호수",
+   "nameEn": "Königssee",
+   "history": "알프스 산자락에 자리한 빙하호로, 독일에서 가장 깨끗한 호수로 꼽힌다. 베르히테스가덴 국립공원에 속한다.",
+   "intro": "깎아지른 산으로 둘러싸인 에메랄드빛 호수를 전기 보트로 건넌다. 호숫가 붉은 돔의 성 바르톨로메 성당이 상징적이다.",
+   "tip": "전기 보트만 운항하며, 뱃사공이 절벽을 향해 부는 트럼펫 메아리 시연이 유명하다. 여름·초가을이 호수가 가장 곱다."
+  },
+  {
+   "id": "romerberg-frankfurt",
+   "cityId": "frankfurt",
+   "category": "oldtown",
+   "nameKo": "뢰머베르크 구시가",
+   "nameEn": "Römerberg",
+   "history": "프랑크푸르트 구시가의 중심 광장으로, 시청사(뢰머)와 복원된 목조 골조 집들이 둘러싼다. 2차대전으로 파괴됐다가 재건됐다.",
+   "intro": "고풍스러운 광장 뒤로 현대 금융가의 고층 빌딩이 솟아 '전통과 현대가 공존하는 도시'를 보여준다. 괴테의 생가도 인근에 있다.",
+   "tip": "대성당 탑이나 마인 강변 미술관 거리(무제움스우퍼)와 함께 걸어보자. 교통 요지라 다른 도시로 이동하기 편하다."
+  }
+ ]
+}

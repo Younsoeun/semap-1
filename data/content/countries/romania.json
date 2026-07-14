@@ -1,0 +1,172 @@
+{
+ "key": "romania",
+ "admin": "Romania",
+ "nameKo": "루마니아",
+ "nameEn": "Romania",
+ "categories": [
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c1"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·요새",
+   "nameEn": "Old Town & Citadel",
+   "varName": "--c2"
+  },
+  {
+   "id": "religious",
+   "nameKo": "수도원·성당",
+   "nameEn": "Monastery & Church",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "산·자연",
+   "nameEn": "Mountains & Nature",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "bucharest",
+   "nameKo": "부쿠레슈티",
+   "nameEn": "Bucharest",
+   "lon": 26.1025,
+   "lat": 44.4268
+  },
+  {
+   "id": "brasov",
+   "nameKo": "브라쇼브",
+   "nameEn": "Brașov",
+   "lon": 25.6012,
+   "lat": 45.6579
+  },
+  {
+   "id": "bran",
+   "nameKo": "브란",
+   "nameEn": "Bran",
+   "lon": 25.367,
+   "lat": 45.515
+  },
+  {
+   "id": "sinaia",
+   "nameKo": "시나이아",
+   "nameEn": "Sinaia",
+   "lon": 25.5425,
+   "lat": 45.36
+  },
+  {
+   "id": "sibiu",
+   "nameKo": "시비우",
+   "nameEn": "Sibiu",
+   "lon": 24.1521,
+   "lat": 45.7983
+  },
+  {
+   "id": "sighisoara",
+   "nameKo": "시기쇼아라",
+   "nameEn": "Sighișoara",
+   "lon": 24.792,
+   "lat": 46.2197
+  },
+  {
+   "id": "bucovina",
+   "nameKo": "부코비나",
+   "nameEn": "Bucovina",
+   "lon": 25.658,
+   "lat": 47.517
+  },
+  {
+   "id": "transfagarasan",
+   "nameKo": "트란스파가라샨",
+   "nameEn": "Transfăgărășan",
+   "lon": 24.617,
+   "lat": 45.6
+  }
+ ],
+ "attractions": [
+  {
+   "id": "palace-parliament",
+   "cityId": "bucharest",
+   "category": "castle",
+   "nameKo": "국민궁전 (국회의사당)",
+   "nameEn": "Palace of the Parliament",
+   "history": "차우셰스쿠 독재 시절인 1980년대에 지은 거대한 건물로, 무게 기준 세계에서 가장 무거운 건축물이자 손꼽히는 규모의 행정 건물이다.",
+   "intro": "1,000개가 넘는 방과 화려한 대리석 홀을 가진 압도적 규모의 건물이다. 부쿠레슈티는 '동유럽의 파리'라 불리던 도시다.",
+   "tip": "내부는 여권 지참 가이드 투어로만 관람한다. 구시가(립스카니)의 카페·서점(카루셀)도 함께 걷기 좋다."
+  },
+  {
+   "id": "brasov-oldtown",
+   "cityId": "brasov",
+   "category": "oldtown",
+   "nameKo": "브라쇼브 구시가·검은 교회",
+   "nameEn": "Brașov Old Town",
+   "history": "트란실바니아의 색슨족이 세운 중세 도시로, 화재로 검게 그을린 '검은 교회'와 성벽·탑이 남아 있다.",
+   "intro": "카르파티아 산에 둘러싸인 파스텔빛 광장과 유럽에서 가장 좁은 골목(스포리 거리), 언덕 위 브라쇼브 사인이 어우러진다.",
+   "tip": "탐파 산 케이블카에서 도시 전경을 볼 수 있다. 브란 성·시기쇼아라 여행의 거점이다."
+  },
+  {
+   "id": "bran-castle",
+   "cityId": "bran",
+   "category": "castle",
+   "nameKo": "브란 성 (드라큘라 성)",
+   "nameEn": "Bran Castle",
+   "history": "14세기에 지은 언덕 위 성으로, 브람 스토커의 소설 속 '드라큘라 성' 이미지와 연결되며 유명해졌다.",
+   "intro": "숲이 우거진 언덕에 솟은 흰 성으로, 좁은 계단과 방들이 미로처럼 얽혀 있다. 드라큘라 전설의 분위기를 즐길 수 있다.",
+   "tip": "핼러윈 시기에 특히 붐빈다. 소설과 실제 역사(블라드 체페슈)의 관계는 느슨하다는 점을 알고 보면 재미있다."
+  },
+  {
+   "id": "peles-castle",
+   "cityId": "sinaia",
+   "category": "castle",
+   "nameKo": "펠레슈 성",
+   "nameEn": "Peleș Castle",
+   "history": "19세기 후반 카롤 1세가 카르파티아 산속에 지은 네오르네상스 여름 궁전으로, 유럽에서 가장 아름다운 성 중 하나로 꼽힌다.",
+   "intro": "뾰족한 목조 골조 외관과, 무기·목조 조각으로 화려하게 꾸민 내부가 압권이다. 숲과 산을 배경으로 동화처럼 서 있다.",
+   "tip": "내부는 가이드 투어로 관람한다. 브라쇼브~부쿠레슈티 사이라 경유하기 좋다."
+  },
+  {
+   "id": "sibiu-oldtown",
+   "cityId": "sibiu",
+   "category": "oldtown",
+   "nameKo": "시비우 구시가",
+   "nameEn": "Sibiu Old Town",
+   "history": "색슨족이 세운 트란실바니아의 옛 도시로, 세 개의 광장과 성벽·길드 탑이 잘 보존돼 있다.",
+   "intro": "지붕에 난 눈 모양 채광창 때문에 '지켜보는 도시'라 불린다. 파스텔빛 광장과 '거짓말쟁이의 다리'가 아기자기하다.",
+   "tip": "루마니아의 대표 크리스마스 마켓이 열린다. 근교 전통 마을 시골 박물관(아스트라)도 볼 만하다."
+  },
+  {
+   "id": "sighisoara-citadel",
+   "cityId": "sighisoara",
+   "category": "oldtown",
+   "nameKo": "시기쇼아라 성채",
+   "nameEn": "Sighișoara Citadel",
+   "history": "지금도 사람이 사는 유럽의 몇 안 되는 중세 성채 도시로, 1999년 유네스코 세계유산에 등재됐다. 블라드 체페슈(드라큘라의 모델)의 출생지로 알려져 있다.",
+   "intro": "색색의 건물과 상징인 시계탑, 학교로 오르는 지붕 덮인 계단이 어우러진 언덕 위 성채다.",
+   "tip": "시계탑에 올라 붉은 지붕의 도시를 조망하자. 브라쇼브·시비우와 트란실바니아 삼각 코스로 묶기 좋다."
+  },
+  {
+   "id": "voronet-monastery",
+   "cityId": "bucovina",
+   "category": "religious",
+   "nameKo": "부코비나 채색 수도원",
+   "nameEn": "Painted Monasteries of Bucovina",
+   "history": "15~16세기에 외벽 전체를 프레스코로 뒤덮은 정교회 수도원들로, '동방의 시스티나'라 불린다. 유네스코 세계유산이다.",
+   "intro": "선명한 '부코비나 블루' 바탕에 성서 이야기를 그린 보로네츠 수도원 등이 산골 마을에 흩어져 있다. 색이 500년을 견뎠다.",
+   "tip": "여러 수도원이 흩어져 있어 차로 도는 게 편하다. 루마니아 북동부라 이동에 시간이 걸린다."
+  },
+  {
+   "id": "transfagarasan-road",
+   "cityId": "transfagarasan",
+   "category": "nature",
+   "nameKo": "트란스파가라샨 도로",
+   "nameEn": "Transfăgărășan",
+   "history": "1970년대에 파가라슈 산맥을 넘어 낸 해발 2,000m가 넘는 산악도로로, 굽이치는 헤어핀 커브로 유명하다.",
+   "intro": "빙하호 벌레아 호수와 폭포, 아찔한 능선을 지나는 드라이브 코스로 '세계에서 손꼽히는 도로'로 꼽힌다.",
+   "tip": "눈 때문에 대략 7~10월에만 개방된다. 인근 포에나리 성(진짜 드라큘라의 성)도 함께 볼 수 있다."
+  }
+ ]
+}

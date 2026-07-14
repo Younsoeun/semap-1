@@ -1,0 +1,138 @@
+{
+ "key": "bulgaria",
+ "admin": "Bulgaria",
+ "nameKo": "불가리아",
+ "nameEn": "Bulgaria",
+ "categories": [
+  {
+   "id": "religious",
+   "nameKo": "성당·수도원",
+   "nameEn": "Church & Monastery",
+   "varName": "--c1"
+  },
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·유적",
+   "nameEn": "Old Town & Ruins",
+   "varName": "--c2"
+  },
+  {
+   "id": "fortress",
+   "nameKo": "요새·성",
+   "nameEn": "Fortress",
+   "varName": "--c3"
+  },
+  {
+   "id": "coast",
+   "nameKo": "해안·자연",
+   "nameEn": "Coast & Nature",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "sofia",
+   "nameKo": "소피아",
+   "nameEn": "Sofia",
+   "lon": 23.3219,
+   "lat": 42.6977
+  },
+  {
+   "id": "plovdiv",
+   "nameKo": "플로브디프",
+   "nameEn": "Plovdiv",
+   "lon": 24.7453,
+   "lat": 42.1354
+  },
+  {
+   "id": "rila",
+   "nameKo": "릴라",
+   "nameEn": "Rila",
+   "lon": 23.34,
+   "lat": 42.13
+  },
+  {
+   "id": "veliko-tarnovo",
+   "nameKo": "벨리코투르노보",
+   "nameEn": "Veliko Tarnovo",
+   "lon": 25.626,
+   "lat": 43.0757
+  },
+  {
+   "id": "nessebar",
+   "nameKo": "네세버르",
+   "nameEn": "Nessebar",
+   "lon": 27.715,
+   "lat": 42.66
+  },
+  {
+   "id": "koprivshtitsa",
+   "nameKo": "코프리브슈티차",
+   "nameEn": "Koprivshtitsa",
+   "lon": 24.356,
+   "lat": 42.636
+  }
+ ],
+ "attractions": [
+  {
+   "id": "alexander-nevsky",
+   "cityId": "sofia",
+   "category": "religious",
+   "nameKo": "알렉산드르 넵스키 대성당",
+   "nameEn": "Alexander Nevsky Cathedral",
+   "history": "20세기 초에 지은 네오비잔틴 정교회 대성당으로, 러시아-튀르크 전쟁에서 불가리아 해방을 위해 숨진 병사들을 기린다.",
+   "intro": "황금빛 돔이 여러 개 얹힌 발칸 최대급 성당으로, 소피아의 상징이다. 지하에는 정교회 이콘 컬렉션이 있다.",
+   "tip": "내부 사진 촬영은 별도 요금이다. 인근 로마 시대 유적(세르디카)과 성 소피아 성당도 함께 보자."
+  },
+  {
+   "id": "plovdiv-oldtown",
+   "cityId": "plovdiv",
+   "category": "oldtown",
+   "nameKo": "플로브디프 구시가·로마 극장",
+   "nameEn": "Plovdiv Old Town & Roman Theatre",
+   "history": "유럽에서 가장 오래 사람이 산 도시 중 하나로, 언덕에 색색의 민족부흥기 저택과 잘 보존된 로마 원형극장이 남아 있다.",
+   "intro": "자갈 골목과 화려한 목조 저택, 지금도 공연이 열리는 2천 년 된 로마 극장이 어우러진다. 예술지구 카프나(굴뚝) 지역도 힙하다.",
+   "tip": "로마 극장에서 여름 공연을 볼 수 있다. 언덕에서 도시 전경을 조망하기 좋다."
+  },
+  {
+   "id": "rila-monastery",
+   "cityId": "rila",
+   "category": "religious",
+   "nameKo": "릴라 수도원",
+   "nameEn": "Rila Monastery",
+   "history": "10세기에 창건된 불가리아 최대의 정교회 수도원으로, 오스만 지배기에도 불가리아 문화·신앙을 지켰다. 1983년 유네스코 세계유산에 등재됐다.",
+   "intro": "줄무늬 아치 회랑과 화려한 프레스코로 뒤덮인 성당이 릴라 산속에 자리한다. 불가리아 정교의 심장이다.",
+   "tip": "소피아에서 남쪽으로 약 2시간 거리라 당일치기가 가능하다. 산속이라 서늘하니 겉옷을 챙기자."
+  },
+  {
+   "id": "tsarevets",
+   "cityId": "veliko-tarnovo",
+   "category": "fortress",
+   "nameKo": "차레베츠 요새",
+   "nameEn": "Tsarevets Fortress",
+   "history": "제2차 불가리아 제국의 수도였던 벨리코투르노보의 언덕 요새로, 왕궁과 총대주교좌 성당이 있었다.",
+   "intro": "얀트라 강이 감싼 언덕 위 성벽과 탑, 그 아래 계단식으로 앉은 구시가가 극적이다. 밤에는 요새에 빛·소리 쇼가 펼쳐진다.",
+   "tip": "야간 조명 쇼 일정을 확인하자. 인근 공예 거리(사모보드스카)에서 전통 수공예를 볼 수 있다."
+  },
+  {
+   "id": "nessebar-oldtown",
+   "cityId": "nessebar",
+   "category": "coast",
+   "nameKo": "네세버르 구시가",
+   "nameEn": "Nessebar",
+   "history": "흑해로 뻗은 작은 반도 위의 고대 도시로, 3천 년의 역사와 중세 교회들이 남아 1983년 유네스코 세계유산에 등재됐다.",
+   "intro": "좁은 지협으로 이어진 반도에 목조 가옥과 여러 비잔틴 교회 유적, 바다 전망이 어우러진다. '흑해의 진주'라 불린다.",
+   "tip": "여름 해변 휴양지 선니 비치와 가깝다. 성수기엔 붐비니 이른 시간이 한적하다."
+  },
+  {
+   "id": "koprivshtitsa-town",
+   "cityId": "koprivshtitsa",
+   "category": "oldtown",
+   "nameKo": "코프리브슈티차",
+   "nameEn": "Koprivshtitsa",
+   "history": "1876년 오스만에 맞선 4월 봉기가 시작된 마을로, 불가리아 민족부흥기 건축이 박물관처럼 보존돼 있다.",
+   "intro": "산속 개울을 낀 색색의 목조 저택과 아치형 다리가 그림 같다. 여러 저택이 박물관으로 공개돼 있다.",
+   "tip": "소피아에서 남동쪽 산속에 있어 한적하다. 민족부흥기 저택 몇 곳을 묶은 통합권이 있다."
+  }
+ ]
+}

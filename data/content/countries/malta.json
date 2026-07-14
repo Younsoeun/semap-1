@@ -1,0 +1,218 @@
+{
+ "key": "malta",
+ "admin": "Malta",
+ "nameKo": "몰타",
+ "nameEn": "Malta",
+ "categories": [
+  {
+   "id": "fortress",
+   "nameKo": "요새·궁전·도시",
+   "nameEn": "Fortress & Palace",
+   "varName": "--c1"
+  },
+  {
+   "id": "cathedral",
+   "nameKo": "성당",
+   "nameEn": "Cathedral",
+   "varName": "--c2"
+  },
+  {
+   "id": "ancient",
+   "nameKo": "거석 유적",
+   "nameEn": "Megalithic Temple",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·해안",
+   "nameEn": "Nature & Coast",
+   "varName": "--c4"
+  },
+  {
+   "id": "street",
+   "nameKo": "거리·항구·정원",
+   "nameEn": "Street & Harbour",
+   "varName": "--c5"
+  }
+ ],
+ "cities": [
+  {
+   "id": "valletta",
+   "nameKo": "발레타",
+   "nameEn": "Valletta",
+   "lon": 14.5146,
+   "lat": 35.8989
+  },
+  {
+   "id": "mdina",
+   "nameKo": "임디나",
+   "nameEn": "Mdina",
+   "lon": 14.4033,
+   "lat": 35.8858
+  },
+  {
+   "id": "three-cities",
+   "nameKo": "세 도시 (비르구)",
+   "nameEn": "Three Cities",
+   "lon": 14.5228,
+   "lat": 35.8878
+  },
+  {
+   "id": "marsaxlokk",
+   "nameKo": "마르사슐로크",
+   "nameEn": "Marsaxlokk",
+   "lon": 14.543,
+   "lat": 35.8419
+  },
+  {
+   "id": "blue-grotto",
+   "nameKo": "블루 그로토",
+   "nameEn": "Blue Grotto",
+   "lon": 14.455,
+   "lat": 35.8206
+  },
+  {
+   "id": "hagar-qim",
+   "nameKo": "하가르 임",
+   "nameEn": "Ħaġar Qim",
+   "lon": 14.442,
+   "lat": 35.8277
+  },
+  {
+   "id": "gozo",
+   "nameKo": "고조 섬",
+   "nameEn": "Gozo",
+   "lon": 14.2624,
+   "lat": 36.0443
+  },
+  {
+   "id": "comino",
+   "nameKo": "코미노 (블루 라군)",
+   "nameEn": "Comino",
+   "lon": 14.3333,
+   "lat": 36.008
+  }
+ ],
+ "attractions": [
+  {
+   "id": "st-johns-co-cathedral",
+   "cityId": "valletta",
+   "category": "cathedral",
+   "nameKo": "성 요한 대성당",
+   "nameEn": "St. John's Co-Cathedral",
+   "history": "16세기 후반 몰타 기사단(성 요한 기사단)이 세운 성당으로, 소박한 외관과 대조적으로 내부는 바로크 장식으로 뒤덮여 있다.",
+   "intro": "금박 조각과 기사단원들의 대리석 묘석 바닥, 그리고 카라바조의 대작 '세례자 요한의 참수'(그가 서명을 남긴 유일한 작품)로 유명하다.",
+   "tip": "굽 높은 신발은 대리석 묘석 보호를 위해 제한된다. 카라바조 작품이 있는 오라토리오는 관람 동선의 하이라이트다."
+  },
+  {
+   "id": "grandmasters-palace",
+   "cityId": "valletta",
+   "category": "fortress",
+   "nameKo": "기사단장 궁전",
+   "nameEn": "Grandmaster's Palace",
+   "history": "몰타 기사단장의 관저로 지어져 이후 영국 총독부·대통령 집무실로 쓰인 건물이다. 발레타 도시 전체가 유네스코 세계유산이다.",
+   "intro": "화려한 국빈실과 프레스코, 그리고 유럽에서 손꼽히는 기사단 무기고(아머리)를 갖췄다. 발레타의 중심 광장에 면해 있다.",
+   "tip": "무기고에는 기사단의 갑옷·검이 대거 전시돼 있다. 개방 구역이 시기에 따라 달라지니 확인하고 방문하자."
+  },
+  {
+   "id": "upper-barrakka-gardens",
+   "cityId": "valletta",
+   "category": "street",
+   "nameKo": "어퍼 바라카 정원",
+   "nameEn": "Upper Barrakka Gardens",
+   "history": "17세기 기사단 시절 조성된 언덕 위 정원으로, 발레타 성벽 위에서 그랜드 하버를 굽어본다.",
+   "intro": "아케이드와 야자수 너머로 '세 도시'와 항구가 한눈에 펼쳐지는 최고의 전망대다. 아래 살루팅 배터리에서는 정오·오후에 예포가 발사된다.",
+   "tip": "정오(12시)·오후 4시 예포 발사 시간에 맞춰 가면 볼거리가 있다. 일몰 무렵 항구 전망이 특히 아름답다."
+  },
+  {
+   "id": "fort-st-elmo",
+   "cityId": "valletta",
+   "category": "fortress",
+   "nameKo": "성 엘모 요새",
+   "nameEn": "Fort St. Elmo",
+   "history": "1565년 오스만의 몰타 대공방전에서 격전지가 된 별 모양 요새로, 지금은 국립 전쟁 박물관이 들어서 있다.",
+   "intro": "지중해를 지킨 기사단의 방어 거점으로, 대공방전과 2차대전 시기 몰타의 역사를 전시로 만난다. 발레타 반도 끝에 자리한다.",
+   "tip": "박물관 관람과 함께 요새 성벽에서 항구 어귀를 조망할 수 있다. 발레타 성벽 산책과 묶어 보기 좋다."
+  },
+  {
+   "id": "mdina-old-city",
+   "cityId": "mdina",
+   "category": "fortress",
+   "nameKo": "임디나 '침묵의 도시'",
+   "nameEn": "Mdina (Silent City)",
+   "history": "고대·중세 몰타의 옛 수도로, 성벽에 둘러싸인 언덕 위 도시다. 차량이 거의 없어 '침묵의 도시'라 불린다.",
+   "intro": "좁은 돌골목과 귀족 저택, 바로크 대성당이 어우러진다. 성벽에서 몰타 섬 전역이 내려다보이고, 여러 영화의 배경이 됐다.",
+   "tip": "저녁이면 조명이 켜진 골목이 고요하고 몽환적이다. 인근 라바트의 카타콤도 함께 볼 만하다."
+  },
+  {
+   "id": "birgu-vittoriosa",
+   "cityId": "three-cities",
+   "category": "fortress",
+   "nameKo": "비르구·그랜드 하버",
+   "nameEn": "Birgu & Grand Harbour",
+   "history": "발레타가 세워지기 전 기사단의 첫 근거지였던 '세 도시'(비르구·센글레아·코스피쿠아)의 중심으로, 1565년 대공방전의 무대였다.",
+   "intro": "요트가 정박한 조용한 부두와 좁은 중세 골목이 관광지 발레타와 다른 로컬 정취를 준다. 그랜드 하버 건너 발레타 스카이라인이 마주 보인다.",
+   "tip": "발레타에서 전통 나룻배(즈고자)를 타고 항구를 건너오는 길이 운치 있다. 저녁 부두 산책을 추천한다."
+  },
+  {
+   "id": "marsaxlokk-harbour",
+   "cityId": "marsaxlokk",
+   "category": "street",
+   "nameKo": "마르사슐로크 항구",
+   "nameEn": "Marsaxlokk Harbour",
+   "history": "몰타 남동부의 전통 어촌으로, 눈(目)이 그려진 색색의 전통 배 '루주(luzzu)'가 정박한 풍경으로 유명하다.",
+   "intro": "알록달록한 배가 떠 있는 만과 활기찬 어시장이 어우러진다. 일요일 생선 시장이 특히 붐빈다.",
+   "tip": "일요일 오전 시장이 볼거리지만 붐빈다. 갓 잡은 해산물을 파는 항구 식당에서 점심을 즐기기 좋다."
+  },
+  {
+   "id": "blue-grotto-malta",
+   "cityId": "blue-grotto",
+   "category": "nature",
+   "nameKo": "블루 그로토",
+   "nameEn": "Blue Grotto",
+   "history": "몰타 남부 해안의 해식 동굴 군으로, 맑은 날 햇빛이 물에 반사돼 동굴 안이 푸르게 빛난다.",
+   "intro": "작은 보트를 타고 여러 개의 아치형 동굴을 도는 코스가 인기다. 절벽 위 전망 포인트에서 내려다보는 풍경도 좋다.",
+   "tip": "보트는 오전(대략 9~11시)에 햇빛이 물속으로 들어와 색이 가장 곱다. 바람·파도가 심하면 운항이 취소되니 당일 확인이 필요하다."
+  },
+  {
+   "id": "hagar-qim-temples",
+   "cityId": "hagar-qim",
+   "category": "ancient",
+   "nameKo": "하가르 임·므나이드라 신전",
+   "nameEn": "Ħaġar Qim & Mnajdra",
+   "history": "기원전 3600~3200년경에 세워진 거석 신전으로, 이집트 피라미드와 스톤헨지보다 오래됐다. 몰타 거석 신전군의 하나로 유네스코 세계유산이다.",
+   "intro": "바다를 굽어보는 언덕에 거대한 석회암 블록으로 쌓은 신전이 남아 있다. 므나이드라 신전은 춘·추분에 햇빛이 정렬되도록 설계됐다.",
+   "tip": "보호를 위해 텐트 지붕이 덮여 있다. 그늘이 적으니 물·모자를 챙기고, 방문 전 인접 안내센터에서 배경을 익히면 좋다."
+  },
+  {
+   "id": "ggantija-temples",
+   "cityId": "gozo",
+   "category": "ancient",
+   "nameKo": "지간티야 신전",
+   "nameEn": "Ġgantija Temples",
+   "history": "기원전 3600년경에 세워진 세계에서 가장 오래된 자립식 거석 구조물 중 하나로, 스톤헨지보다 천 년 이상 앞선다. 유네스코 세계유산이다.",
+   "intro": "'거인이 쌓았다'는 전설이 붙을 만큼 거대한 돌로 이루어진 두 신전이다. 선사시대 몰타 문명의 놀라운 기술을 보여준다.",
+   "tip": "고조 섬은 몰타 본섬에서 페리로 약 25분 거리다. 인근 샤라 방앗간 등 고조의 시골 정취를 함께 즐기기 좋다."
+  },
+  {
+   "id": "gozo-citadel",
+   "cityId": "gozo",
+   "category": "fortress",
+   "nameKo": "고조 치타델라",
+   "nameEn": "Cittadella (Gozo)",
+   "history": "고조 섬 중심 도시 빅토리아(라바트) 언덕 위의 성채로, 중세부터 주민의 피난처 역할을 했다.",
+   "intro": "복원된 성벽 위를 걸으며 고조 섬 전역을 360도로 조망할 수 있다. 성채 안에 대성당과 옛 감옥, 박물관이 있다.",
+   "tip": "지간티야 신전과 함께 고조 당일 코스로 묶기 좋다. 성벽 산책로에서 보는 일몰이 특히 아름답다."
+  },
+  {
+   "id": "blue-lagoon-comino",
+   "cityId": "comino",
+   "category": "nature",
+   "nameKo": "블루 라군",
+   "nameEn": "Blue Lagoon",
+   "history": "몰타와 고조 사이의 작은 무인도에 가까운 섬 코미노에 있는 석호로, 하얀 모래 바닥 위로 물이 청록빛으로 빛난다.",
+   "intro": "카리브해를 연상시키는 투명한 물빛으로 수영·스노클링의 명소다. 몰타에서 손꼽히는 해상 풍경이다.",
+   "tip": "여름 성수기엔 매우 붐비니 이른 배를 타는 게 좋다. 그늘·편의시설이 적으니 물·자외선 차단을 준비하고, 초가을이 물도 따뜻하고 한산하다."
+  }
+ ]
+}

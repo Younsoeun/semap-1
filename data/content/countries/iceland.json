@@ -1,0 +1,172 @@
+{
+ "key": "iceland",
+ "admin": "Iceland",
+ "nameKo": "아이슬란드",
+ "nameEn": "Iceland",
+ "categories": [
+  {
+   "id": "geo",
+   "nameKo": "화산·지열·간헐천",
+   "nameEn": "Volcano & Geothermal",
+   "varName": "--c1"
+  },
+  {
+   "id": "waterfall",
+   "nameKo": "폭포·빙하",
+   "nameEn": "Waterfall & Glacier",
+   "varName": "--c2"
+  },
+  {
+   "id": "coast",
+   "nameKo": "해안·자연",
+   "nameEn": "Coast & Nature",
+   "varName": "--c3"
+  },
+  {
+   "id": "city",
+   "nameKo": "도시·문화",
+   "nameEn": "City & Culture",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "reykjavik",
+   "nameKo": "레이캬비크",
+   "nameEn": "Reykjavík",
+   "lon": -21.9426,
+   "lat": 64.1466
+  },
+  {
+   "id": "blue-lagoon",
+   "nameKo": "블루 라군",
+   "nameEn": "Blue Lagoon",
+   "lon": -22.4495,
+   "lat": 63.8804
+  },
+  {
+   "id": "thingvellir",
+   "nameKo": "싱벨리르",
+   "nameEn": "Þingvellir",
+   "lon": -21.129,
+   "lat": 64.2559
+  },
+  {
+   "id": "geysir",
+   "nameKo": "게이시르",
+   "nameEn": "Geysir",
+   "lon": -20.302,
+   "lat": 64.3104
+  },
+  {
+   "id": "gullfoss",
+   "nameKo": "굴포스",
+   "nameEn": "Gullfoss",
+   "lon": -20.1206,
+   "lat": 64.3271
+  },
+  {
+   "id": "vik",
+   "nameKo": "비크",
+   "nameEn": "Vík",
+   "lon": -19.006,
+   "lat": 63.4194
+  },
+  {
+   "id": "jokulsarlon",
+   "nameKo": "요쿨살론",
+   "nameEn": "Jökulsárlón",
+   "lon": -16.2299,
+   "lat": 64.0784
+  },
+  {
+   "id": "akureyri",
+   "nameKo": "아쿠레이리",
+   "nameEn": "Akureyri",
+   "lon": -18.0878,
+   "lat": 65.6835
+  }
+ ],
+ "attractions": [
+  {
+   "id": "hallgrimskirkja",
+   "cityId": "reykjavik",
+   "category": "city",
+   "nameKo": "할그림스키르캬·레이캬비크",
+   "nameEn": "Hallgrímskirkja & Reykjavík",
+   "history": "현무암 주상절리에서 영감을 받아 설계해 1986년 완공한 높이 약 74m의 교회로, 세계 최북단 수도 레이캬비크의 상징이다.",
+   "intro": "로켓처럼 솟은 콘크리트 교회 탑에 오르면 색색 지붕의 도시와 바다, 산이 펼쳐진다. 항구변 하르파 콘서트홀도 명물이다.",
+   "tip": "탑 전망대는 엘리베이터로 오른다. 세계 여행의 베이스캠프이자 링로드(1번 국도) 여행의 출발점이다."
+  },
+  {
+   "id": "blue-lagoon-iceland",
+   "cityId": "blue-lagoon",
+   "category": "geo",
+   "nameKo": "블루 라군",
+   "nameEn": "Blue Lagoon",
+   "history": "인근 지열발전소의 부산물인 미네랄 온수가 용암 지대에 고여 만들어진 온천으로, 아이슬란드에서 가장 유명한 명소다.",
+   "intro": "검은 용암밭 한가운데 우윳빛 청록색 온천이 김을 피운다. 실리카 머드팩을 바르며 따뜻한 물에 몸을 담근다.",
+   "tip": "예약이 필수이며 조기 매진된다. 공항과 레이캬비크 사이에 있어 도착·출발일에 들르기 좋다. 인근 화산 활동 상황을 확인하자."
+  },
+  {
+   "id": "thingvellir-park",
+   "cityId": "thingvellir",
+   "category": "coast",
+   "nameKo": "싱벨리르 국립공원",
+   "nameEn": "Þingvellir National Park",
+   "history": "930년 세계 최초의 의회(알싱)가 열린 곳이자, 북아메리카판과 유라시아판이 갈라지는 지구대다. 2004년 유네스코 세계유산에 등재됐다.",
+   "intro": "두 대륙판 사이의 협곡을 걸으며 지구가 갈라지는 현장을 본다. 맑은 물의 실프라 균열에서는 두 대륙 사이를 스노클링할 수 있다.",
+   "tip": "골든 서클 코스의 첫 관문이다. 판 사이 협곡(알만나가우)을 따라 걷는 길이 인상적이다."
+  },
+  {
+   "id": "geysir-strokkur",
+   "cityId": "geysir",
+   "category": "geo",
+   "nameKo": "게이시르·스트로쿠르 간헐천",
+   "nameEn": "Geysir & Strokkur",
+   "history": "영어 단어 'geyser(간헐천)'의 어원이 된 곳으로, 지금은 옆의 스트로쿠르가 규칙적으로 물을 뿜는다.",
+   "intro": "부글거리는 지열 지대에서 스트로쿠르가 5~10분마다 최대 20~30m 높이로 뜨거운 물기둥을 쏘아 올린다.",
+   "tip": "분출 순간을 담으려면 물이 부풀어 오를 때 카메라를 준비하자. 김과 유황 냄새가 나는 지열지대이니 표시된 길로만 다니자."
+  },
+  {
+   "id": "gullfoss-falls",
+   "cityId": "gullfoss",
+   "category": "waterfall",
+   "nameKo": "굴포스 (황금 폭포)",
+   "nameEn": "Gullfoss",
+   "history": "흐비타 강이 두 단으로 꺾여 협곡으로 쏟아지는 폭포로, '황금 폭포'라는 뜻이다.",
+   "intro": "거대한 물줄기가 계단식으로 협곡에 떨어지며 물보라를 일으킨다. 맑은 날엔 무지개가 걸린다. 골든 서클의 하이라이트다.",
+   "tip": "물보라로 젖기 쉬우니 방수 옷이 좋다. 싱벨리르·게이시르와 함께 골든 서클 하루 코스로 돈다."
+  },
+  {
+   "id": "reynisfjara",
+   "cityId": "vik",
+   "category": "coast",
+   "nameKo": "레이니스피아라 검은 모래해변",
+   "nameEn": "Reynisfjara Black Sand Beach",
+   "history": "화산재로 이루어진 검은 모래해변으로, 육각 현무암 주상절리와 바다에 솟은 뾰족한 바위(레이니스드란가르)가 있다.",
+   "intro": "검은 모래와 검은 현무암 기둥, 거센 파도가 어우러진 극적인 해안이다. 인근 절벽에는 여름철 퍼핀(바다오리)이 서식한다.",
+   "tip": "예고 없이 밀려드는 '스니커 웨이브'가 위험하니 바다에 절대 가까이 가지 말자. 남부 해안 링로드 여행의 명소다."
+  },
+  {
+   "id": "jokulsarlon-lagoon",
+   "cityId": "jokulsarlon",
+   "category": "waterfall",
+   "nameKo": "요쿨살론 빙하호·다이아몬드 해변",
+   "nameEn": "Jökulsárlón & Diamond Beach",
+   "history": "바트나요쿨 빙하가 녹으며 형성된 빙하호로, 떨어져 나온 빙산이 떠다닌다. 아이슬란드에서 가장 깊은 호수다.",
+   "intro": "푸른 빙산이 떠 있는 호수와, 검은 모래 위에 다이아몬드처럼 흩어진 얼음 조각(다이아몬드 해변)이 몽환적이다. 물범도 자주 보인다.",
+   "tip": "보트 투어로 빙산 사이를 돌 수 있다. 레이캬비크에서 멀어(약 5시간) 1박 이상 링로드 일정에 넣는 게 좋다."
+  },
+  {
+   "id": "myvatn-akureyri",
+   "cityId": "akureyri",
+   "category": "geo",
+   "nameKo": "아쿠레이리·미바튼 지열지대",
+   "nameEn": "Akureyri & Lake Mývatn",
+   "history": "'북부의 수도' 아쿠레이리는 피오르 안쪽의 도시이며, 인근 미바튼 호수 일대는 화산 분화구·용암 지형·지열지대가 모인 곳이다.",
+   "intro": "부글거리는 진흙탕(흐베리르), 용암 성채(디무보르기르), 미바튼 네이처 바스(북부의 블루 라군)가 어우러진다. 겨울엔 오로라 명소이기도 하다.",
+   "tip": "북부 링로드의 거점 도시다. 근처 고다포스 폭포와 고래 관찰(후사비크)도 함께 묶기 좋다."
+  }
+ ]
+}

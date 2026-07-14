@@ -1,0 +1,212 @@
+{
+ "key": "czechia",
+ "admin": "Czechia",
+ "nameKo": "체코",
+ "nameEn": "Czechia",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·광장",
+   "nameEn": "Old Town & Square",
+   "varName": "--c1"
+  },
+  {
+   "id": "castle",
+   "nameKo": "성·궁전",
+   "nameEn": "Castle & Palace",
+   "varName": "--c2"
+  },
+  {
+   "id": "religious",
+   "nameKo": "성당·유대 지구",
+   "nameEn": "Church & Jewish Quarter",
+   "varName": "--c3"
+  },
+  {
+   "id": "culture",
+   "nameKo": "문화·온천·명소",
+   "nameEn": "Culture & Spa",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "prague",
+   "nameKo": "프라하",
+   "nameEn": "Prague",
+   "lon": 14.4378,
+   "lat": 50.0755
+  },
+  {
+   "id": "cesky-krumlov",
+   "nameKo": "체스키 크룸로프",
+   "nameEn": "Český Krumlov",
+   "lon": 14.3175,
+   "lat": 48.811
+  },
+  {
+   "id": "kutna-hora",
+   "nameKo": "쿠트나호라",
+   "nameEn": "Kutná Hora",
+   "lon": 15.2681,
+   "lat": 49.9484
+  },
+  {
+   "id": "karlovy-vary",
+   "nameKo": "카를로비바리",
+   "nameEn": "Karlovy Vary",
+   "lon": 12.871,
+   "lat": 50.2306
+  },
+  {
+   "id": "brno",
+   "nameKo": "브르노",
+   "nameEn": "Brno",
+   "lon": 16.6068,
+   "lat": 49.1951
+  },
+  {
+   "id": "plzen",
+   "nameKo": "플젠",
+   "nameEn": "Plzeň",
+   "lon": 13.3776,
+   "lat": 49.7384
+  },
+  {
+   "id": "olomouc",
+   "nameKo": "올로모우츠",
+   "nameEn": "Olomouc",
+   "lon": 17.2509,
+   "lat": 49.5938
+  },
+  {
+   "id": "telc",
+   "nameKo": "텔치",
+   "nameEn": "Telč",
+   "lon": 15.453,
+   "lat": 49.1841
+  }
+ ],
+ "attractions": [
+  {
+   "id": "charles-bridge",
+   "cityId": "prague",
+   "category": "culture",
+   "nameKo": "카를교",
+   "nameEn": "Charles Bridge",
+   "history": "14세기 카를 4세 때 착공한 고딕 석교로, 블타바 강을 가로지른다. 다리 난간에 30개의 바로크 성인 조각이 늘어서 있다.",
+   "intro": "양끝의 교탑과 성인상, 거리 예술가로 가득한 프라하의 상징적 다리다. 다리에서 프라하 성과 구시가가 함께 보인다.",
+   "tip": "붐비지 않는 이른 아침이나 밤에 걸으면 운치 있다. 성 요한 네포무크 상을 만지면 소원이 이뤄진다는 전설이 있다."
+  },
+  {
+   "id": "prague-castle",
+   "cityId": "prague",
+   "category": "castle",
+   "nameKo": "프라하 성·성 비투스 대성당",
+   "nameEn": "Prague Castle & St. Vitus",
+   "history": "9세기부터 이어진 세계에서 가장 큰 고대 성 단지로, 체코 왕과 대통령의 거처였다. 안에 고딕 걸작 성 비투스 대성당이 있다.",
+   "intro": "언덕 위 성 단지와 스테인드글라스가 아름다운 대성당, 황금 소로(즐라타 울리치카)가 어우러진다. 프라하 전경이 내려다보인다.",
+   "tip": "정오 근위병 교대식을 볼 수 있다. 통합권으로 대성당·구왕궁·성 조지 성당을 함께 관람한다."
+  },
+  {
+   "id": "old-town-square-prague",
+   "cityId": "prague",
+   "category": "oldtown",
+   "nameKo": "구시가 광장·천문시계",
+   "nameEn": "Old Town Square & Astronomical Clock",
+   "history": "구시청사에 걸린 천문시계(오를로이)는 1410년 제작된 세계에서 가장 오래된 작동 천문시계다.",
+   "intro": "틴 성당의 뾰족탑과 색색의 건물이 둘러싼 광장으로, 매시 정각 천문시계의 '사도 행진' 인형극이 펼쳐진다.",
+   "tip": "정각 인형극 시간에 맞춰 가자. 구시청사 탑에 오르면 붉은 지붕의 구시가가 한눈에 들어온다."
+  },
+  {
+   "id": "jewish-quarter-prague",
+   "cityId": "prague",
+   "category": "religious",
+   "nameKo": "유대인 지구 (요세포프)",
+   "nameEn": "Jewish Quarter",
+   "history": "유럽에서 가장 잘 보존된 유대인 지구로, 중세부터의 시나고그 여섯 곳과 오래된 유대인 묘지가 남아 있다.",
+   "intro": "겹겹이 쌓인 오래된 묘비의 유대인 묘지와, 홀로코스트 희생자 이름이 새겨진 핀카스 시나고그가 특히 인상적이다. 골렘 전설의 무대이기도 하다.",
+   "tip": "여러 시나고그와 묘지를 묶은 통합권이 있다. 안식일(토요일)에는 관람이 제한된다."
+  },
+  {
+   "id": "wenceslas-square",
+   "cityId": "prague",
+   "category": "oldtown",
+   "nameKo": "바츨라프 광장",
+   "nameEn": "Wenceslas Square",
+   "history": "신시가의 넓은 대로형 광장으로, 1989년 벨벳 혁명 등 체코 현대사의 중심 무대였다.",
+   "intro": "국립박물관과 성 바츨라프 기마상을 축으로 상점·카페가 늘어선 활기찬 거리다. 프라하 근현대사의 상징이다.",
+   "tip": "구시가와 도보로 이어진다. 국립박물관 계단에서 광장 전경을 볼 수 있다."
+  },
+  {
+   "id": "cesky-krumlov-town",
+   "cityId": "cesky-krumlov",
+   "category": "castle",
+   "nameKo": "체스키 크룸로프 성·구시가",
+   "nameEn": "Český Krumlov",
+   "history": "블타바 강이 S자로 감싼 중세 도시로, 보헤미아 제2의 성이 언덕 위에 있다. 1992년 유네스코 세계유산에 등재됐다.",
+   "intro": "붉은 지붕의 구시가와 화려한 성, 바로크 극장, 강을 따라 도는 뗏목(래프팅)이 어우러진 동화 같은 마을이다.",
+   "tip": "성탑에 오르면 마을 전경이 그림처럼 펼쳐진다. 프라하에서 남쪽으로 약 3시간 거리라 1박을 권한다."
+  },
+  {
+   "id": "sedlec-ossuary",
+   "cityId": "kutna-hora",
+   "category": "religious",
+   "nameKo": "세들레츠 납골당 (해골 성당)",
+   "nameEn": "Sedlec Ossuary",
+   "history": "약 4만~7만 명의 유골로 내부를 장식한 작은 예배당으로, 19세기에 목공이 뼈로 샹들리에·문장 등을 만들었다.",
+   "intro": "사람 뼈로 만든 거대한 샹들리에와 슈바르첸베르크 가문 문장이 섬뜩하면서도 경건하다. 인근 성 바르바라 대성당도 유네스코 유산이다.",
+   "tip": "프라하에서 기차로 약 1시간이다. 촬영 규정을 확인하고, 성 바르바라 대성당·이탈리아 궁정과 함께 보자."
+  },
+  {
+   "id": "karlovy-vary-spa",
+   "cityId": "karlovy-vary",
+   "category": "culture",
+   "nameKo": "카를로비바리 온천 콜로나다",
+   "nameEn": "Karlovy Vary Spa",
+   "history": "14세기부터 이어진 유럽의 대표 온천 도시로, 여러 광천 샘과 화려한 콜로나다(회랑)가 있다. '유럽의 위대한 온천 마을'로 유네스코에 등재됐다.",
+   "intro": "파스텔빛 건물이 계곡을 따라 늘어서고, 회랑에서 특유의 컵으로 광천수를 마신다. 온천 와플과 약초주 베헤로프카가 명물이다.",
+   "tip": "샘마다 온도·성분이 달라 전용 컵(라젠스키 포하레크)으로 조금씩 맛본다. 매년 여름 국제영화제가 열린다."
+  },
+  {
+   "id": "villa-tugendhat",
+   "cityId": "brno",
+   "category": "culture",
+   "nameKo": "빌라 투겐트하트",
+   "nameEn": "Villa Tugendhat",
+   "history": "미스 반 데어 로에가 1930년 완성한 모더니즘 주택의 걸작으로, 2001년 유네스코 세계유산에 등재됐다.",
+   "intro": "통유리와 오닉스 벽, 열린 평면이 근대 건축의 이정표가 됐다. 체코 제2의 도시 브르노의 대표 명소다.",
+   "tip": "내부는 예약제 가이드 투어로만 관람하며 조기 매진된다. 브르노 구시가의 슈필베르크 성도 함께 보자."
+  },
+  {
+   "id": "pilsner-urquell",
+   "cityId": "plzen",
+   "category": "culture",
+   "nameKo": "필스너 우르켈 양조장",
+   "nameEn": "Pilsner Urquell Brewery",
+   "history": "1842년 이 도시에서 세계 최초의 황금빛 라거 '필스너'가 탄생했다. 오늘날 전 세계 라거 맥주의 원형이다.",
+   "intro": "역사적인 양조장 투어에서 지하 셀러의 오크통 숙성 맥주를 맛본다. 맥주의 고향에서 필스너의 기원을 만난다.",
+   "tip": "양조장 가이드 투어에 오크통 생맥주 시음이 포함된다. 프라하에서 기차로 약 1시간 거리다."
+  },
+  {
+   "id": "holy-trinity-olomouc",
+   "cityId": "olomouc",
+   "category": "oldtown",
+   "nameKo": "성 삼위일체 기둥",
+   "nameEn": "Holy Trinity Column",
+   "history": "18세기에 세운 높이 약 35m의 바로크 기념 기둥으로, 중부 유럽 최대 규모다. 2000년 유네스코 세계유산에 등재됐다.",
+   "intro": "조각으로 뒤덮인 거대한 기둥이 광장을 압도한다. 올로모우츠는 프라하 못지않은 역사 도시지만 관광객이 적어 한적하다.",
+   "tip": "광장의 천문시계와 분수들도 함께 보자. 프라하·브르노에서 기차로 닿는다."
+  },
+  {
+   "id": "telc-town",
+   "cityId": "telc",
+   "category": "oldtown",
+   "nameKo": "텔치 구시가",
+   "nameEn": "Telč",
+   "history": "16세기 르네상스 양식으로 통일감 있게 지은 광장 도시로, 1992년 유네스코 세계유산에 등재됐다.",
+   "intro": "연못에 둘러싸인 긴 광장을 따라 파스텔빛 아케이드 저택이 늘어서 있다. 르네상스 성과 함께 그림 같은 소도시다.",
+   "tip": "관광객이 적어 여유롭게 광장을 즐길 수 있다. 프라하와 빈 사이에 있어 경유하기 좋다."
+  }
+ ]
+}

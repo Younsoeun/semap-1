@@ -1,0 +1,121 @@
+{
+ "key": "lithuania",
+ "admin": "Lithuania",
+ "nameKo": "리투아니아",
+ "nameEn": "Lithuania",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·거리",
+   "nameEn": "Old Town & Street",
+   "varName": "--c1"
+  },
+  {
+   "id": "castle",
+   "nameKo": "성·요새",
+   "nameEn": "Castle",
+   "varName": "--c2"
+  },
+  {
+   "id": "religious",
+   "nameKo": "성지·순례",
+   "nameEn": "Sacred Site",
+   "varName": "--c3"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·사구",
+   "nameEn": "Nature & Dunes",
+   "varName": "--c4"
+  }
+ ],
+ "cities": [
+  {
+   "id": "vilnius",
+   "nameKo": "빌뉴스",
+   "nameEn": "Vilnius",
+   "lon": 25.2797,
+   "lat": 54.6872
+  },
+  {
+   "id": "trakai",
+   "nameKo": "트라카이",
+   "nameEn": "Trakai",
+   "lon": 24.934,
+   "lat": 54.652
+  },
+  {
+   "id": "kaunas",
+   "nameKo": "카우나스",
+   "nameEn": "Kaunas",
+   "lon": 23.9036,
+   "lat": 54.8985
+  },
+  {
+   "id": "siauliai",
+   "nameKo": "샤울랴이 (십자가 언덕)",
+   "nameEn": "Šiauliai",
+   "lon": 23.316,
+   "lat": 55.935
+  },
+  {
+   "id": "nida",
+   "nameKo": "니다 (쿠로니안 사취)",
+   "nameEn": "Nida",
+   "lon": 21.006,
+   "lat": 55.303
+  }
+ ],
+ "attractions": [
+  {
+   "id": "vilnius-oldtown",
+   "cityId": "vilnius",
+   "category": "oldtown",
+   "nameKo": "빌뉴스 구시가",
+   "nameEn": "Vilnius Old Town",
+   "history": "동유럽 최대급 바로크 구시가로, 여러 시대의 건축이 어우러진다. 1994년 유네스코 세계유산에 등재됐다.",
+   "intro": "성 안나 교회, 대성당 광장, 새벽의 문(아우슈로스 바르타이), 그리고 예술가들이 세운 '자유 공화국' 우주피스 지구가 어우러진다.",
+   "tip": "게디미나스 탑에 올라 붉은 지붕의 구시가를 조망하자. 보헤미안 감성의 우주피스도 걸어보자."
+  },
+  {
+   "id": "trakai-castle",
+   "cityId": "trakai",
+   "category": "castle",
+   "nameKo": "트라카이 섬 성",
+   "nameEn": "Trakai Island Castle",
+   "history": "14~15세기에 호수 가운데 섬에 지은 붉은 벽돌 고딕 성으로, 리투아니아 대공국의 거점이었다.",
+   "intro": "호수에 둘러싸인 붉은 성과 나무다리가 그림 같다. 카라임(카라이테) 소수민족 문화와 전통 파이 '키비나이'로도 유명하다.",
+   "tip": "빌뉴스에서 약 30분 거리라 반나절 코스로 좋다. 여름엔 호수에서 보트를 타며 성을 감상할 수 있다."
+  },
+  {
+   "id": "kaunas-oldtown",
+   "cityId": "kaunas",
+   "category": "oldtown",
+   "nameKo": "카우나스 구시가·모더니즘",
+   "nameEn": "Kaunas Old Town & Modernism",
+   "history": "두 강이 만나는 곳에 자리한 리투아니아 제2의 도시로, 양차 대전 사이 임시 수도 시절의 모더니즘 건축이 유네스코 세계유산에 등재됐다.",
+   "intro": "고딕·바로크 구시가와, 1920~30년대의 세련된 모더니즘 건축이 공존한다. 활기찬 대학 도시다.",
+   "tip": "빌뉴스에서 기차로 약 1시간 거리다. 구시가의 시청사 광장과 모더니즘 건축 산책로를 함께 걷자."
+  },
+  {
+   "id": "hill-of-crosses",
+   "cityId": "siauliai",
+   "category": "religious",
+   "nameKo": "십자가 언덕",
+   "nameEn": "Hill of Crosses",
+   "history": "19세기부터 순례자들이 십자가를 세우기 시작한 언덕으로, 소비에트가 여러 번 밀어버려도 밤새 다시 세워진 저항과 신앙의 상징이다.",
+   "intro": "십수만 개의 크고 작은 십자가가 언덕을 뒤덮은 장관이 경건하면서도 압도적이다. 교황 요한 바오로 2세도 이곳을 찾았다.",
+   "tip": "샤울랴이 인근에 있어 접근에 시간이 걸린다. 조용히 걷는 순례의 마음으로 둘러보자."
+  },
+  {
+   "id": "curonian-spit",
+   "cityId": "nida",
+   "category": "nature",
+   "nameKo": "쿠로니안 사취·니다",
+   "nameEn": "Curonian Spit & Nida",
+   "history": "발트해와 석호를 가르는 약 98km의 가느다란 모래 반도로, 거대한 사구와 어촌이 어우러진다. 2000년 유네스코 세계유산에 등재됐다.",
+   "intro": "'죽은 사구'라 불리는 거대한 모래언덕과 소나무 숲, 색색의 어부 목조 가옥, 토마스 만이 머문 마을 니다가 어우러진다.",
+   "tip": "클라이페다에서 페리로 반도에 건너간다. 사구는 보호구역이라 정해진 나무 계단·길로만 오른다."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "key": "estonia",
+ "admin": "Estonia",
+ "nameKo": "에스토니아",
+ "nameEn": "Estonia",
+ "categories": [
+  {
+   "id": "oldtown",
+   "nameKo": "구시가·성",
+   "nameEn": "Old Town & Castle",
+   "varName": "--c1"
+  },
+  {
+   "id": "culture",
+   "nameKo": "문화·궁전",
+   "nameEn": "Culture & Palace",
+   "varName": "--c2"
+  },
+  {
+   "id": "nature",
+   "nameKo": "자연·섬",
+   "nameEn": "Nature & Islands",
+   "varName": "--c3"
+  }
+ ],
+ "cities": [
+  {
+   "id": "tallinn",
+   "nameKo": "탈린",
+   "nameEn": "Tallinn",
+   "lon": 24.7536,
+   "lat": 59.437
+  },
+  {
+   "id": "tartu",
+   "nameKo": "타르투",
+   "nameEn": "Tartu",
+   "lon": 26.729,
+   "lat": 58.378
+  },
+  {
+   "id": "saaremaa",
+   "nameKo": "사레마 (쿠레사레)",
+   "nameEn": "Saaremaa",
+   "lon": 22.485,
+   "lat": 58.248
+  },
+  {
+   "id": "lahemaa",
+   "nameKo": "라헤마",
+   "nameEn": "Lahemaa",
+   "lon": 25.9,
+   "lat": 59.55
+  }
+ ],
+ "attractions": [
+  {
+   "id": "tallinn-oldtown",
+   "cityId": "tallinn",
+   "category": "oldtown",
+   "nameKo": "탈린 구시가",
+   "nameEn": "Tallinn Old Town",
+   "history": "한자동맹 시대의 상업 도시로, 성벽·탑·상인 저택이 유럽에서 가장 온전하게 남은 중세 구시가 중 하나다. 1997년 유네스코 세계유산에 등재됐다.",
+   "intro": "붉은 지붕과 첨탑, 시청사 광장, 성벽 산책로가 동화 같다. 언덕 톰페아의 전망대에서 구시가와 발트해가 내려다보인다.",
+   "tip": "톰페아 언덕의 전망대(콘투 뜰·파트쿨리)에서 붉은 지붕 파노라마를 담자. 겨울 크리스마스 마켓이 유명하다."
+  },
+  {
+   "id": "kadriorg-tallinn",
+   "cityId": "tallinn",
+   "category": "culture",
+   "nameKo": "카드리오르그 궁전·공원",
+   "nameEn": "Kadriorg Palace",
+   "history": "표트르 대제가 18세기 초에 아내 예카테리나를 위해 지은 바로크 궁전으로, 지금은 미술관이다.",
+   "intro": "우아한 궁전과 정형식 정원, 인근 현대적 에스토니아 국립미술관(쿠무)이 어우러진다. 발트해변 산책로와 이어진다.",
+   "tip": "구시가에서 트램으로 닿는다. 궁전 정원과 쿠무 미술관을 함께 둘러보기 좋다."
+  },
+  {
+   "id": "tartu-town",
+   "cityId": "tartu",
+   "category": "culture",
+   "nameKo": "타르투 대학 도시",
+   "nameEn": "Tartu",
+   "history": "1632년 세워진 명문 타르투 대학을 중심으로 발달한 에스토니아 제2의 도시로, '지성의 도시'로 불린다.",
+   "intro": "고전주의 시청사 광장과 대학 본관, 언덕 위 대성당 폐허, 활기찬 학생 문화가 어우러진다. 유럽 문화수도로도 선정됐다.",
+   "tip": "탈린에서 남쪽으로 약 2시간 거리다. 광장의 '키스하는 학생' 분수가 상징이다."
+  },
+  {
+   "id": "kuressaare-castle",
+   "cityId": "saaremaa",
+   "category": "oldtown",
+   "nameKo": "쿠레사레 성·사레마 섬",
+   "nameEn": "Kuressaare Castle",
+   "history": "발트해 사레마 섬에 있는 잘 보존된 중세 주교 성으로, 해자에 둘러싸여 있다.",
+   "intro": "석회암 성과 풍차, 노간주나무 황야가 있는 조용한 섬은 에스토니아 특유의 목가적 정취를 지녔다. 스파 휴양지로도 인기다.",
+   "tip": "본토에서 페리로 닿는다. 카알리 운석 분화구 호수 등 섬의 자연도 함께 둘러보자."
+  },
+  {
+   "id": "lahemaa-park",
+   "cityId": "lahemaa",
+   "category": "nature",
+   "nameKo": "라헤마 국립공원",
+   "nameEn": "Lahemaa National Park",
+   "history": "발트해 연안의 숲·습지·해안을 아우르는 에스토니아 최초의 국립공원으로, 옛 귀족의 장원(마노르)들이 남아 있다.",
+   "intro": "소나무 숲과 늪지 산책로(보드워크), 어촌 마을, 복원된 팔름세 장원이 어우러진다. 탈린 근교의 자연 나들이 코스다.",
+   "tip": "탈린에서 동쪽으로 약 1시간 거리다. 늪지 보드워크 트레일과 해안 마을을 함께 걷기 좋다."
+  }
+ ]
+}
